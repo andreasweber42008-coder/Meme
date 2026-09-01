@@ -1,4 +1,7 @@
-# Raw API cache: large and fully regenerable (every call is disk-cached).
-# Derived datasets and summaries are committed instead.
+# Raw API cache: large, fully regenerable (every call is disk-cached).
 raw/
 logs/
+# Fat intermediate JSONL (~2.5 KB/row, ~800 MB projected). The compact
+# trades.csv.gz below is the committed derived artifact.
+data/trader_rows.jsonl
+data/trader_rows_v1_eliteonly.jsonl

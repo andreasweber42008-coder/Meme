@@ -98,16 +98,30 @@ def stage2():
     for i, t in enumerate(todo):
         ch, addr = t["_chain"], t["address"]
         got = 0
-        for direction, grp in (("desc", "A"), ("asc", "B")):
+        # The API rejects direction=asc ("direction only support [DESC]"), so
+        # losers cannot be reached by inverting the profit sort. Two frames
+        # instead:
+        #   elite   -- order by profit desc: the token's best traders.
+        #   neutral -- order by buy_volume_cur desc: the biggest buyers,
+        #              selected WITHOUT reference to outcome, so it contains
+        #              winners and losers under one sampling rule. Group A/B
+        #              is assigned from the profit sign inside this frame,
+        #              which is what makes the A-vs-B comparison unbiased.
+        for order_by, frame in (("profit", "elite"), ("buy_volume_cur", "neutral")):
             r = gmgn.call("token traders", "--chain", ch, "--address", addr,
-                          "--limit", "100", "--order-by", "profit",
-                          "--direction", direction)
+                          "--limit", "100", "--order-by", order_by,
+                          "--direction", "desc")
             if not r["ok"]:
                 continue
             for row in rows_of(gmgn.unwrap(r)):
                 w = row.get("address") or row.get("account_address")
                 if not w: continue
-                row["_token"] = addr; row["_chain"] = ch; row["_grp"] = grp
+                pf = row.get("profit")
+                try: pf = float(pf)
+                except (TypeError, ValueError): pf = 0.0
+                row["_token"] = addr; row["_chain"] = ch
+                row["_frame"] = frame
+                row["_grp"] = "A" if pf > 0 else ("B" if pf < 0 else "Z")
                 row["_tok_created"] = t.get("creation_timestamp")
                 row["_tok_supply"] = t.get("total_supply")
                 fh.write(json.dumps(row) + "\n"); got += 1
