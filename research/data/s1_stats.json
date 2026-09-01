@@ -1,0 +1,114 @@
+{
+ "trending/sol/1h": [
+  100,
+  100
+ ],
+ "trending/sol/6h": [
+  100,
+  40
+ ],
+ "trending/sol/24h": [
+  100,
+  37
+ ],
+ "trenches/sol": [
+  180,
+  157
+ ],
+ "trending/bsc/1h": [
+  100,
+  100
+ ],
+ "trending/bsc/6h": [
+  100,
+  35
+ ],
+ "trending/bsc/24h": [
+  100,
+  26
+ ],
+ "trenches/bsc": [
+  180,
+  148
+ ],
+ "trending/base/1h": [
+  100,
+  100
+ ],
+ "trending/base/6h": [
+  100,
+  43
+ ],
+ "trending/base/24h": [
+  100,
+  1
+ ],
+ "trenches/base": [
+  180,
+  175
+ ],
+ "trending/eth/1h": [
+  100,
+  100
+ ],
+ "trending/eth/6h": [
+  100,
+  31
+ ],
+ "trending/eth/24h": [
+  100,
+  7
+ ],
+ "trenches/eth": [
+  128,
+  69
+ ],
+ "trending/robinhood/1h": [
+  100,
+  100
+ ],
+ "trending/robinhood/6h": [
+  100,
+  47
+ ],
+ "trending/robinhood/24h": [
+  100,
+  30
+ ],
+ "trenches/robinhood": [
+  179,
+  176
+ ],
+ "trending/arc/1h": [
+  56,
+  56
+ ],
+ "trending/arc/6h": [
+  43,
+  3
+ ],
+ "trending/arc/24h": [
+  50,
+  1
+ ],
+ "trenches/arc": [
+  0,
+  0
+ ],
+ "trending/stable/1h": [
+  2,
+  2
+ ],
+ "trending/stable/6h": [
+  24,
+  22
+ ],
+ "trending/stable/24h": [
+  22,
+  3
+ ],
+ "trenches/stable": [
+  0,
+  0
+ ]
+}

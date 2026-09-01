@@ -1,0 +1,4 @@
+# Raw API cache: large and fully regenerable (every call is disk-cached).
+# Derived datasets and summaries are committed instead.
+raw/
+logs/
