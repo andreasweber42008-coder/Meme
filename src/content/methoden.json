@@ -1,0 +1,980 @@
+{
+  "version": 1,
+  "stand": "2026-10-22",
+  "hinweis": "Milans Methoden stammen aus deinen Lernnotizen (Milan_Djoudi_Lernnotizen.pdf, Stand 22.10.2026). Inhalt und Schrittfolge sind wortgetreu übernommen; angepasst wurden nur das scharfe S (→ ss) und die Anführungszeichen (→ «»). Alles andere ist mit seiner Herkunft markiert.",
+  "herkunftLegende": {
+    "milan": "Milan Djoudi – deine Lernnotizen zu seinen Videos (TMS)",
+    "ncwiki": "NCWiki – Info-Seiten und Kursskript 2026 (EMS), Ergänzung",
+    "ergaenzung": "Ergänzende Strategien aus deinem Auftrag",
+    "anpassung": "EMS-Anpassung: Übertragung auf den EMS (von mir, markiert)",
+    "test-info": "Offizielle Test-Info 2026 bzw. Beispielaufgaben 2026 von swissuniversities"
+  },
+  "entscheidungen": [
+    {
+      "id": "W1",
+      "thema": "Fakten lernen: Loci oder Mini-Geschichte?",
+      "a": { "text": "Erweiterte Loci-Methode: 5 Räume nach Altersgruppe, 3 feste Plätze, 15 feste reale Personen.", "herkunft": "milan", "quelle": "Loci-Methode animiert, S. 15; NCWiki empfiehlt ebenfalls eine feste Raumeinteilung" },
+      "b": { "text": "Erst die 5 Gruppen erkennen, dann Unterschiede; Mini-Geschichte pro Fall (~20 s); starre Systeme wie Loci eher ungeeignet.", "herkunft": "ergaenzung", "quelle": "Ergänzende Strategien" },
+      "gewaehlt": "a",
+      "begruendung": "Milans Methoden haben Vorrang und NCWiki stützt die Raumeinteilung. «Erst die 5 Gruppen erkennen» steckt ohnehin in Schritt 4 (Altersgruppe erkennen → Raum). Die Mini-Geschichte bleibt Plan B: Liegst du nach 3 Wochen Loci-Training unter deinem Zielwert, schlägt die App sie dir vor."
+    },
+    {
+      "id": "W2",
+      "thema": "Konz: Bearbeitungsrichtung",
+      "a": { "text": "Schlangenlinien-Modus: Zeile 1 links → rechts, Zeile 2 rechts → links usw.; ab etwa 7,5 Minuten nur noch links → rechts, weil in Leserichtung bis zur letzten Markierung ausgewertet wird.", "herkunft": "ncwiki", "quelle": "NCWiki, Konzentriertes und sorgfältiges Arbeiten" },
+      "b": { "text": "Zeilenweise von links nach rechts, keine Zeile auslassen.", "herkunft": "ergaenzung", "quelle": "Ergänzende Strategien" },
+      "gewaehlt": "b",
+      "begruendung": "Am Platz gibt es keine Uhr, den Wechsel bei 7,5 Minuten triffst du also nicht sicher. Brichst du mitten in einer Rückwärtszeile ab, zählen alle unbearbeiteten Zeichen links davon als übersehen (−1)."
+    },
+    {
+      "id": "W3",
+      "thema": "Konz: Wie oft üben?",
+      "a": { "text": "Mindestens 4 bis 5 Mal pro Woche, da die Übungseinheiten kurz sind.", "herkunft": "ncwiki", "quelle": "NCWiki, Konzentriertes und sorgfältiges Arbeiten" },
+      "b": { "text": "Höchstens 1–2× pro Woche, jedes Mal mit neuer Regel; zu häufiges Üben mit derselben Regel schadet.", "herkunft": "ergaenzung", "quelle": "Dein EMS-Wissen und Lernplan-Vorgabe" },
+      "gewaehlt": "b",
+      "begruendung": "Deine Vorgabe. Die Regel wechselt jedes Jahr, trainiert wird deshalb das Umstellen auf neue Regeln und nicht eine einzelne Regel."
+    },
+    {
+      "id": "W4",
+      "thema": "Konz: Notizen zur Regel",
+      "a": { "text": "Bei Rechenbedingungen die richtigen Kombinationen vorab auf einem separaten Zettel notieren (nicht auf dem Testblatt, nicht vor dem Startsignal).", "herkunft": "ncwiki", "quelle": "NCWiki, Konzentriertes und sorgfältiges Arbeiten" },
+      "b": { "text": "Keine Hilfsmittel (Lineale, anderes Papier etc.). Während die Instruktion vorgelesen wird, sind Notizen nur im dafür vorgesehenen Bereich auf dem sichtbaren Teil des Antwortbogens erlaubt.", "herkunft": "test-info", "quelle": "Test-Info 2026, S. 9 und 11" },
+      "gewaehlt": "b",
+      "begruendung": "Die offizielle Regel gilt. Die App trainiert das Notieren in genau diesem Feld."
+    },
+    {
+      "id": "W5",
+      "thema": "Reihenfolge der Schwierigkeit",
+      "a": { "text": "Quanti: Aufgaben sind nicht verlässlich nach Schwierigkeit sortiert. Schlauchfiguren: Reihenfolge der Schwierigkeit ist subjektiv.", "herkunft": "milan", "quelle": "Quanti 100 %, S. 16; Schlauchfiguren, S. 18 (TMS)" },
+      "b": { "text": "Im EMS steigt die Schwierigkeit innerhalb jeder Aufgabengruppe.", "herkunft": "ergaenzung", "quelle": "Dein EMS-Wissen (Test-Info 2026)" },
+      "gewaehlt": "b",
+      "begruendung": "Für den EMS gilt B. Die drei Runden und das Überspringen bleiben, aber mit der Erwartung, dass die harten Brocken eher hinten liegen."
+    },
+    {
+      "id": "W6",
+      "thema": "Uhr im Test",
+      "a": { "text": "Uhr mitnehmen und regelmässig checken; Timer auf 15 Min. pro Text.", "herkunft": "milan", "quelle": "Textverständnis 97 %, S. 14; Zeitmanagement, S. 7" },
+      "b": { "text": "Keine Uhr am Platz (auch nicht ausgeschaltet), keine Restzeit-Ansagen; die Zeit wird zentral angezeigt.", "herkunft": "test-info", "quelle": "Test-Info 2026, S. 12" },
+      "gewaehlt": "beide",
+      "begruendung": "Milans Tempo-Idee bleibt, aber ohne eigene Uhr: Startzeit merken und Zwischenziele als Uhrzeit setzen (Start +15 / +30 Min.), abgelesen an der zentralen Anzeige. Die App zeigt deshalb eine Uhrzeit statt eines Countdowns."
+    },
+    {
+      "id": "W7",
+      "thema": "Raten und Auslassen",
+      "a": { "text": "Lieber 4 Fragen sauber als 6 geraten (Text). Eine ausgelassene Aufgabe ist oft besser als eine, die viel Zeit frisst (Quanti).", "herkunft": "milan", "quelle": "Textverständnis 97 %, S. 14; Quanti 100 %, S. 16" },
+      "b": { "text": "Kein Abzug für falsche Antworten → immer ankreuzen.", "herkunft": "test-info", "quelle": "Test-Info 2026" },
+      "gewaehlt": "beide",
+      "begruendung": "Kein Widerspruch, sobald man beides kombiniert: die machbaren Aufgaben sauber bearbeiten und den Rest trotzdem ankreuzen, bei Unsicherheit immer mit demselben Buchstaben (NCWiki)."
+    },
+    {
+      "id": "W8",
+      "thema": "Figuren und Fakten: wie oft?",
+      "a": { "text": "«Kleine» Untertests (Muster zuordnen, Schlauchfiguren, Figuren lernen, Fakten lernen) möglichst täglich trainieren.", "herkunft": "milan", "quelle": "TMS-Lernplan, S. 10" },
+      "b": { "text": "Figuren und Fakten 3–4 Mal pro Woche, nicht täglich; Training mindestens 3 Tage vor dem Test stoppen.", "herkunft": "ncwiki", "quelle": "NCWiki, Figuren lernen / Fakten lernen" },
+      "gewaehlt": "a",
+      "begruendung": "Milan hat Vorrang: möglichst täglich, mit immer neuen Sets. Von NCWiki übernehme ich nur «mindestens 3 Tage vor dem Test stoppen», das widerspricht Milan nicht."
+    }
+  ],
+  "offeneFragen": [
+    { "id": "F1", "frage": "Zu den Videos «MedNat 100 % erreichen! 2 Strategien» und «Pattern matching – 100 % success with cross-eyed analysis (Step by step)» sowie zu den 69 Shorts gibt es keine Notizen.", "entscheidung": "Die Videos sind verlinkt, der Inhalt fehlt in der App, bis du Notizen nachlieferst. Med-Nat läuft bis dahin mit Milans Themen-Tipps, NCWiki und den Ergänzungen." },
+    { "id": "F2", "frage": "Der Kreuzblick braucht Muster und Ausschnitt in Originalgrösse nebeneinander; auf dem Handy ist das eng.", "entscheidung": "Die Kreuzblick-Stufen laufen am Bildschirm im Querformat oder auf dem Tablet. Zusätzlich gibt es Druckblätter." },
+    { "id": "F3", "frage": "Soll die App das NCWiki-Grundverfahren lehren, bis der Kreuzblick sitzt?", "entscheidung": "Ja. Das Grundverfahren ist die erste Muster-Einheit und bleibt der Rückfall, wenn die Fusion bricht." },
+    { "id": "F4", "frage": "Milan nennt für die täglichen kleinen Untertests nur «je kurz». Mit EMS-Zeiten sind das etwa 50 Minuten.", "entscheidung": "An kurzen Tagen zählen Mini-Sets mit gleichem Tempo pro Aufgabe (z. B. 6 statt 18 Aufgaben), an normalen Tagen volle Sets." },
+    { "id": "F5", "frage": "Milans Wochentage (Samstag Simulation, Freitag Schwächen-Tag, Sonntag frei) als Standard?", "entscheidung": "Ja, als Standard; im Onboarding änderbar." },
+    { "id": "F6", "frage": "Die Test-Info 2026 nennt zwischen Teil A und Teil B nur den Heftwechsel, keine Mittagspause.", "entscheidung": "Die Generalprobe läuft ohne Mittagspause mit 10 Minuten Heftwechsel (einstellbar)." },
+    { "id": "F7", "frage": "Maturajahr 2027 oder 2028?", "entscheidung": "Fragt das Onboarding (Phase 3). Bis dahin rechnet die App mit 2027 (EMS Freitag, 9.7.2027)." },
+    { "id": "F8", "frage": "Was in src/ liegt, landet im öffentlichen Build.", "entscheidung": "methoden.json bleibt im Build, weil sie nur deine eigenen Notizen und kurze, umformulierte Tipps enthält. Fremdmaterial (Aufgaben, Texte, Bilder, Kursskript, Lösungsschlüssel) kommt nur in den privaten Speicher hinter Login." },
+    { "id": "F9", "frage": "Wohin kommt der Code?", "entscheidung": "Vorerst auf den Branch claude/ems-learning-app-cgtxaw im Repo Meme. Ein Umzug in ein privates Lovable-Repo ist jederzeit möglich." }
+  ],
+  "methoden": [
+    {
+      "id": "lernplan",
+      "name": "Lernplan selbst erstellen",
+      "kurz": "Kleine Untertests täglich, grosse paarweise rotieren, Nachbereitung am selben Tag.",
+      "untertest": "uebergreifend",
+      "art": "plan",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "TMS-Lernplan selbst erstellen (97 %)", "originaltitel": "How I achieved 97% on the medical entrance test | Create your own TMS study plan", "url": "https://www.youtube.com/watch?v=Lrg497MG4YA", "videoId": "Lrg497MG4YA", "datum": "2026-07-17", "laenge": "ca. 11 Min.", "fundstelle": "Lernnotizen S. 10 und S. 7 (Lernplanung & Trainingsprinzipien)" }
+      ],
+      "kernaussage": "Der TMS ist ein Trainings-, kein Wissenstest. Entscheidend ist ein realistischer, individueller Lernplan, der konsequent durchgezogen wird – nicht möglichst viele Stunden.",
+      "ziel": "Einen realistischen, individuellen Lernplan bauen und konsequent durchziehen.",
+      "schritte": [
+        { "nr": 1, "titel": "Wochenplan schreiben", "tun": "Wochenplan schreiben: täglich 4 kleine Untertests (je kurz), grosse Untertests paarweise rotieren.", "achten": [], "herkunft": "milan" },
+        { "nr": 2, "titel": "Fehlerliste sofort", "tun": "Nach jeder Einheit sofort Fehlerliste ausfüllen.", "achten": [], "herkunft": "milan" },
+        { "nr": 3, "titel": "Wochenrhythmus", "tun": "Samstag = Simulation, Sonntag = frei, Freitag = Schwächen-Tag.", "achten": [], "herkunft": "milan" },
+        { "nr": 4, "titel": "Echte Zeit und Generalprobe", "tun": "Ab 2 Monate vorher alles mit echter Zeit; letzte Woche vor dem Test: Generalprobe am Wochenende, danach nur noch leichte Wiederholung.", "achten": [], "herkunft": "milan" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        "Ungeliebte Untertests meiden – gerade die gehören fest in den Plan.",
+        "Viele Aufgaben durchklicken, statt wenige gründlich zu analysieren.",
+        "Nachbereitung auf den nächsten Tag schieben (dauert sonst doppelt so lang).",
+        "An einem Tag ein halbes Buch, dann eine Woche nichts.",
+        "Generalprobe 2 Tage vor dem Test statt eine Woche vorher."
+      ],
+      "uebung": {
+        "menge": [
+          "Täglich 4 kleine Untertests (je kurz).",
+          "Grosse Untertests z. B. alle 2 Tage paarweise (Quanti + MedNat / Textverständnis + DiaTab).",
+          "Ein freier Tag pro Woche, ohne schlechtes Gewissen – Erholung bringt Konzentration."
+        ],
+        "reihenfolge": [
+          "Anfangsphase ohne harten Zeitdruck (z. B. 1 h Timer, schauen, wie weit man kommt).",
+          "Ca. ab 2 Monate vorher realistisch unter Zeitbedingungen.",
+          "Echte Simulationsbücher erst in den letzten 4–6 Wochen.",
+          "Generalprobe mit besonders schweren Aufgaben am Wochenende eine Woche vor dem Test – nicht 2 Tage vorher (Selbstvertrauen!).",
+          "Danach nur noch leichte Wiederholung."
+        ],
+        "steigerung": [
+          "Lieber zu wenig als zu viel vornehmen, steigern kann man später."
+        ]
+      },
+      "weitereTipps": [
+        "Kein Vorwissen pauken; besser werden durch Verstehen der Aufgabenstrukturen, eigene Strategien und wochenlanges Training.",
+        "Plan an den eigenen Alltag (Schule, FSJ, Ausbildung) anpassen.",
+        "«Kleine» Untertests (Muster zuordnen, Schlauchfiguren, Figuren lernen, Fakten lernen) möglichst täglich trainieren – am besten trainierbar, viel Material, Punkte nicht verschenken.",
+        "«Grosse» Untertests (Quanti, MedNat, Textverständnis, Diagramme & Tabellen) rotieren, z. B. alle 2 Tage paarweise. Material reicht sonst nicht.",
+        "Qualität vor Quantität: lieber 10 Aufgaben gründlich analysieren als viele durchklicken. Der Trainingseffekt entsteht in der Fehleranalyse.",
+        "Nachbereitung am selben Tag erledigen, nicht am nächsten (dauert sonst doppelt so lang).",
+        "Konstanz: nicht an einem Tag ein halbes Buch, dann eine Woche nichts.",
+        "Fester Simulationstag («Simulations-Samstag»): aus mehreren Büchern einzelne Simulationen zu einem Vormittagsteil zusammenstellen, nächste Woche Nachmittagsteil.",
+        "Fortschritt dokumentieren (häufigste Fehler, Bearbeitungszeit) und den Plan danach anpassen.",
+        "Flexibler Tag (bei ihm Freitag): nur kleine Untertests + gezielt die aktuelle Schwäche.",
+        "Fehlerliste/-tabelle für jeden Untertest (Fehlerart, Ursache, Häufigkeit, Zeitbedarf).",
+        "Schwere/falsche Aufgaben markieren und als Generalprobe wiederverwenden – eine Woche vor dem Test, nicht kurz davor."
+      ],
+      "beispiele": [
+        "Eigene Wochenstruktur: täglich kleine Untertests, grosse im 2-Tages-Rhythmus, Freitag flexibel, Samstag Simulation, ein Ruhetag. MedNat als «Hasstest» zusätzlich am flexiblen Tag."
+      ],
+      "ems": {
+        "status": "anpassen",
+        "anpassungen": [
+          { "text": "«Kleine» Untertests im EMS: Muster zuordnen, Objekte im Raum (statt Schlauchfiguren), Figuren lernen, Fakten lernen.", "herkunft": "anpassung" },
+          { "text": "Konz gehört nicht zu den täglichen Untertests: höchstens 1–2× pro Woche, jedes Mal mit neuer Regel.", "herkunft": "ergaenzung" },
+          { "text": "«Grosse» Untertests bleiben gleich; Paare: Quanti + Med-Nat / Textverständnis + Diagramme und Tabellen.", "herkunft": "anpassung" },
+          { "text": "Simulations-Samstag im Wochenwechsel: Teil A (Muster, Med-Nat, Objekte, Quanti, Einprägen) und Teil B (Text, Abrufen, Diagramme, Konz). Statt TMS-Büchern: NCWiki-Simulationen, offizielle Beispielaufgaben und Originalversionen.", "herkunft": "anpassung" },
+          { "text": "Generalprobe: Milans Generalprobe mit markierten schweren Aufgaben am Wochenende eine Woche vor dem Test – zusätzlich deine volle Testtag-Generalprobe 1–2 Wochen vorher zur echten Uhrzeit.", "herkunft": "anpassung" },
+          { "text": "Letzte Woche halbes Volumen, Vortag frei.", "herkunft": "ergaenzung" },
+          { "text": "Figuren und Fakten mindestens 3 Tage vor dem Test nicht mehr trainieren, damit sich nichts vermischt.", "herkunft": "ncwiki" },
+          { "text": "Matura-Modus: In Prüfungswochen entlastet der Plan; «täglich» gilt ausserhalb dieser Wochen.", "herkunft": "ergaenzung" }
+        ],
+        "nurTms": [
+          "Schlauchfiguren als kleiner Untertest (im EMS seit 2025 durch Objekte im Raum ersetzt).",
+          "Simulationsbücher für den TMS."
+        ]
+      },
+      "varianten": ["W8"],
+      "unklar": ["F4", "F5"],
+      "ergaenzungen": [],
+      "verwandt": ["pruefungstaktik", "buecher"]
+    },
+    {
+      "id": "pruefungstaktik",
+      "name": "Zeitmanagement und Prüfungstaktik",
+      "kurz": "Überspringen ohne Ansatz, ausschliessen, Fragestellung genau lesen.",
+      "untertest": "uebergreifend",
+      "art": "querschnitt",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Alle Tipps – Zeitmanagement & Prüfungstaktik", "fundstelle": "Lernnotizen S. 7" },
+        { "herkunft": "ncwiki", "titel": "Generelles zum Testablauf und generelle Tipps", "url": "https://www.nc-wiki.ch/generelles/" },
+        { "herkunft": "test-info", "titel": "Test-Info 2026", "url": "https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Lehre/Medizin/Testinfo2026_de.pdf" }
+      ],
+      "ziel": "In jeder Aufgabengruppe Punkte sichern: überspringen, ausschliessen, genau lesen.",
+      "schritteHinweis": "Reihenfolge wie in deinen Notizen; dort ist keine feste Schrittfolge vorgegeben.",
+      "schritte": [
+        { "nr": 1, "titel": "Überspringen", "tun": "Aufgaben überspringen, wenn kein Ansatz da ist; am Ende zurückkehren.", "achten": [], "herkunft": "milan" },
+        { "nr": 2, "titel": "Ausschliessen", "tun": "Ausschlussverfahren überall nutzen; Antwortoptionen strategisch auswerten.", "achten": [], "herkunft": "milan" },
+        { "nr": 3, "titel": "Genau lesen", "tun": "Fragestellung genau lesen (richtig/falsch, «nicht», «auf» vs. «um»).", "achten": [], "herkunft": "milan" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [],
+      "uebung": { "menge": [], "reihenfolge": [], "steigerung": [] },
+      "weitereTipps": [
+        "Quanti: Drei-Runden-Strategie.",
+        "Schlauchfiguren: 10–15 Sek. bei leichten Aufgaben.",
+        "Textverständnis: 15 Min./Text mit Uhr."
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "gilt-direkt",
+        "anpassungen": [
+          { "text": "Die Zeitregeln für Schlauchfiguren und die Uhr gelten im EMS nicht wörtlich (siehe Objekte im Raum und W6).", "herkunft": "anpassung" }
+        ],
+        "nurTms": []
+      },
+      "varianten": ["W6", "W7"],
+      "unklar": [],
+      "ergaenzungen": [
+        { "text": "Immer ankreuzen: Es gibt keinen Abzug für falsche Antworten.", "herkunft": "ergaenzung" },
+        { "text": "Sofort auf dem Antwortbogen markieren: Markierungen im Testheft können nach Ablauf der Bearbeitungszeit einer Gruppe nicht mehr übertragen werden.", "herkunft": "test-info" },
+        { "text": "Startzeit merken.", "herkunft": "ergaenzung" },
+        { "text": "Bei Unsicherheit immer dieselbe Antwortoption wählen (z. B. A) und nur bei Ausschluss davon zur nächsten wechseln.", "herkunft": "ncwiki" },
+        { "text": "Antwortbogen vor dem Heftwechsel (nach Quanti) und vor dem Ende von Diagramme und Tabellen kontrollieren und leere Felder ausfüllen. Nicht während der Einprägephasen, nicht nach Diagramme und Tabellen und nicht während Konz.", "herkunft": "test-info" },
+        { "text": "Nie in andere Aufgabengruppen blättern; innerhalb der aktuellen Gruppe beliebig.", "herkunft": "test-info" },
+        { "text": "Mehrere Markierungen bei einer Aufgabe = 0 Punkte; Fehler sauber ausradieren, nicht durchstreichen.", "herkunft": "test-info" }
+      ],
+      "verwandt": ["lernplan"]
+    },
+    {
+      "id": "buecher",
+      "name": "Übungsmaterial auswählen",
+      "kurz": "Testnah, gute Lösungswege, neue Exemplare oder Bleistift.",
+      "untertest": "uebergreifend",
+      "art": "lernkarte",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Bücher-Review: welche TMS-Bücher?", "originaltitel": "The Best TMS Books Reviewed!! Save Money & Time – My Honest Recommendation", "url": "https://www.youtube.com/watch?v=MCvZWAOE7-A", "videoId": "MCvZWAOE7-A", "datum": "2026-07-13", "laenge": "ca. 12 Min.", "fundstelle": "Lernnotizen S. 12" }
+      ],
+      "kernaussage": "Neue (statt gebrauchte) Übungsbücher kaufen; bewerten nach zwei Kriterien: Testnähe und Qualität der Lösungen für die Nachbereitung. Er favorisiert die Reihe «Sternzeichen Arzt» (mit Affiliate-Code – also Werbung, kritisch lesen).",
+      "ziel": "Übungsmaterial nach Testnähe und Lösungsqualität auswählen.",
+      "schritte": [
+        { "nr": 1, "titel": "Testnähe und Lösungswege", "tun": "Bei der Bücherwahl auf Testnähe und gute Lösungswege achten.", "achten": [], "herkunft": "milan" },
+        { "nr": 2, "titel": "Neu oder Bleistift", "tun": "Neue Exemplare nutzen (oder mit Bleistift lösen und später radieren, s. Schlauchfiguren).", "achten": [], "herkunft": "milan" },
+        { "nr": 3, "titel": "Werbung prüfen", "tun": "Werbeaussagen mit unabhängigen Erfahrungsberichten abgleichen.", "achten": [], "herkunft": "milan" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        "Gebrauchte Bücher: ausradierte Kreuze und Markierungen verfälschen das Üben."
+      ],
+      "uebung": { "menge": [], "reihenfolge": [], "steigerung": [] },
+      "weitereTipps": [
+        "Kriterium 1: testnah, gern minimal schwerer – zu schwer demotiviert, zu leicht bereitet schlecht vor.",
+        "Kriterium 2: ausführliche Lösungen, damit die Nachbereitung schnell geht.",
+        "Seine Einschätzung im Vergleich: MedGurus eher schwerer als der TMS, How to Med eher etwas leichter, Sternzeichen Arzt die «Mitte».",
+        "Muster zuordnen: gute Anleitung, die den Kreuzblick erklärt; 12 Simulationen.",
+        "MedNat: Übersicht lateinischer Fachbegriffe (anterior/posterior …) hilft beim Lesen; einige Texte länger als im Original.",
+        "Schlauchfiguren: kurze Anleitung, 14 Simulationen (viele, da kurz).",
+        "Quanti: ausführliche Erklärung der Aufgabentypen und Online-Lösungen – wichtig, weil Nachbereitung hier zentral ist.",
+        "Figuren lernen: etwas schwerer als TMS – beim Training eher ein Vorteil.",
+        "Fakten lernen: 2 × 30 Simulationen – sinnvoll, weil viel Übung nötig.",
+        "Textverständnis & DiaTab: testnah, Online-Lösungen, DiaTab-Anleitung erklärt Aufgabentypen.",
+        "Kein extra Vorwissen anlesen – er schaffte es ohne.",
+        "Übungsbücher: neu, testnah, mit ausführlichen Lösungen; mit Bleistift arbeiten."
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "anpassen",
+        "anpassungen": [
+          { "text": "Die zwei Kriterien gelten auch im EMS. Testnah sind vor allem: offizielle Beispielaufgaben 2026, Konz-Beispiele, Originalversionen II und III, NCWiki-Serien und -Simulationen.", "herkunft": "anpassung" },
+          { "text": "NCWiki liefert meist nur Lösungsschlüssel. Fehlende Lösungswege ergänzt die App mit der passenden Methode (markiert als «Ergänzung»).", "herkunft": "anpassung" }
+        ],
+        "nurTms": [
+          "Die konkreten Buchempfehlungen (MedGurus, How to Med, Sternzeichen Arzt) sind TMS-Bücher mit TMS-Format (z. B. Schlauchfiguren, 24 Aufgaben)."
+        ]
+      },
+      "varianten": [],
+      "unklar": [],
+      "ergaenzungen": [],
+      "verwandt": ["lernplan"]
+    },
+    {
+      "id": "muster-grundverfahren",
+      "name": "Muster: Grundverfahren",
+      "kurz": "Grob ansehen, systematisch mit Bleistift prüfen, Fehler durchstreichen.",
+      "untertest": "muster-zuordnen",
+      "art": "einheit",
+      "herkunft": "ncwiki",
+      "quellen": [
+        { "herkunft": "ncwiki", "titel": "NCWiki – Muster zuordnen", "url": "https://www.nc-wiki.ch/muster-zuordnen/" }
+      ],
+      "ziel": "Ausschnitte systematisch prüfen, solange der Kreuzblick noch nicht sitzt – und als Rückfall, wenn die Fusion bricht.",
+      "schritte": [
+        { "nr": 1, "titel": "Grob betrachten", "tun": "Das Muster zuerst aus etwas Abstand ansehen, ohne dich auf Details zu konzentrieren. Grobe Fehler fallen so auf, einige Ausschnitte lassen sich sofort ausschliessen.", "achten": ["Prüfen, ob alle Ausschnitte überhaupt im Ausgangsbild liegen – manche liegen teilweise ausserhalb des Musters."], "herkunft": "ncwiki" },
+        { "nr": 2, "titel": "Systematisch prüfen", "tun": "Das Muster von rechts nach links und von oben nach unten durchgehen; einen Bleistift als Zeiger verwenden, nicht den Finger.", "achten": ["Die Fehler sind oft sehr klein und fallen beim groben Überblick nicht auf."], "herkunft": "ncwiki" },
+        { "nr": 3, "titel": "Fehler markieren", "tun": "Einen gefundenen Fehler im Ausschnitt mit dem Bleistift durchstreichen, damit du ihn nicht erneut prüfst.", "achten": [], "herkunft": "ncwiki" }
+      ],
+      "einsetzen": [
+        { "text": "Als Einstieg, bis der Kreuzblick stabil klappt (F3).", "herkunft": "anpassung" },
+        { "text": "Als Rückfall, wenn die Fusion beim Kreuzblick zusammenbricht.", "herkunft": "anpassung" }
+      ],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        "Sich festbeissen: Fällt kein Fehler auf, mit Ausschluss arbeiten oder überspringen und am Ende zurückkehren – beim zweiten Blick sieht man den Fehler oft sofort.",
+        "Ausschnitte übersehen, die teilweise ausserhalb des Musters liegen."
+      ],
+      "uebung": {
+        "menge": ["Pro Woche etwa 3- bis 4-mal eine Serie lösen."],
+        "reihenfolge": ["Mit dem Training etwa 1,5 bis 2 Monate vor der Prüfung anfangen – der Untertest lässt sich gut und schnell trainieren."],
+        "steigerung": ["Zuerst ohne Zeitdruck ein Gefühl für die Aufgaben entwickeln; Zeitdruck erst einführen, wenn du dich sicher fühlst."]
+      },
+      "weitereTipps": [
+        "Zeigen zwei Auswahlmöglichkeiten denselben Ausschnitt, zuerst diese beiden miteinander vergleichen – mindestens einer davon muss falsch sein.",
+        "Wenn es nicht läuft: ruhig bleiben und weitermachen."
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "gilt-direkt",
+        "zeitbudget": "53 s pro Aufgabe (18 Aufgaben in 16 Min.)",
+        "anpassungen": [],
+        "nurTms": []
+      },
+      "varianten": [],
+      "unklar": ["F3"],
+      "ergaenzungen": [],
+      "verwandt": ["kreuzblick"]
+    },
+    {
+      "id": "kreuzblick",
+      "name": "Kreuzblick",
+      "kurz": "Ausschnitt und Muster durch leichtes Schielen überlagern – Abweichungen springen ins Auge.",
+      "untertest": "muster-zuordnen",
+      "art": "einheit",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Kreuzblick in 5 Minuten (animiert) – Muster zuordnen", "originaltitel": "Learn the Cross-View Method in 5 Minutes (Animated!) | TMS Pattern Recognition", "url": "https://www.youtube.com/watch?v=yRP1ql3IUiQ", "videoId": "yRP1ql3IUiQ", "datum": "2026-09-13", "laenge": "ca. 5 Min.", "fundstelle": "Lernnotizen S. 11 und S. 7 (Visuelle Untertests)" },
+        { "herkunft": "milan", "titel": "Pattern matching – 100% success with cross-eyed analysis!! (Step by step) – ohne Notizen", "url": "https://www.youtube.com/watch?v=yBM-M7c9Wb0", "videoId": "yBM-M7c9Wb0" }
+      ],
+      "kernaussage": "Mit dem Kreuzblick (leichtes Schielen) legt man Originalausschnitt und Antwortmuster übereinander; Abweichungen springen dann ins Auge – so ist konstant volle Punktzahl möglich.",
+      "ziel": "Originalausschnitt und Antwortmuster übereinanderlegen, damit Abweichungen ins Auge springen.",
+      "schritte": [
+        { "nr": 1, "titel": "Stiftspitze fokussieren", "tun": "Stiftspitze zwischen Augen und Blatt halten und darauf fokussieren: näher = stärker schielen, weiter weg = weniger.", "achten": [], "herkunft": "milan" },
+        { "nr": 2, "titel": "Überlagern", "tun": "Im Hintergrund entsteht aus zwei Bildern ein drittes, überlagertes Bild; Abstand so lange anpassen, bis es exakt deckt.", "achten": ["Nur 2 Bilder = zu wenig geschielt, 4 Bilder = zu stark."], "herkunft": "milan" },
+        { "nr": 3, "titel": "Stift weglassen", "tun": "Dann über die Stiftspitze hinausschauen und den Stift irgendwann ganz weglassen.", "achten": [], "herkunft": "milan" },
+        { "nr": 4, "titel": "Scharfstellen", "tun": "Scharfstellen ist der schwierigste Schritt: Augen leicht zusammenkneifen, kurz blinzeln.", "achten": ["Kann Tage bis Wochen dauern."], "herkunft": "milan" },
+        { "nr": 5, "titel": "Fehler suchen", "tun": "Das fusionierte Bild systematisch nach Fehlern absuchen – Ränder nicht vergessen.", "achten": ["An den Rändern «flimmert» es, Fehler werden dort leicht übersehen."], "herkunft": "milan" },
+        { "nr": 6, "titel": "Höhe ausgleichen", "tun": "Liegt der Ausschnitt nicht auf gleicher Höhe: Kopf neigen oder Blatt leicht drehen.", "achten": [], "herkunft": "milan" },
+        { "nr": 7, "titel": "Alle prüfen", "tun": "Nicht beim ersten passenden Ausschnitt aufhören, alle prüfen (Flüchtigkeitsfehler vermeiden).", "achten": [], "herkunft": "milan" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [
+        "Nicht unter Zeit trainieren, bevor es stabil klappt."
+      ],
+      "typischeFehler": [
+        "Nur 2 Bilder (zu wenig geschielt).",
+        "4 Bilder (zu stark geschielt).",
+        "Fusion bricht zusammen.",
+        "Nachbarmuster irritieren anfangs – Orientierung kommt mit Übung.",
+        "Fehler an den Rändern übersehen.",
+        "Beim ersten passenden Ausschnitt aufhören."
+      ],
+      "uebung": {
+        "menge": [
+          "Täglich max. ca. 15 Minuten, mehr ist kontraproduktiv.",
+          "Täglich 10–15 Min. mit Stift üben."
+        ],
+        "reihenfolge": [
+          "Zuerst nur Überlagerung, dann Scharfstellen, dann gezielte Fehlersuche inkl. Ränder."
+        ],
+        "steigerung": [
+          "Erst wenn es stabil klappt, unter Zeit trainieren."
+        ]
+      },
+      "weitereTipps": [
+        "Kreuzblick: mit Stift einüben, Scharfstellen trainieren, Ränder prüfen, max. 15 Min./Tag."
+      ],
+      "beispiele": [],
+      "hinweis": "Im Video wird eine kostenpflichtige Übungs-PDF des Kanals beworben.",
+      "ems": {
+        "status": "anpassen",
+        "zeitbudget": "53 s pro Aufgabe (18 Aufgaben in 16 Min.)",
+        "anpassungen": [
+          { "text": "Das Format ist gleich: komplexes Strichmuster + 5 Ausschnitte, genau einer deckungsgleich (nicht skaliert, gedreht oder gespiegelt). Die Technik gilt unverändert, nur das Zeitbudget ändert sich.", "herkunft": "anpassung" },
+          { "text": "In der App stehen Muster und Ausschnitt nebeneinander in gleicher Grösse – im Querformat oder auf dem Tablet, zusätzlich als Druckblatt (F2).", "herkunft": "anpassung" }
+        ],
+        "nurTms": []
+      },
+      "varianten": [],
+      "unklar": ["F1", "F2", "F3"],
+      "ergaenzungen": [
+        { "text": "Kreuzblick ist eine fortgeschrittene Technik: aufwendig zu lernen, macht die Aufgabe aber deutlich schneller.", "herkunft": "ncwiki" }
+      ],
+      "verwandt": ["muster-grundverfahren"]
+    },
+    {
+      "id": "mednat-ableiten",
+      "name": "Med-Nat: Fragen zuerst, nur ableiten",
+      "kurz": "Fragen zuerst, markieren, skizzieren, nur Ableitbares zählt.",
+      "untertest": "med-nat",
+      "art": "einheit",
+      "herkunft": "ncwiki",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Alle Tipps – Text- und Datenaufgaben (Textverständnis, DiaTab, MedNat)", "fundstelle": "Lernnotizen S. 7–8" },
+        { "herkunft": "milan", "titel": "MedNat 100% erreichen! 2 Strategien + Beispielaufgabe | TMS erklärt – ohne Notizen", "url": "https://www.youtube.com/watch?v=OOkDvWHiE8k", "videoId": "OOkDvWHiE8k" },
+        { "herkunft": "ncwiki", "titel": "NCWiki – Med-naturwissenschaftliches Grundverständnis", "url": "https://www.nc-wiki.ch/med-naturwiss-grundverstandnis/" }
+      ],
+      "ziel": "Aus kurzen Fachtexten nur das auswählen, was sich ableiten lässt – ohne Vorwissen, ohne Interpretation.",
+      "schritteHinweis": "Zu Med-Nat gibt es in deinen Notizen keine eigene Methode. Die Schrittfolge stammt von NCWiki, Milans Themen-Tipps sind dort eingebaut, wo sie passen.",
+      "schritte": [
+        { "nr": 1, "titel": "Fragen zuerst", "tun": "Fragen und Antwortmöglichkeiten zuerst lesen: Fragen beziehen sich oft sehr gezielt auf einen Textabschnitt, und Antworten schliessen sich manchmal gegenseitig aus. So weisst du, wonach du im Text suchst.", "achten": [], "herkunft": "ncwiki" },
+        { "nr": 2, "titel": "Markieren", "tun": "Text mit eigenem Symbolsystem markieren statt überfliegen; die wichtigsten Schlagwörter hervorheben.", "achten": [{ "text": "Sparsam markieren; Negationen markieren.", "herkunft": "ergaenzung" }], "herkunft": "milan" },
+        { "nr": 3, "titel": "Skizzieren", "tun": "Bei anatomischen Texten etwas bildlich aufzeichnen; bei Signalwegen mit Pfeilen arbeiten, z. B. rot für «hemmen» und grün für «aktivieren/stimulieren».", "achten": [{ "text": "Regelkreis mit +/− skizzieren.", "herkunft": "ergaenzung" }], "herkunft": "ncwiki" },
+        { "nr": 4, "titel": "Häufigste Aussage zuerst", "tun": "Zuerst die Aussagen überprüfen, die in den Antworten am häufigsten vorkommen – so lassen sich oft Antworten ausschliessen, ohne alle Aussagen prüfen zu müssen.", "achten": [], "herkunft": "ncwiki" },
+        { "nr": 5, "titel": "Nur Ableitbares", "tun": "Nur aus dem Text ableiten, nicht interpretieren. Steht nichts dazu im Text, ist die Aussage nicht ableitbar; widerspricht der Text ihr, ist sie falsch.", "achten": [{ "text": "Absolute oder vage Formulierungen sind verdächtig.", "herkunft": "milan" }, { "text": "Nur der Text zählt.", "herkunft": "ergaenzung" }], "herkunft": "milan" },
+        { "nr": 6, "titel": "Nochmals lesen", "tun": "Bei Unsicherheit, vor allem bei verneinten Antwortmöglichkeiten, den Aufgabentext ein zweites Mal lesen.", "achten": [], "herkunft": "ncwiki" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        { "text": "Vorwissen statt Text verwenden.", "herkunft": "ncwiki" },
+        { "text": "Verneinte Antwortmöglichkeit überlesen.", "herkunft": "ncwiki" }
+      ],
+      "uebung": {
+        "menge": [{ "text": "Etwa 2-mal pro Woche 1–2 Stunden MedNat-Texte lösen.", "herkunft": "ncwiki" }],
+        "reihenfolge": [{ "text": "Spätestens 1–2 Monate vor dem EMS beginnen.", "herkunft": "ncwiki" }],
+        "steigerung": [{ "text": "Qualität vor Quantität: lieber weniger Aufgaben richtig lösen als viele mit vielen Fehlern.", "herkunft": "ncwiki" }]
+      },
+      "weitereTipps": [
+        { "text": "Lateinische Lagebezeichnungen (anterior, posterior …) kennen erleichtert MedNat-Texte.", "herkunft": "milan" },
+        { "text": "MedNat als «Hasstest» zusätzlich am flexiblen Tag (Milans Wochenstruktur).", "herkunft": "milan" }
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "gilt-direkt",
+        "zeitbudget": "150 s pro Aufgabe (18 Aufgaben in 45 Min.)",
+        "anpassungen": [],
+        "nurTms": []
+      },
+      "varianten": [],
+      "unklar": ["F1"],
+      "ergaenzungen": [],
+      "verwandt": ["text-markieren", "diatab-ableiten"]
+    },
+    {
+      "id": "schlauchfiguren",
+      "name": "Schlauchfiguren (TMS)",
+      "kurz": "Kipp/Dreh → Kandidaten → Merkmal-Check. Im EMS übertragen auf Objekte im Raum.",
+      "untertest": "objekte-im-raum",
+      "art": "lernkarte",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Schlauchfiguren – 100 %", "originaltitel": "100% in tube figures?! Here's how! | TMS explained simply", "url": "https://www.youtube.com/watch?v=Vjr5FhCM8mc", "videoId": "Vjr5FhCM8mc", "datum": "2025-08-30", "laenge": "ca. 9 Min.", "fundstelle": "Lernnotizen S. 18 und S. 7 (Visuelle Untertests)" }
+      ],
+      "kernaussage": "Konsequentes Ausschlussverfahren statt Rätseln: erst Kipp- oder Drehbewegung bestimmen, dann gezielt nach Widersprüchen suchen.",
+      "ziel": "Die gesuchte Ansicht per Ausschluss bestimmen statt raten.",
+      "eckdatenTms": "24 Aufgaben (20 gewertet), 15 Min. (~37 Sek./Aufgabe); links immer Vorderansicht, gesucht: Ansicht des rechten Bildes (oben, unten, hinten, rechts, links).",
+      "schritte": [
+        { "nr": 1, "titel": "Kipp/Dreh", "tun": "Kippen oder Drehen? Kippen → hinten/rechts/links raus (bleiben oben/unten). Drehen → oben/unten raus (bleiben hinten/rechts/links).", "achten": [], "herkunft": "milan" },
+        { "nr": 2, "titel": "2–3 Kandidaten", "tun": "Frage «Was passt sicher nicht?» statt «Was passt?» – Fallen sind bewusst eingebaut (z. B. oben/unten ähnlich).", "achten": ["«Hinten» erkennt man oft am gespiegelten Bild – trotzdem rechts/links per Ausschluss prüfen."], "herkunft": "milan" },
+        { "nr": 3, "titel": "Merkmal-Check", "tun": "Markante Merkmale suchen: Kreuzungen, Verdickungen, Knicke, Überlappungen, Wandkontakt, Schlauchenden. Gedankenexperiment: «Wenn das die Ansicht X wäre, müsste in Ecke Y …» – fehlt es, streichen.", "achten": ["Tiefenhinweise: nahe Objekte grösser und schärfer, ferne kleiner und unschärfer."], "herkunft": "milan" },
+        { "nr": 4, "titel": "Ankreuzen", "tun": "Ankreuzen.", "achten": [], "zeit": "Einfache Aufgaben ~10–15 Sek.", "herkunft": "milan" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        "Rätseln statt ausschliessen – Fallen sind bewusst eingebaut.",
+        "Bei unerwartet schwerer Aufgabe hängen bleiben statt sofort weiter."
+      ],
+      "uebung": {
+        "menge": ["15-Min.-Simulationen, danach Fehlertabelle führen."],
+        "reihenfolge": [],
+        "steigerung": []
+      },
+      "weitereTipps": [
+        "Zeit: einfache Aufgaben ~10–15 Sek.; bei unerwartet schwerer Aufgabe sofort weiter, am Ende zurück. Reihenfolge der Schwierigkeit ist subjektiv.",
+        "Nachbereitung: schwere Aufgaben in Ruhe von allen Seiten vorstellen («Würfel als Museumsstück, um das man herumgeht»).",
+        "Fehlertabelle: Fehlerart, was verwirrt hat, Häufigkeit (Strichliste), Objektart (Schlauch, Kette …).",
+        "Falsche/schwere Aufgaben markieren und in den letzten Wochen als eigene Generalprobe-Simulation wiederholen; mit Bleistift lösen, damit man radieren kann.",
+        "Schlauchfiguren: Kipp/Dreh → Kandidaten → Widersprüche an markanten Merkmalen, Tiefenhinweise nutzen."
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "anpassen",
+        "uebertragenAuf": "objekte-im-raum",
+        "anpassungen": [
+          { "text": "Seit 2025 gibt es im EMS keine Schlauchfiguren mehr, sondern Objekte im Raum. Übertragbar sind: Ausschluss «Was passt sicher nicht?», markante Merkmale, Gedankenexperiment, Tiefenhinweise (an den offiziellen Beispielen zu prüfen), die Zeitregel, die Museumsstück-Nachbereitung, die Fehlertabelle und die Generalprobe mit falschen Aufgaben.", "herkunft": "anpassung" }
+        ],
+        "nurTms": [
+          "Die Ansichten-Logik (oben, unten, hinten, rechts, links) und die Regel «Kippen → hinten/rechts/links raus»: Im EMS gibt es keine Ansichten, gesucht sind Bewegungspaare.",
+          "Eckdaten 24 Aufgaben in 15 Min."
+        ]
+      },
+      "varianten": ["W5"],
+      "unklar": [],
+      "ergaenzungen": [],
+      "verwandt": ["objekte-im-raum"]
+    },
+    {
+      "id": "objekte-im-raum",
+      "name": "Objekte im Raum: Spiegel-Check, Ausschluss, Merkmal-Check",
+      "kurz": "Milans Schlauchfiguren-Methode auf Bewegungspaare übertragen, ergänzt mit NCWiki.",
+      "untertest": "objekte-im-raum",
+      "art": "einheit",
+      "herkunft": "anpassung",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Schlauchfiguren – 100 % (übertragen)", "url": "https://www.youtube.com/watch?v=Vjr5FhCM8mc", "videoId": "Vjr5FhCM8mc", "fundstelle": "Lernnotizen S. 18" },
+        { "herkunft": "ncwiki", "titel": "NCWiki-Kursskript 2026 – Objekte im Raum (Lösungsstrategien)", "url": "https://www.nc-wiki.ch/kursskript-2026/" },
+        { "herkunft": "test-info", "titel": "Beispielaufgaben 2026 – Objekte im Raum", "url": "https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Lehre/Medizin/Beispielaufgaben2026.pdf" }
+      ],
+      "ziel": "Das richtige Bewegungspaar (zwei 90°-Bewegungen) durch Ausschluss bestimmen statt durch Rätseln.",
+      "schritteHinweis": "Übertragung von Milans festem Ablauf «Kipp/Dreh → 2–3 Kandidaten → Merkmal-Check → Ankreuzen» auf den EMS. Schritt 1 ersetzt «Kipp/Dreh» durch die Spiegelung aus dem NCWiki-Kursskript.",
+      "schritte": [
+        { "nr": 1, "titel": "Spiegel-Check", "tun": "Prüfen, ob sich die Silhouette ungefähr spiegeln lässt: an der senkrechten Achse → zweimal nach rechts bzw. zweimal nach links (→→ = ←←); an der waagrechten Achse → zweimal nach oben bzw. zweimal nach unten (↑↑ = ↓↓).", "achten": [{ "text": "Die Würfel werden aus einer Perspektive gezeigt, die leicht von links oben auf die Figur schaut – die Spiegelung ist deshalb nicht exakt.", "herkunft": "ncwiki" }], "herkunft": "ncwiki" },
+        { "nr": 2, "titel": "Ausschliessen", "tun": "Frage «Was passt sicher nicht?» statt «Was passt?» auf die 5 Bewegungspaare anwenden, bis 2–3 Kandidaten bleiben.", "achten": [{ "text": "Fallen sind bewusst eingebaut.", "herkunft": "milan" }], "herkunft": "milan" },
+        { "nr": 3, "titel": "Merkmal-Check", "tun": "Markante Strukturen suchen (Ecken, Enden, auffällige Formen) und ein Gedankenexperiment machen: «Wenn es das Paar X wäre, müsste diese Struktur in Ecke Y liegen» – fehlt sie dort, streichen.", "achten": [{ "text": "Ein Referenzobjekt verfolgen; den Inhalt als Gesamtobjekt sehen.", "herkunft": "ergaenzung" }, { "text": "Kurz die Augen schliessen und die Struktur von der anderen Seite vorstellen.", "herkunft": "ncwiki" }, { "text": "Tiefenhinweise: nahe Objekte grösser und schärfer, ferne kleiner und unschärfer (an den offiziellen Beispielen prüfen).", "herkunft": "milan" }], "herkunft": "milan" },
+        { "nr": 4, "titel": "Ankreuzen", "tun": "Ankreuzen. Bist du dir sicher, sofort – keine Zeit mit den restlichen Möglichkeiten verschwenden.", "achten": [{ "text": "Bei unerwartet schwerer Aufgabe sofort weiter, am Ende zurück.", "herkunft": "milan" }], "herkunft": "ncwiki" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        { "text": "Rätseln statt ausschliessen.", "herkunft": "milan" },
+        { "text": "Die Spiegelung für exakt halten, obwohl die Perspektive leicht von links oben kommt.", "herkunft": "ncwiki" }
+      ],
+      "uebung": {
+        "menge": [
+          { "text": "Simulationen mit Originalzeit (EMS: 18 Aufgaben in 10 Min.), danach Fehlertabelle führen.", "herkunft": "anpassung" }
+        ],
+        "reihenfolge": [
+          { "text": "Dieser Untertest ist deutlich schwieriger als die alten Schlauchfiguren – früh mit dem Üben anfangen.", "herkunft": "ncwiki" },
+          { "text": "Erst ein genaues Vorgehen festlegen, dann unter Zeitdruck arbeiten.", "herkunft": "ncwiki" }
+        ],
+        "steigerung": [
+          { "text": "Erst Einzelbewegungen, dann Paare.", "herkunft": "ergaenzung" }
+        ]
+      },
+      "werkzeuge": [
+        { "text": "Die 10 möglichen Endlagen: →→ (= ←←), ←↑, ←↓, →↑, →↓, ↑←, ↑→, ↑↑ (= ↓↓), ↓←, ↓→. Die Reihenfolge zählt, jede Kombination endet in einer anderen Lage.", "herkunft": "ncwiki" },
+        { "text": "Ansicht: Stell dir vor, du hältst den Würfel in der Hand und drehst ihn – oder du gehst um einen grossen Würfel herum oder sitzt darin und betrachtest die Strukturen von innen.", "herkunft": "ncwiki" },
+        { "text": "Nachbereitung: schwere Aufgaben in Ruhe von allen Seiten vorstellen («Würfel als Museumsstück»). In der App: den 3D-Würfel mit dem Finger drehen.", "herkunft": "milan" },
+        { "text": "Fehlertabelle: Fehlerart, was verwirrt hat, Häufigkeit (Strichliste), Objektart.", "herkunft": "milan" },
+        { "text": "Falsche/schwere Aufgaben markieren und in den letzten Wochen als eigene Generalprobe wiederholen.", "herkunft": "milan" }
+      ],
+      "weitereTipps": [],
+      "beispiele": [],
+      "ems": {
+        "status": "gilt-direkt",
+        "zeitbudget": "33 s pro Aufgabe (18 Aufgaben in 10 Min.)",
+        "anpassungen": [
+          { "text": "Bewegungen exakt wie in den offiziellen Beispielaufgaben 2026: → horizontal um 90° nach rechts drehen, ← nach links drehen, ↓ vertikal um 90° nach unten kippen, ↑ nach oben kippen. Die Bild-Definition übernimmt Phase 4 aus den Beispielbildern.", "herkunft": "test-info" }
+        ],
+        "nurTms": []
+      },
+      "varianten": ["W5"],
+      "unklar": [],
+      "ergaenzungen": [],
+      "verwandt": ["schlauchfiguren"]
+    },
+    {
+      "id": "quanti-drei-runden",
+      "name": "Quanti: Drei Runden und 7 Aufgabentypen",
+      "kurz": "Typ sofort erkennen, in drei Runden lösen, schätzen und ausschliessen.",
+      "untertest": "quanti",
+      "art": "einheit",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Quanti 100 % – alle Aufgabentypen", "originaltitel": "Quanti 100% – ALLE Aufgabentypen erklärt! Quantitative und formale Probleme – TMS", "url": "https://www.youtube.com/watch?v=rm9w-xLTR58", "videoId": "rm9w-xLTR58", "datum": "2026-03-22", "laenge": "ca. 25 Min.", "fundstelle": "Lernnotizen S. 16 und S. 7 (Quanti, Zeitmanagement)" }
+      ],
+      "kernaussage": "Quanti prüft nicht Mathe-Talent, sondern kühlen Kopf unter Zeitdruck: Aufgabentyp sofort erkennen, Zeit managen, schätzen und ausschliessen, gründlich nachbereiten.",
+      "ziel": "Aufgabentyp sofort erkennen, Zeit managen, schätzen und ausschliessen.",
+      "eckdatenTms": "24 Aufgaben (20 gewertet), 60 Min., keine Hilfsmittel; ab ca. 13 Punkten Richtung 90 %; beim Üben (inkl. Einstreuaufgaben) 16–18 anstreben.",
+      "schritte": [
+        { "nr": 1, "titel": "Typ zuordnen", "tun": "Jede Aufgabe zuerst einem der 7 Typen zuordnen und notieren: Prozentrechnung, Mischungen, Funktionen/Formeln, Proportionalitäten, Dreisatz, Einheitenrechnung, Potenzen (auch kombiniert).", "achten": [], "herkunft": "milan" },
+        { "nr": 2, "titel": "Runde 1", "tun": "Nur Aufgaben mit sofort klarem Ansatz (ca. 8–12); nach ~2 Min. ohne Weg markieren und weiter.", "achten": [], "zeit": "Abbruch nach ~2 Min. ohne Weg", "herkunft": "milan" },
+        { "nr": 3, "titel": "Runde 2", "tun": "Markierte Aufgaben (+3–5).", "achten": [], "herkunft": "milan" },
+        { "nr": 4, "titel": "Runde 3", "tun": "Harte Brocken mit Schätzen und Ausschluss.", "achten": [], "herkunft": "milan" },
+        { "nr": 5, "titel": "Nachbereitung", "tun": "Nachbereitungstabelle (Typ, Fehlerart, Zeit, schnellerer Weg).", "achten": ["Rechenfehler vs. Ansatzfehler; auch richtig gelöste, aber langsame Aufgaben analysieren."], "herkunft": "milan", "phase": "nachbereitung" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        "«Auf X %» und «um X %» verwechseln.",
+        "Bei Mischungen nicht genau lesen, ob Gesamtmenge oder Zugabe gefragt ist.",
+        "Brüche vorschnell in Dezimalzahlen umwandeln.",
+        "Eine Aufgabe, die viel Zeit frisst, statt sie auszulassen.",
+        "Rechenfehler vs. Ansatzfehler in der Nachbereitung nicht unterscheiden."
+      ],
+      "uebung": {
+        "menge": ["Simulationen strikt mit 3 Runden."],
+        "reihenfolge": [],
+        "steigerung": []
+      },
+      "werkzeuge": [
+        "Prozent: «auf X %» (×X/100) vs. «um X %» (×(1+X/100)) unterscheiden; kleine Faktoren (≈1) runden und die Rundungsrichtung merken.",
+        "Mischungen: Verhältnis in «Teile» zerlegen (1:4 = 5 Teile → 50 ml ⇒ 10 ml pro Teil), am Ende genau lesen, ob Gesamtmenge oder Zugabe gefragt ist.",
+        "Formel-Veränderungen: alte und neue Formel nebeneinander, nur veränderte Grösse ersetzen (z. B. Radius verdoppelt bei r⁴ → Faktor 16).",
+        "Einheitenaufgaben: nach der gesuchten Grösse umstellen, nur Einheiten einsetzen und kürzen – sichere Punkte.",
+        "Einheiten früh vereinheitlichen (mm → m, Minuten → Stunden).",
+        "Schätzen & Ausschliessen: Grössenordnung abschätzen (z. B. 900/7 zwischen 7·110 und 7·150), unplausible Optionen streichen.",
+        "Liegen Optionen dicht beieinander: Brüche stehen lassen, nicht in Dezimalzahlen umwandeln – vieles kürzt sich weg. Liegen sie weit auseinander: überschlagen."
+      ],
+      "weitereTipps": [
+        "Aufgaben sind nicht verlässlich nach Schwierigkeit sortiert.",
+        "Eine ausgelassene Aufgabe ist oft besser als eine, die viel Zeit frisst.",
+        "Es gibt keine Transferaufgaben – Typen wiederholen sich, Mustererkennung ist trainierbar.",
+        "Lösungswege ggf. mit KI-Tool nachvollziehen.",
+        "Sieben Aufgabentypen kennen und sofort zuordnen; Einheiten vereinheitlichen; schätzen; Brüche nicht vorschnell umwandeln."
+      ],
+      "beispiele": [
+        "Schlauch-Verlängerung (Prozent).",
+        "Wirkstoff/NaCl 1:4 → 1:16 (120 ml Zugabe).",
+        "Blut-Durchschnittsgeschwindigkeit.",
+        "Leistung bei verdoppelter Spannung und geviertelten Widerstand (Faktor 16).",
+        "Krankenwagen vs. Hubschrauber (Dreisatz, ~130 km/h-Schätzung).",
+        "Einheit von ε₀ im Coulomb-Gesetz.",
+        "Gefässwiderstand bei verdoppeltem Radius (1/16)."
+      ],
+      "ems": {
+        "status": "anpassen",
+        "zeitbudget": "150 s pro Aufgabe (18 Aufgaben in 45 Min.) – gleiches Tempo wie im TMS",
+        "anpassungen": [
+          { "text": "Die 7 Typen decken die EMS-Grundmuster ab: Mengen aufteilen (Mischungen, Prozent), Proportionalität (Proportionalitäten, Dreisatz), Formeln aufstellen/umformen/interpretieren (Funktionen/Formeln, Potenzen), Einheiten und Dimensionen (Einheitenrechnung).", "herkunft": "anpassung" },
+          { "text": "Runde 1 im EMS: Die Schwierigkeit steigt innerhalb der Gruppe, die schnellen Punkte liegen also eher vorne (W5).", "herkunft": "anpassung" },
+          { "text": "Ausgelassene Aufgaben trotzdem ankreuzen (W7).", "herkunft": "anpassung" },
+          { "text": "Ob es im EMS «keine Transferaufgaben» gibt, ist für den EMS nicht belegt; die App prüft die Typ-Zuordnung an den NCWiki-Serien.", "herkunft": "anpassung" }
+        ],
+        "nurTms": [
+          "24 Aufgaben (20 gewertet), 60 Min., Einstreuaufgaben, «ab ca. 13 Punkten Richtung 90 %»."
+        ]
+      },
+      "varianten": ["W5", "W7"],
+      "unklar": [],
+      "ergaenzungen": [
+        { "text": "Die Aufgabe ganz durchlesen – relevante Angaben können erst am Schluss stehen, manche sind überflüssig.", "herkunft": "ncwiki" },
+        { "text": "Zwischenschritte auf den Blättern notieren; Zwischenresultate runden.", "herkunft": "ncwiki" },
+        { "text": "p % von x = x % von p (z. B. 7 % von 50 = 50 % von 7 = 3,5).", "herkunft": "ncwiki" },
+        { "text": "Kopfrechnen und schriftliches Rechnen ohne Taschenrechner auffrischen; Masseinheiten und Formelumstellen wiederholen.", "herkunft": "ncwiki" }
+      ],
+      "verwandt": ["pruefungstaktik"]
+    },
+    {
+      "id": "figuren-unikat",
+      "name": "Figuren lernen: jede Figur ein Unikat",
+      "kurz": "Jede Figur bekommt sofort ein eigenes, möglichst absurdes Bild – inklusive schwarzer Fläche.",
+      "untertest": "figuren-lernen",
+      "art": "einheit",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Figuren lernen – jede Figur merken", "originaltitel": "So merkst du dir jede Figur im TMS – wissenschaftlich belegt! – Figuren lernen", "url": "https://www.youtube.com/watch?v=IK6gxLsBm54", "videoId": "IK6gxLsBm54", "datum": "2025-09-25", "laenge": "ca. 10 Min.", "fundstelle": "Lernnotizen S. 17 und S. 7 (Gedächtnis-Untertests)" }
+      ],
+      "kernaussage": "Figuren lernen ist kein stures Auswendiglernen, sondern ein Spiel mit Visualisierung, Emotion und Wiederholung: Jede Figur bekommt ein eigenes, möglichst absurdes Bild.",
+      "ziel": "Jede Figur mit einem eigenen Bild samt Lage der schwarzen Fläche ins Langzeitgedächtnis bringen.",
+      "eckdatenTms": "20 Figuren mit je 5 Teilflächen, eine schwarz; ca. 12 Sek./Figur; danach Fakten lernen + Textverständnis (über 1 h); Abfrage ohne schwarze Fläche und in neuer Reihenfolge.",
+      "schritteHinweis": "Deine Notizen geben hier keine feste Schrittfolge vor. Die Reihenfolge «Bild finden → Wiederholen» folgt dem Ablauf in den Notizen.",
+      "schritte": [
+        { "nr": 1, "titel": "Unikat-Bild", "tun": "Jede Figur als «Unikat» speichern: eigenes Bild oder Bedeutung, inklusive Position der schwarzen Fläche.", "achten": [
+          "Je absurder/emotionaler das Bild, desto besser haftet es.",
+          "Nicht nur den Umriss betrachten, auch das Innere (Teilflächen) zur Unterscheidung ähnlicher Figuren.",
+          "«Fensterblick»: Figur als Fenster sehen, durch das man eine Szene/Landschaft sieht, oder Teile als Kopf/Nase usw. deuten.",
+          "Intuitiv die erste Idee nehmen und weiter.",
+          "Keine Panik, wenn zu einer Figur nichts einfällt – solche «Ausreisser» merkt man sich oft besonders gut (Isolations-/Von-Restorff-Effekt)."
+        ], "zeit": "ca. 12 Sek./Figur (TMS)", "herkunft": "milan" },
+        { "nr": 2, "titel": "Aktiv wiederholen", "tun": "Nach allen Figuren einmal zügig mit denselben Assoziationen wiederholen (alternativ nach jeder Zeile) – aktiv erinnern, nicht nur anschauen.", "achten": [], "herkunft": "milan" }
+      ],
+      "einsetzen": [
+        "Notfallliste schneller Assoziationen (Tiere, Cartoonfiguren …), wenn spontan nichts einfällt.",
+        "Blackout-Notlösung nur im Notfall: Häufung einer Position (z. B. oft «unten rechts») erkennen und sich die Abweichler merken."
+      ],
+      "nichtEinsetzen": [
+        "Blackout-Notlösung: riskant, nur im Notfall.",
+        "Mini-Geschichten aus mehreren Figuren: optional – meist zeitlich nicht drin."
+      ],
+      "typischeFehler": [
+        "Häufigster Fehler: nie unter echten Bedingungen (Zeit, Ablenkung, Pause mit Textverständnis) üben.",
+        "Nur anschauen statt aktiv erinnern.",
+        "Ähnliche Figuren nur am Umriss unterscheiden.",
+        "Verwechselte Figurtypen nicht notieren."
+      ],
+      "uebung": {
+        "menge": ["Simulation mit 12 Sek./Figur, danach 60 Min. etwas anderes (Fakten + Text), dann Abfrage."],
+        "reihenfolge": [],
+        "steigerung": [
+          "Nach jeder Runde notieren, welche Figurtypen verwechselt wurden, und die Assoziationsliste erweitern.",
+          "Kreativität trainieren, z. B. durch Zeichentrick-/Anime-Figuren.",
+          "Die Notfallliste wächst mit der Übung."
+        ]
+      },
+      "weitereTipps": [
+        "Ins Langzeitgedächtnis bringen: Visualisierung, Emotion, Absurdität, Wiederholung.",
+        "Figuren: jede Figur als Unikat mit eigenem Bild; Inneres beachten; Fensterblick; Notfallliste.",
+        "Immer mit echter Pause/Ablenkung üben."
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "anpassen",
+        "zeitbudget": "13 s pro Figur (18 Figuren in 4 Min.); Abruf 18 Fragen in 5 Min.",
+        "anpassungen": [
+          { "text": "18 statt 20 Figuren, also etwas mehr Zeit pro Figur.", "herkunft": "anpassung" },
+          { "text": "Pause im EMS: Fakten-Einprägen, Heftwechsel und Textverständnis (45 Min.), dann der Figuren-Abruf.", "herkunft": "anpassung" },
+          { "text": "Abruf-Frage im EMS: Welche Fläche (A–E) war schwarz? Die Figuren kommen in neuer Reihenfolge.", "herkunft": "test-info" },
+          { "text": "In den Einprägephasen sind Notizen verboten – die Markier-Ebene der App ist dort gesperrt.", "herkunft": "test-info" }
+        ],
+        "nurTms": ["20 Figuren, ca. 12 Sek./Figur."]
+      },
+      "varianten": ["W8"],
+      "unklar": [],
+      "ergaenzungen": [
+        { "text": "Die Figuren bestehen oft aus Gruppen von 4–6 ähnlichen Formen – auf gemeinsame Grundformen und innere Linien achten.", "herkunft": "ncwiki" },
+        { "text": "Am Anfang mehr als 4 Minuten Einprägezeit nehmen und schrittweise auf 4 Minuten verkürzen.", "herkunft": "ncwiki" },
+        { "text": "Nicht ständig denselben Test wiederholen.", "herkunft": "ncwiki" },
+        { "text": "Training einige Tage (mindestens 3) vor dem EMS stoppen.", "herkunft": "ncwiki" },
+        { "text": "Lieber 12–15 Figuren sehr gut lernen als alle 18 halb.", "herkunft": "ncwiki" }
+      ],
+      "verwandt": ["fakten-loci"]
+    },
+    {
+      "id": "fakten-loci",
+      "name": "Fakten lernen: erweiterte Loci-Methode",
+      "kurz": "5 Räume nach Alter, 3 feste Plätze, 15 reale Personen, die die Fälle «spielen».",
+      "untertest": "fakten-lernen",
+      "art": "einheit",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Loci-Methode animiert – Fakten lernen", "originaltitel": "LOCI-Methode ANIMIERT erklärt | Mein Gamechanger für 97% im TMS Fakten lernen", "url": "https://www.youtube.com/watch?v=UWF6tIWBdyQ", "videoId": "UWF6tIWBdyQ", "datum": "2026-04-06", "laenge": "ca. 14 Min.", "fundstelle": "Lernnotizen S. 15 und S. 7 (Gedächtnis-Untertests)" }
+      ],
+      "kernaussage": "Fakten lernen ist mit einem festen System vollständig trainierbar: Loci-Methode, erweitert um feste Plätze pro Raum und feste reale Personen, die die Fakten «spielen».",
+      "ziel": "Alle 15 Fälle über die lange Pause ins Langzeitgedächtnis bringen – reines Kurzzeitmerken hält die Pause nicht durch.",
+      "eckdatenTms": "15 Personen (5 Blöcke à 3, je Block gemeinsames Merkmal, z. B. Alter) mit Name, Alter, Beruf, Eigenschaft, Krankheit; 6 Min. Einprägen; ca. 70 Min. bis zur Abfrage; 20 Single-Choice-Fragen.",
+      "schritte": [
+        { "nr": 1, "titel": "5 Räume", "tun": "5 Räume an einem sehr vertrauten Ort (Wohnung, Schulweg, sogar ein Spielhaus); jeder Raum = ein Block, sortiert nach Altersgruppe (jüngste immer im gleichen Raum usw.).", "achten": [], "herkunft": "milan", "phase": "einrichten" },
+        { "nr": 2, "titel": "3 Plätze pro Raum", "tun": "Pro Raum 3 feste Plätze (z. B. Bett, Schreibtisch, Couch) = Person 1–3 → klare Abrufroute («Chunking»).", "achten": [], "herkunft": "milan", "phase": "einrichten" },
+        { "nr": 3, "titel": "15 reale Personen", "tun": "Zusätzlich auf jeden Platz immer dieselbe reale Person aus dem eigenen Leben setzen (15 Bekannte); diese «spielt» die Testperson → Andocken an autobiografisches Gedächtnis.", "achten": [], "herkunft": "milan", "phase": "einrichten" },
+        { "nr": 4, "titel": "Altersgruppe → Raum", "tun": "Altersgruppe erkennen → Raum wählen.", "achten": [], "herkunft": "milan" },
+        { "nr": 5, "titel": "Starkes Bild", "tun": "Pro Person ein starkes Bild.", "achten": [
+          "Fakten in absurde, übertriebene, emotionale Bilder übersetzen (z. B. Name «Stroh» → sitzt auf Stroh; Bankerin → Geldregen; Hochdruck → etwas platzt).",
+          "Nicht wörtlich nehmen: Namensteile verbildlichen (Endung «-sky» → Skier), Kopfschmerz → Pfeil im Kopf.",
+          "Bilder grob, nicht «in 4K» ausmalen – kostet Zeit.",
+          "Geschlecht nicht übersehen (steckt oft im Beruf/Namen); Trick: nur «männlich» mit einem festen Symbol markieren, Rest ist weiblich."
+        ], "herkunft": "milan" },
+        { "nr": 6, "titel": "Kurz wiederholen", "tun": "Kurze Wiederholung aller drei.", "achten": [], "herkunft": "milan" },
+        { "nr": 7, "titel": "Nächster Block", "tun": "Nächster Block.", "achten": [], "herkunft": "milan" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        "Nur Kurzzeitmerken – hält die Pause nicht durch.",
+        "Bilder «in 4K» ausmalen – kostet Zeit.",
+        "Geschlecht übersehen.",
+        "Ohne echte Bedingungen üben (Zeit nicht stoppen, schummeln)."
+      ],
+      "uebung": {
+        "menge": ["Eine Woche täglich eine Fakten-Simulation mit 6-Min.-Timer und 60–70 Min. Pause (dazwischen Textverständnis üben)."],
+        "reihenfolge": [
+          "Heute: 5 Räume × 3 Plätze festlegen und 15 reale Personen zuordnen, aufschreiben.",
+          "Gedächtnispalast auch ohne Aufgaben in Ruhe «begehen», damit er automatisch läuft."
+        ],
+        "steigerung": ["Unter echten Bedingungen üben (mit Freunden, Zeit stoppen, nicht schummeln), früh anfangen – die Lernkurve ist steil."]
+      },
+      "weitereTipps": [
+        "Doppelte Merkmale (mehrere mit Bluthochdruck) sind unproblematisch, weil sie in verschiedenen Räumen sitzen.",
+        "Anders als bei Figuren lernen ist hier aktives Abrufen nötig → mehr Struktur.",
+        "Fakten: Loci mit 5 Räumen (nach Alter), 3 festen Plätzen, 15 festen realen Personen; Bilder grob, schnell; Geschlecht markieren.",
+        "Ins Langzeitgedächtnis bringen: Visualisierung, Emotion, Absurdität, Wiederholung.",
+        "Immer mit echter Pause/Ablenkung üben."
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "anpassen",
+        "zeitbudget": "24 s pro Fall (15 Fälle in 6 Min.); Abruf 18 Fragen in 6 Min.",
+        "anpassungen": [
+          { "text": "Die EMS-Gruppen haben die gleiche Altersstufe, ähnliche Namen und ein gemeinsames Berufsthema – «Raum nach Altersgruppe» passt direkt.", "herkunft": "anpassung" },
+          { "text": "Merkmale im EMS: Name, Alter (ca.), Beruf (verrät das Geschlecht), 1 Zusatzmerkmal (z. B. Stimmung, Station, Zivilstand), Diagnose – entspricht Milans Name, Alter, Beruf, Eigenschaft, Krankheit. Einige Merkmale kommen doppelt vor.", "herkunft": "anpassung" },
+          { "text": "18 statt 20 Fragen, in beliebiger Richtung gestellt (z. B. Diagnose → Name oder Name → Beruf).", "herkunft": "anpassung" },
+          { "text": "Pause im EMS: Heftwechsel, Textverständnis (45 Min.) und Figuren-Abruf (5 Min.), dann der Fakten-Abruf.", "herkunft": "anpassung" },
+          { "text": "In der Einprägephase sind Notizen verboten – die Markier-Ebene ist dort gesperrt, das «männlich»-Symbol setzt du nur im Kopf.", "herkunft": "test-info" }
+        ],
+        "nurTms": ["20 Single-Choice-Fragen, ca. 70 Min. bis zur Abfrage."]
+      },
+      "varianten": ["W1", "W8"],
+      "unklar": [],
+      "ergaenzungen": [
+        { "text": "Nachnamen nicht einzeln merken, sondern die Gemeinsamkeit pro Gruppe (z. B. Farbe, Essen, gleicher Anfangsbuchstabe).", "herkunft": "ncwiki" },
+        { "text": "Eine Liste häufiger Merkmale und Leiden mit passenden Bildern anlegen.", "herkunft": "ncwiki" },
+        { "text": "Training etwa 3 Tage vor dem EMS abbrechen, damit sich Gelerntes nicht mit den echten Fakten vermischt.", "herkunft": "ncwiki" },
+        { "text": "NCWiki nennt auch, zwischen den Texten die Fakten im Kopf durchzugehen. Die NCWiki-Seite zum Textverständnis rät davon ab, weil es ablenkt. Standard in der App: nicht abrufen.", "herkunft": "ncwiki" }
+      ],
+      "verwandt": ["figuren-unikat"]
+    },
+    {
+      "id": "text-markieren",
+      "name": "Textverständnis: markieren statt schnell lesen",
+      "kurz": "Eigenes Symbolsystem, gründlich lesen, 15 Minuten pro Text, Fehleranalyse.",
+      "untertest": "textverstaendnis",
+      "art": "einheit",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Textverständnis: 97 % – so geht's", "originaltitel": "97% on the TMS: This is how I mastered text comprehension", "url": "https://www.youtube.com/watch?v=uZkOTudtWTo", "videoId": "uZkOTudtWTo", "datum": "2026-04-09", "laenge": "ca. 16 Min.", "fundstelle": "Lernnotizen S. 14 und S. 7 (Text- und Datenaufgaben)" }
+      ],
+      "kernaussage": "Zeit spart man nicht durch Schnelllesen, sondern durch Struktur: den Text beim ersten Lesen so markieren, dass man jede Information sofort wiederfindet.",
+      "ziel": "Den Text beim ersten Lesen so markieren, dass du jede Information sofort wiederfindest.",
+      "eckdatenTms": "4 Texte à 6 Fragen, 60 Min.; ein ganzer Text ist (unerkennbar) Einstreutext; Ziel ca. 4 richtige pro Text; Richtwert 15 Min./Text.",
+      "schritte": [
+        { "nr": 1, "titel": "Symbolsystem", "tun": "Eigenes Symbolsystem festlegen und konsequent nutzen: Pfeile/Symbole direkt im Text (+ Zunahme, − Abnahme, Blitz = Hemmung, ?, !).", "achten": [], "herkunft": "milan", "phase": "einrichten" },
+        { "nr": 2, "titel": "Reihenfolge", "tun": "Reihenfolge testen: erst Fragen, dann Text – oder (seine Präferenz) erst unvoreingenommen den Text. Beides ausprobieren.", "achten": [], "herkunft": "milan" },
+        { "nr": 3, "titel": "Lesen und markieren", "tun": "Lieber gründlich und verstanden lesen als überfliegen. «Eins mit dem Text werden»: Fachbegriffe und Signalwörter markieren.", "achten": [
+          "Abschnitte nie isoliert betrachten: Texte greifen Aussagen später wieder auf.",
+          "Abschnitte benennen (Definition, Beispiel …) ist optional – Markierungen reichen meist."
+        ], "herkunft": "milan" },
+        { "nr": 4, "titel": "Fragen beantworten", "tun": "Antwortoptionen clever nutzen: nur die Aussagen prüfen, die zwischen den verbleibenden Optionen entscheiden.", "achten": ["Absolute Formulierungen («immer», «nie») sind meist falsch."], "herkunft": "milan" },
+        { "nr": 5, "titel": "Tempo halten", "tun": "Pro Text 15 Min.; Uhr regelmässig checken; gleichmässiges Tempo wie beim Marathon.", "achten": ["Wird es knapp: Effizienzmodus – grob markieren, gezielt suchen; lieber 4 Fragen sauber als 6 geraten."], "zeit": "15 Min. pro Text", "herkunft": "milan" },
+        { "nr": 6, "titel": "Nachbereiten", "tun": "Nach jeder Übung 10 Min. Fehleranalyse mit Strichliste pro Fehlertyp: Welche Signalwörter halfen? Wo falsch geschlussfolgert? «Nicht» überlesen? Zu viel markiert?", "achten": [], "zeit": "10 Min.", "herkunft": "milan", "phase": "nachbereitung" }
+      ],
+      "einsetzen": [
+        "Effizienzmodus, wenn es zeitlich knapp wird."
+      ],
+      "nichtEinsetzen": [
+        "Speed-Reading – führte bei ihm zu mehr Flüchtigkeitsfehlern."
+      ],
+      "typischeFehler": [
+        "Frage ungenau gelesen.",
+        "Verneinung übersehen («nicht» überlesen).",
+        "Zu schnell ausgeschlossen.",
+        "Stelle falsch verortet.",
+        "Falsch geschlussfolgert.",
+        "Zu viel markiert.",
+        "Überfliegen statt verstehen (Flüchtigkeitsfehler)."
+      ],
+      "uebung": {
+        "menge": ["Pro Text Timer auf 15 Min.; nach jeder Übung 10 Min. Fehleranalyse mit Strichliste pro Fehlertyp."],
+        "reihenfolge": [],
+        "steigerung": []
+      },
+      "weitereTipps": [
+        "Jeden Text so behandeln, als würde er gewertet.",
+        "Für den 4. Text noch ca. 14–15 Min. haben.",
+        "Häufige Themen höchstens kurz auf Wikipedia nachlesen; Fachbücher sind Zeitverschwendung; Unvoreingenommenheit kann sogar helfen.",
+        "Nur aus Text/Grafik ableiten, nicht interpretieren; absolute oder vage Formulierungen sind verdächtig.",
+        "Text mit eigenem Symbolsystem markieren statt überfliegen.",
+        "Textverständnis: 15 Min./Text mit Uhr."
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "anpassen",
+        "zeitbudget": "15 Min. pro Text (3 Texte à 6 Fragen in 45 Min.)",
+        "anpassungen": [
+          { "text": "Im EMS 3 statt 4 Texte: Für den 3. Text noch ca. 15 Min. haben.", "herkunft": "anpassung" },
+          { "text": "Uhr: keine Uhr am Platz – Startzeit merken, Zwischenziele als Uhrzeit (W6).", "herkunft": "anpassung" },
+          { "text": "«Lieber 4 sauber als 6 geraten» + trotzdem alle 6 ankreuzen (W7).", "herkunft": "anpassung" },
+          { "text": "Reihenfolge Fragen/Text: Die App lässt dich beide Varianten über die ersten 6 Texte ausprobieren und schlägt dir die bessere vor.", "herkunft": "anpassung" }
+        ],
+        "nurTms": ["4 Texte, Einstreutext, «Ziel ca. 4 richtige pro Text», «für den 4. Text noch 14–15 Min.»."]
+      },
+      "varianten": ["W6", "W7"],
+      "unklar": [],
+      "ergaenzungen": [
+        { "text": "Pro Übungseinheit nur einen Text bearbeiten, Fehler analysieren und die Erkenntnisse beim nächsten Text anwenden; etwa alle zwei Tage einen Text.", "herkunft": "ncwiki" },
+        { "text": "Bei «zutreffendster Antwort»: Nur eine Option enthält alle direkt aus dem Text ableitbaren Aussagen.", "herkunft": "ncwiki" },
+        { "text": "Nach dem vorherigen Untertest kurz durchatmen und die Energie bündeln.", "herkunft": "ncwiki" }
+      ],
+      "verwandt": ["mednat-ableiten", "pruefungstaktik"]
+    },
+    {
+      "id": "diatab-ableiten",
+      "name": "Diagramme und Tabellen: ableiten statt interpretieren",
+      "kurz": "Achsen-Checkliste, absolut vs. relativ, «Steht das so in der Grafik?».",
+      "untertest": "diagramme-tabellen",
+      "art": "einheit",
+      "herkunft": "milan",
+      "quellen": [
+        { "herkunft": "milan", "titel": "Diagramme & Tabellen: Bearbeitungsstrategie", "originaltitel": "Diagramme & Tabellen: Bearbeitungsstrategie – So hebst du dich von der Masse ab!! DiaTab", "url": "https://www.youtube.com/watch?v=XLmPV62mluc", "videoId": "XLmPV62mluc", "datum": "2026-04-22", "laenge": "ca. 11 Min.", "fundstelle": "Lernnotizen S. 13 und S. 7–8 (Text- und Datenaufgaben)" }
+      ],
+      "kernaussage": "DiaTab ist inhaltlich nicht schwer, aber als letzter Untertest ein Konzentrationstest. Wer jetzt strukturiert arbeitet und nur ableitet statt interpretiert, hebt sich ab.",
+      "ziel": "Strukturiert arbeiten und nur ableiten statt interpretieren.",
+      "eckdatenTms": "24 Aufgaben (20 gewertet), 60 Min. (~2,5 Min./Aufgabe); ca. 12/20 ist schon überdurchschnittlich.",
+      "schritte": [
+        { "nr": 1, "titel": "Fragestellung lesen", "tun": "Fragestellung genau lesen: Wird nach richtiger oder falscher Aussage gefragt? Aufgabenformat unterscheiden: (1) fünf einzelne Aussagen A–E, jede prüfen; (2) Aussagen I–III mit Kombinationsantworten.", "achten": [], "herkunft": "milan" },
+        { "nr": 2, "titel": "Darstellung einordnen", "tun": "Tabellen zeigen meist Momentaufnahmen (oft Prozent/Verhältnisse), Diagramme eher Entwicklungen/Unterschiede/Ausreisser.", "achten": [], "herkunft": "milan" },
+        { "nr": 3, "titel": "Achsen-Checkliste", "tun": "Vor dem Lesen der Aussagen abhaken: Anzahl Achsen, zwei y-Achsen?, Einheiten, linear vs. logarithmisch, Achsenbrüche, fehlende Werte, Ausreisser.", "achten": [], "herkunft": "milan" },
+        { "nr": 4, "titel": "Wertanalyse", "tun": "Absolut oder relativ? Wurde etwas weggelassen?", "achten": [], "herkunft": "milan" },
+        { "nr": 5, "titel": "Aussagen prüfen", "tun": "Bei jeder Aussage innerlich fragen: «Steht das so in der Grafik?» Nicht: Klingt sie logisch oder stimmt sie allgemein? Nicht ableitbar = falsch.", "achten": [
+          "Allgemeine Aussagen mit einem Gegenbeispiel widerlegen; spezifische Aussagen am genannten Punkt prüfen; Aussagen zum gleichen Bereich gebündelt prüfen.",
+          "Manchmal sind kleine Rechnungen nötig, um auszuschliessen."
+        ], "herkunft": "milan" },
+        { "nr": 6, "titel": "Kombi-Taktik", "tun": "Bei I–III-Aufgaben mit der häufigsten Aussage starten: zuerst die Aussage prüfen, die in den meisten Optionen vorkommt; kurze Aussagen zuerst; ist eine Aussage sicher falsch, alle Optionen mit ihr streichen – oft reichen 1–2 geprüfte Aussagen.", "achten": [], "herkunft": "milan" },
+        { "nr": 7, "titel": "Fehlerliste", "tun": "Fehlerliste mit Kategorien «Achse übersehen / interpretiert statt abgeleitet / Frage falsch gelesen / Rechenfehler».", "achten": [], "herkunft": "milan", "phase": "nachbereitung" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        "Vage Wörter («deutlich mehr», «nahezu gleich») – nicht exakt ablesbar = falsch.",
+        "Falscher Bezugspunkt (z. B. nicht dargestellter Durchschnitt).",
+        "Achsenmanipulation.",
+        "Prozent ohne Bezugsgrösse.",
+        "Relativer vs. absoluter Unterschied.",
+        "Zeitvergleich ohne Zeitachse.",
+        "Achse übersehen; interpretiert statt abgeleitet; Frage falsch gelesen; Rechenfehler."
+      ],
+      "uebung": {
+        "menge": [],
+        "reihenfolge": ["Erst ohne Zeitdruck üben, dann unter Testbedingungen."],
+        "steigerung": ["Beim Üben am Tagesende (realistisch müde) – aber Nachbereitung trotzdem machen; Fehlerliste führen."]
+      },
+      "weitereTipps": [
+        "Aufgaben kurz sichten und ggf. überspringen, insgesamt aber eher der Reihe nach (hinten werden Texte/Grafiken komplexer).",
+        "Konzentration aktiv hochholen (Bewegung, Koffein – sein Tipp: Wirkung ca. 15 Min. vor Bedarf einplanen; nur wenn gesundheitlich unbedenklich).",
+        "DiaTab: Achsen-Check, absolute vs. relative Werte, Bezugsgrössen, Zeitachsen; Konzentration am Testende aktiv hochhalten.",
+        "Nur aus Text/Grafik ableiten, nicht interpretieren; absolute oder vage Formulierungen sind verdächtig."
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "anpassen",
+        "zeitbudget": "150 s pro Aufgabe (18 Aufgaben in 45 Min.) – gleiches Tempo wie im TMS",
+        "anpassungen": [
+          { "text": "Im EMS ist DiaTab nicht der letzte Untertest: Danach folgt noch Konz (8 Min.). Die Konzentration muss also bis nach Konz reichen.", "herkunft": "anpassung" },
+          { "text": "Nach Diagramme und Tabellen darfst du keine leeren Felder früherer Gruppen mehr ausfüllen – den Antwortbogen also noch während dieser Gruppe kontrollieren.", "herkunft": "test-info" },
+          { "text": "Snacks und Getränke nur lose oder in einem vollständig durchsichtigen Behälter.", "herkunft": "test-info" }
+        ],
+        "nurTms": ["24 Aufgaben (20 gewertet), 60 Min., «ca. 12/20 überdurchschnittlich»."]
+      },
+      "varianten": [],
+      "unklar": [],
+      "ergaenzungen": [],
+      "verwandt": ["mednat-ableiten", "text-markieren"]
+    },
+    {
+      "id": "konz-zeilenweise",
+      "name": "Konz: Regel einprägen, Schlüsselzeichen, zeilenweise",
+      "kurz": "Regel fest im Kopf, ein Schlüsselzeichen, Zeile für Zeile, ein klarer Strich.",
+      "untertest": "konz",
+      "art": "einheit",
+      "herkunft": "ncwiki",
+      "quellen": [
+        { "herkunft": "ncwiki", "titel": "NCWiki – Konzentriertes und sorgfältiges Arbeiten", "url": "https://www.nc-wiki.ch/konz-und-sorgfaltiges-arbeiten/" },
+        { "herkunft": "test-info", "titel": "Test-Info 2026 – Besonderheiten beim Konz, Wertung", "url": "https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Lehre/Medizin/Testinfo2026_de.pdf", "fundstelle": "S. 9–11" },
+        { "herkunft": "test-info", "titel": "Beispielaufgaben Konz", "url": "https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Lehre/Medizin/BeispielaufgabenKonz.pdf" }
+      ],
+      "ziel": "8 Minuten lang Zeile für Zeile möglichst viele Zeichen richtig markieren – ohne Übersehen und ohne Fehlmarkierungen.",
+      "schritteHinweis": "Zu Konz gibt es in deinen Notizen keine Methode. Die Schritte stammen von NCWiki, aus deinen ergänzenden Strategien und aus der Test-Info.",
+      "schritte": [
+        { "nr": 1, "titel": "Regel einprägen", "tun": "Die Bedingung während der Erklärung genau merken – im Test hast du keine Zeit, nachzuschauen.", "achten": [{ "text": "Notizen nur während der Instruktion und nur im vorgesehenen Feld auf dem sichtbaren Teil des Antwortbogens (W4).", "herkunft": "test-info" }, { "text": "Bei Rechenbedingungen die richtigen Kombinationen vorab notieren – im EMS nur in diesem Feld.", "herkunft": "ncwiki" }], "herkunft": "ncwiki" },
+        { "nr": 2, "titel": "Schlüsselzeichen", "tun": "Nur auf ein entscheidendes Zeichen achten und jeweils prüfen, ob die Bedingung zutrifft.", "achten": [], "herkunft": "ncwiki" },
+        { "nr": 3, "titel": "Muster statt Regel", "tun": "Das Muster der richtigen Lösung einprägen und visuell erkennen.", "achten": [{ "text": "Ähnliche Zeichen (z. B. p/q, b/d) nicht verwechseln.", "herkunft": "ncwiki" }], "herkunft": "ncwiki" },
+        { "nr": 4, "titel": "Zeilenweise", "tun": "Zeile für Zeile von links nach rechts, keine Zeile auslassen.", "achten": [], "herkunft": "ergaenzung" },
+        { "nr": 5, "titel": "Ein klarer Strich", "tun": "Ein klarer Strich, nicht korrigieren.", "achten": [{ "text": "In der Zeit des Radierens verliert man mehr, als man durch schnelles Weiterarbeiten gewinnt.", "herkunft": "test-info" }, { "text": "Nicht zurückgehen oder über Fehler ärgern – das kostet Zeit und führt zu weiteren Fehlern.", "herkunft": "ncwiki" }], "herkunft": "ergaenzung" },
+        { "nr": 6, "titel": "Tempo prüfen", "tun": "Pro Zeile sind etwa 10 Markierungen normal, 8 bis 12 sind in Ordnung. Hast du in einer Zeile nur etwa 4 markiert, lohnt es sich, diese Zeile nochmals zu prüfen.", "achten": [], "herkunft": "ncwiki" }
+      ],
+      "einsetzen": [],
+      "nichtEinsetzen": [],
+      "typischeFehler": [
+        { "text": "Zu schwache, zu kurze oder zu lange Striche – das Lesegerät erkennt sie nicht.", "herkunft": "test-info" },
+        { "text": "Ähnliche Zeichen verwechseln (p/q, b/d).", "herkunft": "ncwiki" },
+        { "text": "Radieren oder zurückgehen.", "herkunft": "test-info" },
+        { "text": "Eine Zeile auslassen.", "herkunft": "ergaenzung" }
+      ],
+      "uebung": {
+        "menge": [{ "text": "Höchstens 1–2× pro Woche ein volles 8-Min.-Blatt, jedes Mal mit neuer Regel (W3).", "herkunft": "ergaenzung" }],
+        "reihenfolge": [
+          { "text": "Etwa 1,5 bis 2 Monate vor dem Test anfangen.", "herkunft": "ncwiki" },
+          { "text": "Nicht als Erstes üben, sondern nach anderen Untertests – müde wie am Testtag.", "herkunft": "ncwiki" }
+        ],
+        "steigerung": [
+          { "text": "Verschiedene Aufgabentypen (Symbole, Buchstaben, Zahlen) und gekoppelte Bedingungen üben – die echten Aufgaben sind oft komplexer.", "herkunft": "ncwiki" },
+          { "text": "Den Stift vorher testen, damit die Striche dunkel und sauber sind.", "herkunft": "ncwiki" }
+        ]
+      },
+      "werkzeuge": [
+        { "text": "Format: 8 Minuten, ein Blatt mit 40 × 40 = 1600 Zeichen in Quadraten, ca. 400 Zielzeichen (~10 pro Zeile). Regel und Zeichen (Symbole, Ziffern oder Buchstaben) wechseln jedes Jahr; kaum alle Zeichen sind schaffbar.", "herkunft": "test-info" },
+        { "text": "Wertung bis zur letzten Markierung: +1 pro richtig markiertem Zeichen, −1 pro falsch markiertem oder fälschlich nicht markiertem Zeichen (max. 400 Zähleinheiten). Die schlechtesten 1,5 % erhalten 0, die besten 1,5 % 18 Punkte, der Rest wird in 17 gleiche Abschnitte eingeteilt. Die App rechnet daraus eine dokumentierte Näherung.", "herkunft": "test-info" },
+        { "text": "Schwarzer oder blauer Filzschreiber (nicht rot oder violett); keine Hilfsmittel wie Lineal oder anderes Papier.", "herkunft": "test-info" }
+      ],
+      "weitereTipps": [
+        { "text": "Nach dem Test nicht fragen, wie weit andere gekommen sind – das sagt wenig aus.", "herkunft": "ncwiki" },
+        { "text": "Unbeabsichtigte Striche nach dem Test sofort der Aufsicht melden.", "herkunft": "ncwiki" }
+      ],
+      "beispiele": [],
+      "ems": {
+        "status": "gilt-direkt",
+        "zeitbudget": "8 Min. pro Blatt",
+        "anpassungen": [],
+        "nurTms": []
+      },
+      "varianten": ["W2", "W3", "W4"],
+      "unklar": [],
+      "ergaenzungen": [],
+      "verwandt": ["pruefungstaktik"]
+    }
+  ]
+}

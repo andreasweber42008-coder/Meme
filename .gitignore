@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+playwright-report
+test-results
+.DS_Store
+# Fremdmaterial (NCWiki, swissuniversities, eigene Scans) gehört nie ins Repo,
+# sondern nur in den privaten Speicher der App.
+material/
+*.pdf
