@@ -42,18 +42,16 @@ async function nachgestelltesBackend(page: Page, start: Partial<Backend> = {}): 
     if (url.pathname === "/auth/v1/user") return json(route, sitzung().user);
     if (url.pathname === "/auth/v1/logout") return route.fulfill({ status: 204 });
 
-    if (url.pathname === "/rest/v1/methoden_fortschritt") {
-      if (req.method() === "GET") return json(route, zustand.fortschritt);
-      if (req.method() === "POST") {
-        zustand.upserts++;
-        const zeilen = ([] as Array<Record<string, unknown>>).concat(req.postDataJSON());
-        for (const z of zeilen) {
-          zustand.fortschritt = zustand.fortschritt.filter((x) => x.methode_id !== z.methode_id);
-          zustand.fortschritt.push({ user_id: USER_ID, stufe: 1, stats: {}, ...z });
-        }
-        return route.fulfill({ status: 201, headers: { "access-control-allow-origin": "*" } });
+    if (url.pathname === "/rest/v1/rpc/dokumente_speichern") {
+      const { eintraege } = req.postDataJSON() as { eintraege: Array<Record<string, unknown>> };
+      zustand.upserts++;
+      for (const e of eintraege) {
+        zustand.fortschritt = zustand.fortschritt.filter((x) => !(x.sammlung === e.sammlung && x.id === e.id));
+        zustand.fortschritt.push({ ...e, server_am: new Date().toISOString() });
       }
+      return json(route, eintraege.length);
     }
+    if (url.pathname === "/rest/v1/dokumente" && req.method() === "GET") return json(route, []);
     return json(route, { message: `nicht nachgestellt: ${req.method()} ${url.pathname}` }, 404);
   });
   return zustand;
@@ -113,8 +111,8 @@ test("Bibliothek: Methode öffnen, Schritte lesen, als verstanden markieren", as
   await page.getByRole("button", { name: "Methode verstanden" }).click();
   await expect(page.getByText("Stark! Stufe 1 «Verstehen» erledigt.")).toBeVisible();
   await expect(page.getByRole("button", { name: "Verstanden – zurücksetzen" })).toBeVisible();
-  expect(backend.upserts).toBe(1);
-  expect(backend.fortschritt[0]).toMatchObject({ methode_id: "kreuzblick" });
+  await expect.poll(() => backend.upserts, { timeout: 8000 }).toBeGreaterThanOrEqual(1);
+  expect(backend.fortschritt.find((d) => d.sammlung === "fortschritt" && d.id === "kreuzblick")).toBeTruthy();
 });
 
 test("Fakten-Methode zeigt beide Varianten W1 mit Entscheidung", async ({ page }) => {

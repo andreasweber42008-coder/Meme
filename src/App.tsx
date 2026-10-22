@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { AuthProvider } from "@/hooks/useAuth";
+import { DatenProvider } from "@/daten/DatenProvider";
 import { RequireAuth } from "@/components/RequireAuth";
 import { AppShell } from "@/components/AppShell";
 import { KonfigurationFehlt } from "@/components/KonfigurationFehlt";
@@ -22,6 +23,7 @@ export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
+        <DatenProvider>
         <BrowserRouter>
           <Routes>
             <Route path="/login" element={<Login />} />
@@ -50,6 +52,7 @@ export default function App() {
             />
           </Routes>
         </BrowserRouter>
+        </DatenProvider>
         <Toaster position="top-center" richColors />
       </AuthProvider>
     </QueryClientProvider>

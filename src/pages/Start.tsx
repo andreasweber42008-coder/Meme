@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { METHODEN } from "@/content";
 import { UNTERTESTS } from "@/content/untertests";
-import { useFortschritt } from "@/hooks/useFortschritt";
+import { useFortschritt } from "@/lernpfad/fortschritt";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Logo } from "@/components/Logo";
@@ -10,9 +10,10 @@ import { Logo } from "@/components/Logo";
 const EINHEITEN = METHODEN.filter((m) => m.art === "einheit");
 
 export default function Start() {
-  const { data: fortschritt, isLoading } = useFortschritt();
-  const verstanden = EINHEITEN.filter((m) => fortschritt?.[m.id]?.verstanden_am).length;
-  const naechste = EINHEITEN.find((m) => !fortschritt?.[m.id]?.verstanden_am);
+  const fortschritt = useFortschritt();
+  const isLoading = false;
+  const verstanden = EINHEITEN.filter((m) => fortschritt[m.id]?.verstandenAm).length;
+  const naechste = EINHEITEN.find((m) => !fortschritt[m.id]?.verstandenAm);
   const anteil = Math.round((verstanden / EINHEITEN.length) * 100);
 
   return (

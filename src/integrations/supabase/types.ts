@@ -5,58 +5,30 @@ export type Database = {
   public: {
     Tables: {
       profil: {
-        Row: {
-          id: string;
-          anzeigename: string | null;
-          einstellungen: Json;
-          erstellt_am: string;
-          geaendert_am: string;
-        };
-        Insert: {
-          id: string;
-          anzeigename?: string | null;
-          einstellungen?: Json;
-        };
-        Update: {
-          anzeigename?: string | null;
-          einstellungen?: Json;
-        };
+        Row: { id: string; anzeigename: string | null; einstellungen: Json; erstellt_am: string; geaendert_am: string };
+        Insert: { id: string; anzeigename?: string | null; einstellungen?: Json };
+        Update: { anzeigename?: string | null; einstellungen?: Json };
         Relationships: [];
       };
-      methoden_fortschritt: {
+      dokumente: {
         Row: {
           user_id: string;
-          methode_id: string;
-          stufe: number;
-          verstanden_am: string | null;
-          beherrscht_am: string | null;
-          naechste_wiederholung: string | null;
-          stats: Json;
-          erstellt_am: string;
+          sammlung: string;
+          id: string;
+          daten: Json;
+          geloescht: boolean;
           geaendert_am: string;
+          server_am: string;
         };
-        Insert: {
-          user_id?: string;
-          methode_id: string;
-          stufe?: number;
-          verstanden_am?: string | null;
-          beherrscht_am?: string | null;
-          naechste_wiederholung?: string | null;
-          stats?: Json;
-        };
-        Update: {
-          stufe?: number;
-          verstanden_am?: string | null;
-          beherrscht_am?: string | null;
-          naechste_wiederholung?: string | null;
-          stats?: Json;
-        };
+        Insert: { sammlung: string; id: string; daten: Json; geloescht?: boolean; geaendert_am: string };
+        Update: { daten?: Json; geloescht?: boolean; geaendert_am?: string };
         Relationships: [];
       };
     };
     Views: { [_ in never]: never };
     Functions: {
       registrierung_offen: { Args: Record<string, never>; Returns: boolean };
+      dokumente_speichern: { Args: { eintraege: Json }; Returns: number };
     };
     Enums: { [_ in never]: never };
     CompositeTypes: { [_ in never]: never };

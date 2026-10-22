@@ -1,0 +1,2362 @@
+{
+ "quelle": "https://www.nc-wiki.ch/ubungsserien/ und https://www.nc-wiki.ch/testsimulationen/ (Stand 22.10.2026)",
+ "lizenz": "CC BY-NC 4.0 (NCWiki). Nur Titel und Links – das Material selbst liegt nur im privaten Speicher.",
+ "kursskript": {
+  "id": "ncwiki-kursskript-2026",
+  "titel": "NCWiki-Kursskript 2026",
+  "dateien": [
+   {
+    "quelle": "drive",
+    "ref": "1g7JeNVZdTnhpyrHNzxIAR8Y1OFfSjXQr",
+    "art": "gesamt",
+    "titel": "Kursskript 2026 als PDF"
+   }
+  ]
+ },
+ "sets": [
+  {
+   "id": "ncwiki-sim-2026",
+   "titel": "NCWiki-Testsimulation 2026",
+   "gruppe": "simulation",
+   "jahr": 2026,
+   "serie": 1,
+   "zeitMinuten": 235,
+   "anzahl": 144,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1uBpSMJV8OQM9kDOB0dVS0eFszu9iEfwK",
+     "art": "aufgaben",
+     "titel": "Testsimulation 2026"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1GiHinK12numvCsqZ7oaO6kAeY0Sz_mZU",
+     "art": "loesungen",
+     "titel": "Lösung Testsimulation 2026"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1tFikX-9oFEeOME-YTFMvn3JAYAclpywT",
+     "art": "loesungen",
+     "titel": "Vergleich Testprozentrang 2026"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-sim-2025",
+   "titel": "NCWiki-Testsimulation 2025",
+   "gruppe": "simulation",
+   "jahr": 2025,
+   "serie": 1,
+   "zeitMinuten": 235,
+   "anzahl": 144,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1HNZpaWXycidDk7KfPzMZTaDn9rsF_Pfz",
+     "art": "aufgaben",
+     "titel": "Testsimulation 2025"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1LZzB5WHMaUKOn43jgx8SV935OH6OWp7m",
+     "art": "konz",
+     "titel": "Lösung & Auswertung Konztentrationstest Testsimulation 2025"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1ZhqBE-Q_PgFQwSKPNLMM-46r9_McMBlJ",
+     "art": "loesungen",
+     "titel": "Vergleich Testprozentrang 2025"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-sim-2024",
+   "titel": "NCWiki-Testsimulation 2024",
+   "gruppe": "simulation",
+   "jahr": 2024,
+   "serie": 1,
+   "zeitMinuten": 235,
+   "anzahl": 144,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1ezPKxWo5JruXvPuBAil3tU0orrmRFoSB",
+     "art": "aufgaben",
+     "titel": "Testsimulation 2024"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1MYaGIoapG_Viw0Yx1RrXdBtfZBy4YRfn",
+     "art": "loesungen",
+     "titel": "Lösung Testsimulation 2024"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1-pd4tEZo7gbqfzDCA_h7csQ7yKPq3Eh5",
+     "art": "konz",
+     "titel": "Punktezahl und Instruktionen Konzentrationstest 2024"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1-FwH6edoUTehLb793fzYfYUHzjqKxgs7",
+     "art": "loesungen",
+     "titel": "Vergleich Testprozentrang"
+    }
+   ],
+   "hinweis": "Enthält noch Schlauchfiguren statt Objekte im Raum (bis 2024)."
+  },
+  {
+   "id": "ncwiki-sim-2023",
+   "titel": "NCWiki-Testsimulation 2023",
+   "gruppe": "simulation",
+   "jahr": 2023,
+   "serie": 1,
+   "zeitMinuten": 235,
+   "anzahl": 144,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "18qzV7b-83q9r8c9NgiF4J-_YyGVl4fa2",
+     "art": "aufgaben",
+     "titel": "Testsimulation 2023"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1DCaTP6E_YDxIYtYK0XFq6uIIbwFWNAye",
+     "art": "loesungen",
+     "titel": "Lösungen der Testsimulation 2023"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1KJYoeNLLGLaGuXK1m5KrxZoOQYWmk8Tc",
+     "art": "konz",
+     "titel": "Lösung Konzentrationstest"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1CHViRetmH0ecSZz39YTNFmgRoiJ6_HFL",
+     "art": "konz",
+     "titel": "Konzentrationstest Auswertung"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1o2YrdITYQJq1QTtAFV0acTalYBecVywV",
+     "art": "loesungen",
+     "titel": "Vergleich Testprozentrang"
+    }
+   ],
+   "hinweis": "Enthält noch Schlauchfiguren statt Objekte im Raum (bis 2024)."
+  },
+  {
+   "id": "ncwiki-sim-2022",
+   "titel": "NCWiki-Testsimulation 2022",
+   "gruppe": "simulation",
+   "jahr": 2022,
+   "serie": 1,
+   "zeitMinuten": 235,
+   "anzahl": 144,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "17TKAoQVLtZi6wSD4fcf8np5WhgQDk3Xl",
+     "art": "aufgaben",
+     "titel": "Testsimulation 2022"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1fjLmO16WksB2fwD0PIz-Qlt67PhYd7cm",
+     "art": "loesungen",
+     "titel": "Lösungen der Testsimulation 2022"
+    },
+    {
+     "quelle": "drive",
+     "ref": "19TaZ-2-RK7-wPgdEJZofYqwYjt-Bkc5n",
+     "art": "konz",
+     "titel": "Lösung Konzentrationstest"
+    },
+    {
+     "quelle": "drive",
+     "ref": "12zP5s5b6JHAWc7HkbJNMXA6P7KOCaMXg",
+     "art": "konz",
+     "titel": "Auswertung Konztest"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1kvINrKZZ-1EC2GwF6tuepXTPatpP4emu",
+     "art": "loesungen",
+     "titel": "Vergleich Testprozentrang"
+    }
+   ],
+   "hinweis": "Enthält noch Schlauchfiguren statt Objekte im Raum (bis 2024)."
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2026-2",
+   "titel": "Muster zuordnen – Serie 2 (2026)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2026,
+   "serie": 2,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1MCvEXnHnvgx17o-_buX1O62RT6jy9sNP",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1gwiDEmGF4lSQKaXW5rVNogLpM1JYjipY",
+     "art": "loesungen",
+     "titel": "Muster zuordnen 2 Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2026-3",
+   "titel": "Muster zuordnen – Serie 3 (2026)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2026,
+   "serie": 3,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1brCxpzLxEVf-8KNGPB-9-hSEUAb7Ay5m",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 3"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1xv3PyXJjZ9suWiNBjQFYKNl2yzOB1hac",
+     "art": "loesungen",
+     "titel": "Muster zuordnen 3 Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2026-4",
+   "titel": "Muster zuordnen – Serie 4 (2026)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2026,
+   "serie": 4,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1ADk9ODFBCqFTHmbx45YNGpRrNyl7h7dc",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 4"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1vxGhfK1aB4w_kOmJ0VURDwrRQv4ad3bp",
+     "art": "loesungen",
+     "titel": "Muster zuordnen 4 Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2025-2",
+   "titel": "Muster zuordnen – Serie 2 (2025)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1mJmYaghmo0m84r33o7I7ncA8ivZaijen",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1cVm3OnFEYxSkk6ApgN1Q2Y9eGaySC7bz",
+     "art": "loesungen",
+     "titel": "Muster zuordnen 2 Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2025-3",
+   "titel": "Muster zuordnen – Serie 3 (2025)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2025,
+   "serie": 3,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1PqnZWChfDCe2Nucd71Bkda0_ldhKxZ5x",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 3"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1rJ8fKMQPiVsIeiTwLf8jceFUS6HmTFuB",
+     "art": "loesungen",
+     "titel": "Muster zuordnen 3 Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2025-4",
+   "titel": "Muster zuordnen – Serie 4 (2025)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2025,
+   "serie": 4,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1Th9VlB5xOupy-TKfy533LXZZ8nhQCjeI",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 4"
+    },
+    {
+     "quelle": "drive",
+     "ref": "10LizwOd_oQyd9Pozoe4JPH1PrXbLEL7H",
+     "art": "loesungen",
+     "titel": "Muster zuordnen 4 Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2025-5",
+   "titel": "Muster zuordnen – Serie 5 (2025)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2025,
+   "serie": 5,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1_SNoTqUu3y1l0qXdTbTcOVZo48Pc44A6",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 5"
+    },
+    {
+     "quelle": "drive",
+     "ref": "13TcWE2sb8wkIPyO_sgbNRWKGaeTNF9j3",
+     "art": "loesungen",
+     "titel": "Muster zuordnen 5 Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2024-2",
+   "titel": "Muster zuordnen – Serie 2 (2024)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2024,
+   "serie": 2,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1U6pHCR9CAYnJHVy57-m57P4SVV7ACnTx",
+     "art": "gesamt",
+     "titel": "Muster zuordnen 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2024-3",
+   "titel": "Muster zuordnen – Serie 3 (2024)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2024,
+   "serie": 3,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1CILODQQ3vtGcMPdaxnO8RW9WkAyYFaPW",
+     "art": "gesamt",
+     "titel": "Muster zuordnen 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2022-2",
+   "titel": "Muster zuordnen – Serie 2 (2022)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2022,
+   "serie": 2,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "gdoc",
+     "ref": "1JynwpQhwzO0w1hVwP9ZdHAL4Ei6O6BT3VNkn252FUK0",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1GGCt7r65WzyKW2voPnzuX-Ht7GKuxouy",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2021-1",
+   "titel": "Muster zuordnen – Serie 1 (2021)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2021,
+   "serie": 1,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/muster-zuordnen-1/?wpdmdl=1954&masterkey=60c791b3b6ee7",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 1"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/muster-zuordnen-1-losungen/?wpdmdl=1955&masterkey=60c791b872bbe",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-muster-zuordnen-2021-2",
+   "titel": "Muster zuordnen – Serie 2 (2021)",
+   "gruppe": "muster-zuordnen",
+   "jahr": 2021,
+   "serie": 2,
+   "zeitMinuten": 16,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/muster-zuordnen-2/?wpdmdl=1956&masterkey=60c792593ca6c",
+     "art": "aufgaben",
+     "titel": "Muster zuordnen 2"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/muster-zuordnen-2-losungen/?wpdmdl=1957&masterkey=60c792717a868",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-med-nat-2026-2",
+   "titel": "Med-Nat – Serie 2 (2026)",
+   "gruppe": "med-nat",
+   "jahr": 2026,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "12GaOpP11Ux0XvHVp2_5viS6dlRJ1KhFC",
+     "art": "gesamt",
+     "titel": "Med-nat Grundverständnis 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2026-3",
+   "titel": "Med-Nat – Serie 3 (2026)",
+   "gruppe": "med-nat",
+   "jahr": 2026,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1KJDJ1fgV3BrQy1Dlsyn_utQFSKhjFHDz",
+     "art": "gesamt",
+     "titel": "Med-nat Grundverständnis 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2025-2",
+   "titel": "Med-Nat – Serie 2 (2025)",
+   "gruppe": "med-nat",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1cdEcIk5IL6n1tiwe_zHqIMQ6tX5ofDKc",
+     "art": "gesamt",
+     "titel": "Med-nat Grundverständnis 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2025-3",
+   "titel": "Med-Nat – Serie 3 (2025)",
+   "gruppe": "med-nat",
+   "jahr": 2025,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1XzMxSIBHE3cV9DdBHH5NYawidy8rdrM-",
+     "art": "gesamt",
+     "titel": "Med-nat Grundverständnis 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2025-4",
+   "titel": "Med-Nat – Serie 4 (2025)",
+   "gruppe": "med-nat",
+   "jahr": 2025,
+   "serie": 4,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1qa0hCf95oLG6rSGZAd22u8jfC0k9lw60",
+     "art": "gesamt",
+     "titel": "Med-nat Grundverständnis 4 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2025-5",
+   "titel": "Med-Nat – Serie 5 (2025)",
+   "gruppe": "med-nat",
+   "jahr": 2025,
+   "serie": 5,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1rh4isln16cHifTy-ozkFziNVNYz06zqo",
+     "art": "gesamt",
+     "titel": "Med-nat Grundverständnis 5 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2024-2",
+   "titel": "Med-Nat – Serie 2 (2024)",
+   "gruppe": "med-nat",
+   "jahr": 2024,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1RCVJgS0ZrQkar5K0LXN0zW7Fygi7ljzX",
+     "art": "gesamt",
+     "titel": "Med-nat Grundverständnis 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2024-3",
+   "titel": "Med-Nat – Serie 3 (2024)",
+   "gruppe": "med-nat",
+   "jahr": 2024,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1RbiT9bW93BlgNf4SeL5vHC-WHwqQe1yy",
+     "art": "gesamt",
+     "titel": "Med-nat Grundverständnis 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2022-1",
+   "titel": "Med-Nat – Serie 1 (2022)",
+   "gruppe": "med-nat",
+   "jahr": 2022,
+   "serie": 1,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "104WK58Im_-jzPdydyGhtx2CqxNXK663i",
+     "art": "aufgaben",
+     "titel": "Med-nat Grundverständnis 1"
+    },
+    {
+     "quelle": "drive",
+     "ref": "106G2S0LU6f9ur1TbVCRKeSDBJ6gXjagz",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2022-2",
+   "titel": "Med-Nat – Serie 2 (2022)",
+   "gruppe": "med-nat",
+   "jahr": 2022,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1aeoKb1sBuSZPDn7dS0a00ns6Ee70UWQV",
+     "art": "aufgaben",
+     "titel": "Med-nat Grundverständnis 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "153r_XXHV1rafst0uiTSc4uUmUL23pq41",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-med-nat-2021-1",
+   "titel": "Med-Nat – Serie 1 (2021)",
+   "gruppe": "med-nat",
+   "jahr": 2021,
+   "serie": 1,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/mednat-1/?wpdmdl=1959&masterkey=60c792b66e601",
+     "art": "aufgaben",
+     "titel": "Med-nat Grundverständnis 1"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/mednat-1-losungen/?wpdmdl=1958&masterkey=60c792ca85679",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-med-nat-2021-2",
+   "titel": "Med-Nat – Serie 2 (2021)",
+   "gruppe": "med-nat",
+   "jahr": 2021,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/mednat-2/?wpdmdl=1962&masterkey=60c792e5ea5ed",
+     "art": "aufgaben",
+     "titel": "Med-nat Grundverständnis 2"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/mednat-2-losungen/?wpdmdl=1961&masterkey=60c792f5641ef",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-med-nat-2021-3",
+   "titel": "Med-Nat – Serie 3 (2021)",
+   "gruppe": "med-nat",
+   "jahr": 2021,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/mednat-3/?wpdmdl=1963&masterkey=60c7932f0282e",
+     "art": "aufgaben",
+     "titel": "Med-nat Grundverständnis 3"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/mednat-3-losungen/?wpdmdl=1964&masterkey=60c79343a0881",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2026-2",
+   "titel": "Objekte im Raum – Serie 2 (2026)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2026,
+   "serie": 2,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1kcg_eud3IfEStUzrMV476jo9ePZbnKBG",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2026-3",
+   "titel": "Objekte im Raum – Serie 3 (2026)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2026,
+   "serie": 3,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "11dquSAPhGLSKUWkjTNAYrFW84ZeuEXOF",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2026-4",
+   "titel": "Objekte im Raum – Serie 4 (2026)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2026,
+   "serie": 4,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1I31L1UwmIBZ7ppKyfGDn9j4z_1t3xrS1",
+     "art": "gesamt",
+     "titel": "Objekte imRaum 4 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2026-5",
+   "titel": "Objekte im Raum – Serie 5 (2026)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2026,
+   "serie": 5,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1NcyZ5xn9HidCruWKIhzP_r9Dy-bpfc6B",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 5 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2026-6",
+   "titel": "Objekte im Raum – Serie 6 (2026)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2026,
+   "serie": 6,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "18_77mhf-RSwxXHGjhxiEX3zqcqFp4lba",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 6 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-2",
+   "titel": "Objekte im Raum – Serie 2 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1NRST3kAUOfqvi61FuRmIkZR_-4EEwVWF",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-3",
+   "titel": "Objekte im Raum – Serie 3 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 3,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "17G-9fIKgToebnJlbpLx0DQQPiIXk19NR",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-4",
+   "titel": "Objekte im Raum – Serie 4 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 4,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1Caif0P6Gm1fkFP7sAJHeLCr3IoIGZjvB",
+     "art": "gesamt",
+     "titel": "Objekte imRaum 4 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-5",
+   "titel": "Objekte im Raum – Serie 5 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 5,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1xDEeb1R56Jbn5dUAXTdKJAhmhbSEkkZg",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 5 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-6",
+   "titel": "Objekte im Raum – Serie 6 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 6,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1ZBqOOB58KzI62BySsoABsabQwkLJpFOD",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 6 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-7",
+   "titel": "Objekte im Raum – Serie 7 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 7,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1sRrK0e991f6ZH0EvfW_a0dpm7AiKY1go",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 7 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-8",
+   "titel": "Objekte im Raum – Serie 8 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 8,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1jZrVisGmMG03cEFJ60l-H58Xt20OAzhU",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 8 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-9",
+   "titel": "Objekte im Raum – Serie 9 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 9,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1mPynFgOui6FJBPL5EcwZ6w2GRfjoLjqd",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 9 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-objekte-im-raum-2025-10",
+   "titel": "Objekte im Raum – Serie 10 (2025)",
+   "gruppe": "objekte-im-raum",
+   "jahr": 2025,
+   "serie": 10,
+   "zeitMinuten": 10,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "19rEAKfnJlhgYJo6ejhjerzvNmFyU1pJC",
+     "art": "gesamt",
+     "titel": "Objekte im Raum 10 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2026-2",
+   "titel": "Quanti – Serie 2 (2026)",
+   "gruppe": "quanti",
+   "jahr": 2026,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1Hv-gWHoLgh9JtNoOJAABVnqXojr_Ll1e",
+     "art": "gesamt",
+     "titel": "Quantitat + formale Probleme 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1s4aQjnnAHkWX6zkG_hV5Sj6G5f6gg5Bd",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2026-3",
+   "titel": "Quanti – Serie 3 (2026)",
+   "gruppe": "quanti",
+   "jahr": 2026,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1guUL7Xgs9l8s2ucCtiWZnSgnZdHPTMp5",
+     "art": "gesamt",
+     "titel": "Quantitat + formale Probleme 3"
+    },
+    {
+     "quelle": "drive",
+     "ref": "16pBdJmpp8BnsKLxG2LA6d90FB0x3I5nf",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2025-2",
+   "titel": "Quanti – Serie 2 (2025)",
+   "gruppe": "quanti",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "12fMU5_Nu2enf3pyn8FJipXW31hYriyxC",
+     "art": "gesamt",
+     "titel": "Quantitative + formale Probleme 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2025-4",
+   "titel": "Quanti – Serie 4 (2025)",
+   "gruppe": "quanti",
+   "jahr": 2025,
+   "serie": 4,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1al3hvkI0ccmnvgw1CpJs4imgqnu5fjYl",
+     "art": "gesamt",
+     "titel": "Quantitative + formale Probleme 4 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2025-5",
+   "titel": "Quanti – Serie 5 (2025)",
+   "gruppe": "quanti",
+   "jahr": 2025,
+   "serie": 5,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1KpR36A-91wc_32TIevR5XAqIWVxmU8eK",
+     "art": "gesamt",
+     "titel": "Quantitative + formale Probleme 5 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2024-2",
+   "titel": "Quanti – Serie 2 (2024)",
+   "gruppe": "quanti",
+   "jahr": 2024,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1N-REnkjlqiQRkUokKlpdFGA0kLTNUfJF",
+     "art": "gesamt",
+     "titel": "Quantitative + formale Probleme 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2024-3",
+   "titel": "Quanti – Serie 3 (2024)",
+   "gruppe": "quanti",
+   "jahr": 2024,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1kacTqKb19KXHup2mIn0y3-OHlZ74SN6H",
+     "art": "gesamt",
+     "titel": "Quantitative + formale Probleme 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2022-2",
+   "titel": "Quanti – Serie 2 (2022)",
+   "gruppe": "quanti",
+   "jahr": 2022,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1sZ60bfPhb_BY-p1DJVlb1HefztVeuRdJ",
+     "art": "gesamt",
+     "titel": "Quantitat + formale Probleme 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1QY4DDscumdB29jE7YgRABU99XSEy1xKo",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-quanti-2021-1",
+   "titel": "Quanti – Serie 1 (2021)",
+   "gruppe": "quanti",
+   "jahr": 2021,
+   "serie": 1,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/qfp-1/?wpdmdl=1965&masterkey=60c7939dc167a",
+     "art": "gesamt",
+     "titel": "Quantitat + formale Probleme 1"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/qfp-1-losungen/?wpdmdl=1966&masterkey=60c793b90cbe1",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-quanti-2021-2",
+   "titel": "Quanti – Serie 2 (2021)",
+   "gruppe": "quanti",
+   "jahr": 2021,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/qfp-2/?wpdmdl=1967&masterkey=60c793e454f92",
+     "art": "gesamt",
+     "titel": "Quantitat + formale Probleme 2"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/qfp-2-losungen/?wpdmdl=1968&masterkey=60c793fbd901e",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-konz-2025-2",
+   "titel": "Konz – Serie 2 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1FUNVs-2MLp8b1yzEUvshMdpvmR37sZCX",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-3",
+   "titel": "Konz – Serie 3 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 3,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1oGdyp1qgnBFwP8kPmfhOjj0mqXbEMVmh",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-4",
+   "titel": "Konz – Serie 4 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 4,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1F31cawd_IBNyjhXPHneR-oX4N_LGYXVL",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 4 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-5",
+   "titel": "Konz – Serie 5 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 5,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1JjXU8vQXu5jaHQdkNeUOYlzREbhHowTC",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 5 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-6",
+   "titel": "Konz – Serie 6 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 6,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1QQR9JnFv2JbFIzYcCpttg9UhLQihLE_o",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 6 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-7",
+   "titel": "Konz – Serie 7 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 7,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1qywr9XIeQCwXaP9GbRTLYkgzfzmrP3kQ",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 7 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-8",
+   "titel": "Konz – Serie 8 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 8,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "15GGEuah4e9n0cH-25NZ7F0b6Lfp-MJV4",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 8 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-9",
+   "titel": "Konz – Serie 9 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 9,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1Q6jUTpSS1i0Eb1CVEJoVU6P_99zrDmg1",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 9 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-10",
+   "titel": "Konz – Serie 10 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 10,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "16nCSEi4QAPi-BJMeCPawb5pnFKj3xpUc",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 10 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-11",
+   "titel": "Konz – Serie 11 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 11,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1HFvTbP6py-k9U0qaUWdGutGYw01o_iai",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 11 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-12",
+   "titel": "Konz – Serie 12 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 12,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1XdxM_4nofD3l6WgBZKtbMUL-klIjZ6CH",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 12 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-13",
+   "titel": "Konz – Serie 13 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 13,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1dE8ZqaNolYftoFwm2KbN7qXlZCP_OSrN",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 13+ Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-14",
+   "titel": "Konz – Serie 14 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 14,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1YebjImy5vLR_DwVIX2Y0AZ2qghL0FVt2",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 14 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-15",
+   "titel": "Konz – Serie 15 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 15,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1TnHVS6-jOrtScah8NXBSPRvNDVM5ZyuS",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 15 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-16",
+   "titel": "Konz – Serie 16 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 16,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1XbkXcozFaCywBv9Tc6GNR4XKFY_aCFP-",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 16 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-17",
+   "titel": "Konz – Serie 17 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 17,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1s0LviiBO_c7URXPJcZ5v4RNcaNQbgPi-",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 17 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-18",
+   "titel": "Konz – Serie 18 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 18,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "13pefUD3rKYBwBCgQ1iz8ir24YbAzOItr",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 18 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2025-19",
+   "titel": "Konz – Serie 19 (2025)",
+   "gruppe": "konz",
+   "jahr": 2025,
+   "serie": 19,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1MpKT26J09R4uXbMiy9rTzTiYY2467hwK",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 19 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2024-2",
+   "titel": "Konz – Serie 2 (2024)",
+   "gruppe": "konz",
+   "jahr": 2024,
+   "serie": 2,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1-2jrxM5Tj_xh_C-fq6jJG6RRGMPt8UpH",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2024-3",
+   "titel": "Konz – Serie 3 (2024)",
+   "gruppe": "konz",
+   "jahr": 2024,
+   "serie": 3,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1w5wdmfw189zJ8aEldqhud5ffCVkY06Ql",
+     "art": "gesamt",
+     "titel": "Konzentrationstest 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2022-2",
+   "titel": "Konz – Serie 2 (2022)",
+   "gruppe": "konz",
+   "jahr": 2022,
+   "serie": 2,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1TKkOgX_ic-yjR6ycOuh0BaoHl3H2hCGe",
+     "art": "aufgaben",
+     "titel": "Konzentrationstest 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "19Xfe6tZycWRbNT_ZVGgHhiSGqaSleorU",
+     "art": "loesungen",
+     "titel": "Lösung"
+    },
+    {
+     "quelle": "drive",
+     "ref": "17OseKDGzcBb8fMwTtbkfC9jWsO57QILB",
+     "art": "schablone",
+     "titel": "negatives Template"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-konz-2021-2",
+   "titel": "Konz – Serie 2 (2021)",
+   "gruppe": "konz",
+   "jahr": 2021,
+   "serie": 2,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/konztest-2/?wpdmdl=1971&masterkey=60c794a02e4de",
+     "art": "aufgaben",
+     "titel": "Konzentrationstest 2"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/konztest-2-losungen/?wpdmdl=1972&masterkey=60c794ba914a2",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-konz-2021-3",
+   "titel": "Konz – Serie 3 (2021)",
+   "gruppe": "konz",
+   "jahr": 2021,
+   "serie": 3,
+   "zeitMinuten": 8,
+   "anzahl": 0,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/konztest-3/?wpdmdl=1973&masterkey=60c794d58b07d",
+     "art": "aufgaben",
+     "titel": "Konzentrationstest 3"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/konztest-3-losungen/?wpdmdl=1974&masterkey=60c794eda7f39",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2026-2",
+   "titel": "Figuren lernen – Serie 2 (2026)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2026,
+   "serie": 2,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1DoF-lakcJPmNAjNhOtOx6q0ntSTl0wFX",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 2 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2026-3",
+   "titel": "Figuren lernen – Serie 3 (2026)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2026,
+   "serie": 3,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1235nTlyEDgWdoGZJxNQv8-qxYsapw38T",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 3 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2026-4",
+   "titel": "Figuren lernen – Serie 4 (2026)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2026,
+   "serie": 4,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1lLgxIjO1nITkpppGkKmB8w8h2f-qSJ50",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 4 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2025-2",
+   "titel": "Figuren lernen – Serie 2 (2025)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1LCsjXOpek9hXM5gKmf3_91fuVp_NTxV5",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 2 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2025-3",
+   "titel": "Figuren lernen – Serie 3 (2025)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2025,
+   "serie": 3,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1U8r3Zp9NjrWL9_rRYRueeE7bSyLF3vck",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 3 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2025-4",
+   "titel": "Figuren lernen – Serie 4 (2025)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2025,
+   "serie": 4,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1ANLh0ekW-9GADFFqhGvPvWP_eQXMoHUe",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 4 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2025-5",
+   "titel": "Figuren lernen – Serie 5 (2025)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2025,
+   "serie": 5,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1MaxF33L8CBjZUMSFg20sHtWR2cE549Hj",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 5 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2024-2",
+   "titel": "Figuren lernen – Serie 2 (2024)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2024,
+   "serie": 2,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1Rc9oppB4uXJkCwhVjLwyCI9vArYeIEuu",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 2 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2024-3",
+   "titel": "Figuren lernen – Serie 3 (2024)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2024,
+   "serie": 3,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1dfMbGsPtVENe5y8JPASDW-NOu3AegeYV",
+     "art": "gesamt",
+     "titel": "Figuren einprägen 3 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2022-1",
+   "titel": "Figuren lernen – Serie 1 (2022)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2022,
+   "serie": 1,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1WhigBigQLwSjPpkBtv9qZV_3Wvz9pjk7",
+     "art": "aufgaben",
+     "titel": "Figuren einprägen 1"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1gIY5Nvd-Q4tjv5UmtOgOeFFPkj9hdoDf",
+     "art": "abruf",
+     "titel": "Figuren reproduzieren 1"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1uAHKEFilFCy82itgKsa1criml8YFGuAB",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-figuren-lernen-2022-2",
+   "titel": "Figuren lernen – Serie 2 (2022)",
+   "gruppe": "figuren-lernen",
+   "jahr": 2022,
+   "serie": 2,
+   "zeitMinuten": 9,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1xkg_2rXzYd3haurkIynOTVGFqKBIEtmB",
+     "art": "aufgaben",
+     "titel": "Figuren einprägen 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1iGOXh-shAcE5aUz-JN2NyiPVGhM0cm2I",
+     "art": "abruf",
+     "titel": "Figuren reproduzieren 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1DYRAjmlkj6IE3WjpaSH8JOAeubx5LHz9",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2026-2",
+   "titel": "Fakten lernen – Serie 2 (2026)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2026,
+   "serie": 2,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1EGi8NIpy6bjo2LvBpDrrg810OhwxIkY6",
+     "art": "gesamt",
+     "titel": "Fakten einprägen 2 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2026-3",
+   "titel": "Fakten lernen – Serie 3 (2026)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2026,
+   "serie": 3,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1x11wfy-5IEFwqEptrgioou2HupkVqWEd",
+     "art": "gesamt",
+     "titel": "Fakten einprägen 3 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2025-2",
+   "titel": "Fakten lernen – Serie 2 (2025)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1NHObcLyUsln8EpuKHzoqdbQ2trIsYhF4",
+     "art": "gesamt",
+     "titel": "Fakten einprägen 2 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2025-3",
+   "titel": "Fakten lernen – Serie 3 (2025)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2025,
+   "serie": 3,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1gz5EfLSsmM90CqPXuQ2_QBsmpmeKhF8B",
+     "art": "gesamt",
+     "titel": "Fakten einprägen 3 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2025-4",
+   "titel": "Fakten lernen – Serie 4 (2025)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2025,
+   "serie": 4,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "13O41CtQ8DlEkXQeziaXPuNaBdY0jkhYn",
+     "art": "gesamt",
+     "titel": "Fakten einprägen 4 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2025-5",
+   "titel": "Fakten lernen – Serie 5 (2025)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2025,
+   "serie": 5,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1gQDnyorxuE_M_9L59Uc1ng2JgHUVwDpI",
+     "art": "gesamt",
+     "titel": "Fakten einprägen 5 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2024-2",
+   "titel": "Fakten lernen – Serie 2 (2024)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2024,
+   "serie": 2,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1F3VpXlTEHNPjrLQ3ZOMaRhkr2N5ycL2a",
+     "art": "gesamt",
+     "titel": "Fakten einprägen 2 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2024-3",
+   "titel": "Fakten lernen – Serie 3 (2024)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2024,
+   "serie": 3,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "10HzFsTtaYeV-Vxr8z6FmRjNR3kjQActS",
+     "art": "gesamt",
+     "titel": "Fakten einprägen 3 + Reproduktionsphase + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2022-2",
+   "titel": "Fakten lernen – Serie 2 (2022)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2022,
+   "serie": 2,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1Y2N8FLVBVjYi6vTNq2e6WXCeUYaisjVS",
+     "art": "aufgaben",
+     "titel": "Fakten einprägen 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1Mr5-AqqTHwNpkr0Y9rw4Lt77v8DZBF_E",
+     "art": "abruf",
+     "titel": "Fakten reproduzieren 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1EcZ1DNBfvxufxFSQkDkJ_pJqeDvU2N_X",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2022-3",
+   "titel": "Fakten lernen – Serie 3 (2022)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2022,
+   "serie": 3,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1_Jgr0uzEC6SJ0pWHVfWf1QisziiJ4dTY",
+     "art": "aufgaben",
+     "titel": "Fakten einprägen 3"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1ShJLeq4RKUEhSFN48So_78LsJMq5Awcy",
+     "art": "abruf",
+     "titel": "Fakten reproduzieren 3"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1dn7olU5X6p6j5aIjbzpa6SHl5Dfdi2Ig",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-fakten-lernen-2022-4",
+   "titel": "Fakten lernen – Serie 4 (2022)",
+   "gruppe": "fakten-lernen",
+   "jahr": 2022,
+   "serie": 4,
+   "zeitMinuten": 12,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1yvxj-CEk-8vi1xghx9MfKKgBjqs-3ZeQ",
+     "art": "aufgaben",
+     "titel": "Fakten einprägen 4"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1Z72bP8XzvOcdd5sCWnzVMwvvWTsaZGBe",
+     "art": "abruf",
+     "titel": "Fakten reproduzieren 4"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1yH9qMdMucLLsgmu0qQ0KbWJ1lH2oH2tA",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2026-2",
+   "titel": "Textverständnis – Serie 2 (2026)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2026,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1PiqJzY19Yx4ERET2X6OpDugd-srcB_Wq",
+     "art": "gesamt",
+     "titel": "Textverständnis 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2026-3",
+   "titel": "Textverständnis – Serie 3 (2026)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2026,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "14DNcoQGUYlfSSJsJ0PwQ65HuJxMn40nN",
+     "art": "gesamt",
+     "titel": "Textverständnis 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2025-2",
+   "titel": "Textverständnis – Serie 2 (2025)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1MP3EbrpJ63S4oOC3Eg8im7JVT6FA0tFI",
+     "art": "gesamt",
+     "titel": "Textverständnis 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2025-3",
+   "titel": "Textverständnis – Serie 3 (2025)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2025,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "16e6qK5pmsVz1iqMFcGaimja7bEuMddTb",
+     "art": "gesamt",
+     "titel": "Textverständnis 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2024-2",
+   "titel": "Textverständnis – Serie 2 (2024)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2024,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "12HrocaeHiEuWuubkCYKTDk8B6VlW9slx",
+     "art": "gesamt",
+     "titel": "Textverständnis 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2024-3",
+   "titel": "Textverständnis – Serie 3 (2024)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2024,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "15FY26AH5s5sZqnyQCBlIvxdWh5f3t9Zq",
+     "art": "gesamt",
+     "titel": "Textverständnis 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2022-2",
+   "titel": "Textverständnis – Serie 2 (2022)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2022,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1zWryShrI8SB-aaFOwSwxLTBpYp-BFVGV",
+     "art": "aufgaben",
+     "titel": "Textverständnis 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1dB8VVNNNRhV_O7SlJQ_fOTlKCUN4Ccnt",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2021-1",
+   "titel": "Textverständnis – Serie 1 (2021)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2021,
+   "serie": 1,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/textverstandnis-1/?wpdmdl=1975&masterkey=60c7950d15b1b",
+     "art": "aufgaben",
+     "titel": "Textverständnis 1"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/textverstandnis-1-losungen/?wpdmdl=1976&masterkey=60c7952391cff",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-textverstaendnis-2021-2",
+   "titel": "Textverständnis – Serie 2 (2021)",
+   "gruppe": "textverstaendnis",
+   "jahr": 2021,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/textverstandnis-2/?wpdmdl=2182&masterkey=60e3f8d57792f",
+     "art": "aufgaben",
+     "titel": "Textverständnis 2"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/textverstandnis-2-losungen/?wpdmdl=2184&masterkey=60e3f90002309",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ],
+   "hinweis": "Vor der EMS-Umstellung 2022 erstellt – Format und Zeit können abweichen."
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2026-2",
+   "titel": "Diagramme und Tabellen – Serie 2 (2026)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2026,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1uZy1hqI4pfhoIJESq5z_I1ykBZbiqGnR",
+     "art": "gesamt",
+     "titel": "Diagramme & Tabellen 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2026-3",
+   "titel": "Diagramme und Tabellen – Serie 3 (2026)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2026,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "116g1Hso6Xh3o1nsZK8meNMdWqCimGn_i",
+     "art": "gesamt",
+     "titel": "Diagramme & Tabellen 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2025-2",
+   "titel": "Diagramme und Tabellen – Serie 2 (2025)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2025,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1jc-_UDWDGViBJGYidHNjORpp6zdz9UCv",
+     "art": "gesamt",
+     "titel": "Diagramme & Tabellen 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2025-3",
+   "titel": "Diagramme und Tabellen – Serie 3 (2025)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2025,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1BgEXWrd_RN_ao_B9PzrGrTC27NXSD0_Y",
+     "art": "gesamt",
+     "titel": "Diagramme & Tabellen 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2025-4",
+   "titel": "Diagramme und Tabellen – Serie 4 (2025)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2025,
+   "serie": 4,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1saxUToy-ZhkTwzCFGlWDfZZV2QXR318I",
+     "art": "gesamt",
+     "titel": "Diagramme & Tabellen 4 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2025-5",
+   "titel": "Diagramme und Tabellen – Serie 5 (2025)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2025,
+   "serie": 5,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1c-i1dOKv8GDsl4OIEH49GFKu97flth-C",
+     "art": "gesamt",
+     "titel": "Diagramme & Tabellen 5 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2024-2",
+   "titel": "Diagramme und Tabellen – Serie 2 (2024)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2024,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1-ULgehKeoTnjTUjLXkQFIemvT6A8pso0",
+     "art": "gesamt",
+     "titel": "Diagramme & Tabellen 2 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2024-3",
+   "titel": "Diagramme und Tabellen – Serie 3 (2024)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2024,
+   "serie": 3,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1HR4qt445q8rqGz-hWuHHUfSwNazv9cp-",
+     "art": "gesamt",
+     "titel": "Diagramme & Tabellen 3 + Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2023-2",
+   "titel": "Diagramme und Tabellen – Serie 2 (2023)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2023,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "drive",
+     "ref": "1EUDeuhBDoUKnzqah0mnAJ-XhiCFaRoWw",
+     "art": "aufgaben",
+     "titel": "Diagramme & Tabellen 2"
+    },
+    {
+     "quelle": "drive",
+     "ref": "1LwSo2HXA-cRJkuo8uPWt8CUoDuFkTe1C",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  },
+  {
+   "id": "ncwiki-diagramme-tabellen-2022-2",
+   "titel": "Diagramme und Tabellen – Serie 2 (2022)",
+   "gruppe": "diagramme-tabellen",
+   "jahr": 2022,
+   "serie": 2,
+   "zeitMinuten": 45,
+   "anzahl": 18,
+   "dateien": [
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/diagramme-und-tabellen-2/?wpdmdl=1981&masterkey=60c79595917f0",
+     "art": "aufgaben",
+     "titel": "Diagramme & Tabellen 2"
+    },
+    {
+     "quelle": "ncwiki",
+     "ref": "/download/diagramme-und-tabellen-2-losungen/?wpdmdl=1982&masterkey=60c7958ada157",
+     "art": "loesungen",
+     "titel": "Lösungen"
+    }
+   ]
+  }
+ ]
+}

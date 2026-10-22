@@ -7,7 +7,14 @@ export default {
   theme: {
     container: { center: true, padding: "1rem", screens: { "2xl": "1100px" } },
     extend: {
+      fontFamily: { sans: ['"Nunito Variable"', "ui-sans-serif", "system-ui", "sans-serif"] },
       colors: {
+        gold: "hsl(var(--gold))",
+        flamme: "hsl(var(--flamme))",
+        fell: "hsl(var(--fell))",
+        info: "hsl(var(--info))",
+        richtig: "hsl(var(--richtig))",
+        falsch: "hsl(var(--falsch))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

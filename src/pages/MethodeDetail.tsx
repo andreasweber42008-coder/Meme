@@ -6,7 +6,7 @@ import { entscheidung, methodeById, offeneFrage, videosFuer } from "@/content";
 import type { Herkunft, Methode } from "@/content/schema";
 import { untertestById } from "@/content/untertests";
 import { STUFEN } from "@/content/stufen";
-import { useFortschritt, useVerstandenMarkieren } from "@/hooks/useFortschritt";
+import { useFortschritt, useVerstanden } from "@/lernpfad/fortschritt";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArtBadge, EmsBadge, HerkunftBadge } from "@/components/methoden/Badges";
@@ -31,26 +31,23 @@ const LEER = "In den Notizen nicht angegeben.";
 export default function MethodeDetail() {
   const { id = "" } = useParams();
   const methode = methodeById(id);
-  const { data: fortschritt } = useFortschritt();
-  const markieren = useVerstandenMarkieren();
+  const fortschritt = useFortschritt();
+  const markieren = useVerstanden();
 
   if (!methode) return <NichtGefunden />;
   const m: Methode = methode;
   const h: Herkunft = m.herkunft;
   const untertest = untertestById(m.untertest);
-  const verstanden = !!fortschritt?.[m.id]?.verstanden_am;
+  const verstanden = !!fortschritt[m.id]?.verstandenAm;
   const videos = m.quellen.filter((q) => q.videoId);
   const eigeneVideoIds = new Set(videos.map((v) => v.videoId));
   const weitereVideos = videosFuer(m.untertest).filter((v) => !eigeneVideoIds.has(v.videoId));
   const uebertragen = m.ems.uebertragenAuf ? methodeById(m.ems.uebertragenAuf) : undefined;
 
   function umschalten() {
-    markieren.mutate(
-      { methodeId: m.id, verstanden: !verstanden },
-      {
-        onSuccess: () => toast.success(verstanden ? "Markierung entfernt." : "Stark! Stufe 1 «Verstehen» erledigt."),
-        onError: () => toast.error("Speichern hat nicht geklappt. Bist du online?"),
-      },
+    markieren(m.id, !verstanden).then(
+      () => toast.success(verstanden ? "Markierung entfernt." : "Stark! Stufe 1 «Verstehen» erledigt."),
+      () => toast.error("Speichern hat nicht geklappt."),
     );
   }
 
@@ -300,7 +297,7 @@ export default function MethodeDetail() {
       )}
 
       <div className="sticky bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-10 -mx-4 bg-gradient-to-t from-background via-background/95 to-transparent px-4 pb-2 pt-6 md:bottom-0 md:pb-4">
-        <Button size="lg" className="w-full" variant={verstanden ? "outline" : "default"} onClick={umschalten} disabled={markieren.isPending}>
+        <Button size="lg" className="w-full" variant={verstanden ? "outline" : "default"} onClick={umschalten}>
           {verstanden ? <CheckCircle2 /> : <Check />}
           {verstanden ? "Verstanden – zurücksetzen" : "Methode verstanden"}
         </Button>

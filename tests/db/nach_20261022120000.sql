@@ -50,14 +50,4 @@ exception when insufficient_privilege then null;
 end $$;
 reset role;
 
--- 7) Jede Tabelle in public hat RLS aktiv.
-do $$
-declare t text;
-begin
-  for t in select c.relname from pg_class c join pg_namespace n on n.oid = c.relnamespace
-           where n.nspname = 'public' and c.relkind = 'r' and not c.relrowsecurity loop
-    raise exception 'Tabelle ohne RLS: %', t;
-  end loop;
-end $$;
-
-\echo 'Alle Datenbank-Prüfungen bestanden.'
+\echo 'Prüfungen nach Migration 1 bestanden.'

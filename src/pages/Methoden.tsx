@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import { CheckCircle2, ChevronRight, Search } from "lucide-react";
 import { METHODEN } from "@/content";
 import { UNTERTESTS } from "@/content/untertests";
-import { useFortschritt } from "@/hooks/useFortschritt";
+import { useFortschritt } from "@/lernpfad/fortschritt";
 import { Input } from "@/components/ui/input";
 import { ArtBadge, EmsBadge, HerkunftBadge } from "@/components/methoden/Badges";
 
 export default function Methoden() {
   const [suche, setSuche] = useState("");
-  const { data: fortschritt } = useFortschritt();
+  const fortschritt = useFortschritt();
 
   const gefiltert = useMemo(() => {
     const s = suche.trim().toLowerCase();
@@ -54,7 +54,7 @@ export default function Methoden() {
             </div>
             <ul className="flex flex-col gap-2">
               {liste.map((m) => {
-                const verstanden = !!fortschritt?.[m.id]?.verstanden_am;
+                const verstanden = !!fortschritt[m.id]?.verstandenAm;
                 return (
                   <li key={m.id}>
                     <Link

@@ -19,5 +19,8 @@ run "'$PGBIN/initdb' -D '$DIR/data' -U postgres -A trust" >/dev/null
 run "'$PGBIN/pg_ctl' -D '$DIR/data' -o '-k $DIR -p 54329 -c listen_addresses=' -l '$DIR/log' start" >/dev/null
 PSQL=(env PGOPTIONS=--client-min-messages=warning psql -h "$DIR" -p 54329 -U postgres -d postgres -q -v ON_ERROR_STOP=1)
 "${PSQL[@]}" -f tests/db/supabase-stub.sql
-for f in supabase/migrations/*.sql; do "${PSQL[@]}" -f "$f"; done
-"${PSQL[@]}" -f tests/db/pruefungen.sql
+for f in supabase/migrations/*.sql; do
+  "${PSQL[@]}" -f "$f"
+  pruefung="tests/db/nach_$(basename "$f" | cut -d_ -f1).sql"
+  [ -f "$pruefung" ] && "${PSQL[@]}" -f "$pruefung"
+done
