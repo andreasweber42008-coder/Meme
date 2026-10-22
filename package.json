@@ -1,0 +1,23 @@
+{
+  "name": "meme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreasweber42008-coder/Meme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreasweber42008-coder/Meme/issues"
+  },
+  "homepage": "https://github.com/andreasweber42008-coder/Meme#readme",
+  "dependencies": {
+    "three": "^0.180.0"
+  }
+}
