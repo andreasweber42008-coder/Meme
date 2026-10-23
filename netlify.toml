@@ -1,0 +1,25 @@
+# Netlify: baut die App aus dem Repo. Die zwei Werte VITE_SUPABASE_URL und VITE_SUPABASE_PUBLISHABLE_KEY
+# werden in Netlify unter Site configuration → Environment variables eingetragen, nicht hier.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Alle Seiten der App laufen über index.html (auch beim Neuladen von /pfad usw.)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Service Worker nie zwischenspeichern, damit Updates sofort ankommen
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
