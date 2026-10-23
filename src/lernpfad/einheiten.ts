@@ -55,3 +55,6 @@ export function lektionsMinuten(e: Einheit, stufe: number): number {
   if (e.art === "gross") return stufe >= 8 ? 23 : 10;
   return stufe >= 8 ? 9 : 6;
 }
+
+/** Gedächtnistests: Abruf frühestens so viele Minuten nach dem Einprägen (wie im Test, wo andere Untertests dazwischen liegen) */
+export const ABRUF_PAUSE_MIN = 10;

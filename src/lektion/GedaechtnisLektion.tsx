@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle2, ChevronRight, Lock, XCircle } from "lucide-react";
 import { erzeugeFigurenSet, figurenDenkfehler } from "@/aufgaben/figuren";
 import { erzeugeFaktenSet, fallText } from "@/aufgaben/fakten";
-import type { Einheit } from "@/lernpfad/einheiten";
+import { ABRUF_PAUSE_MIN, type Einheit } from "@/lernpfad/einheiten";
 import type { Fehlerursache, StufenErgebnis } from "@/daten/modelle";
 import { useDokument, useSpeicher } from "@/daten/DatenProvider";
 import { fehlerEintragen, lektionAbschliessen, versuchSpeichern, type StufenBewertung } from "@/lernpfad/protokoll";
@@ -49,7 +49,6 @@ const PLAENE: Record<"figuren" | "fakten", Plan[]> = {
   ],
 };
 
-export const ABRUF_PAUSE_MIN = 10;
 
 interface Offen {
   seed: string;

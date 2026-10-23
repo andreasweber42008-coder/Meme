@@ -17,7 +17,7 @@ const NAV = [
 ];
 
 /** Vollbild-Seiten ohne Navigation (Lektion, Simulation, Einstufung, Druck) */
-const VOLLBILD = [/^\/lektion\//, /^\/simulation\/lauf\//, /^\/einstufung/, /^\/onboarding/, /\/druck/];
+const VOLLBILD = [/^\/lektion\//, /^\/simulation\/lauf\//, /^\/einstufung/, /^\/onboarding/, /\/druck/, /^\/fokus/];
 
 export function AppShell({ children }: { children: ReactNode }) {
   const sync = useAbgleich();

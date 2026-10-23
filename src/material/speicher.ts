@@ -22,7 +22,7 @@ function client() {
 export async function nutzerId(): Promise<string> {
   const { data } = await client().auth.getSession();
   const id = data.session?.user.id;
-  if (!id) throw new MaterialFehler("Bitte melde Dich zuerst an.");
+  if (!id) throw new MaterialFehler("Bitte melde dich zuerst an.");
   return id;
 }
 

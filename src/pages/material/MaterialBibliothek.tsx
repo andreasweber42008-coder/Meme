@@ -137,7 +137,7 @@ function MeineSets({ sets }: { sets: SetMitId[] }) {
         <CardContent className="flex flex-col items-center gap-3 py-8 text-center">
           <Library className="h-8 w-8 text-muted-foreground" />
           <p className="font-semibold">Noch kein Material importiert.</p>
-          <p className="text-sm text-muted-foreground">Hol Dir NCWiki-Serien mit einem Tipp oder lade eigene PDFs hoch.</p>
+          <p className="text-sm text-muted-foreground">Hol dir NCWiki-Serien mit einem Tipp oder lade eigene PDFs hoch.</p>
           <Link to="?tab=ncwiki" className={buttonVariants()}>
             Zum NCWiki-Katalog
           </Link>
@@ -157,7 +157,7 @@ function MeineSets({ sets }: { sets: SetMitId[] }) {
           </ul>
         </section>
       ))}
-      <p className="text-xs text-muted-foreground">{LIZENZ_HINWEIS}. Alles liegt nur in Deinem privaten Speicher.</p>
+      <p className="text-xs text-muted-foreground">{LIZENZ_HINWEIS}. Alles liegt nur in deinem privaten Speicher.</p>
     </div>
   );
 }
@@ -269,7 +269,7 @@ function NcwikiKatalog({ sets }: { sets: SetMitId[] }) {
             <ShieldCheck className="h-4 w-4 shrink-0 text-herkunft-ncwiki" /> {LIZENZ_HINWEIS}
           </p>
           <p className="text-muted-foreground">
-            Die App holt die Dateien direkt von NCWiki bzw. Google Drive in Deinen privaten Speicher. Prozentrang-Vergleiche werden nicht übernommen.
+            Die App holt die Dateien direkt von NCWiki bzw. Google Drive in deinen privaten Speicher. Prozentrang-Vergleiche werden nicht übernommen.
           </p>
           <Link to="/karten" className="font-semibold text-primary underline">
             Kursskript als Lernkarten
@@ -583,7 +583,7 @@ function Eigene() {
         <CardTitle className="flex items-center gap-2">
           <FileUp className="h-4 w-4" /> Eigene PDFs oder Scans
         </CardTitle>
-        <p className="text-sm text-muted-foreground">Mehrere Dateien möglich (z. B. Aufgaben und Lösungen). Sie liegen nur in Deinem privaten Speicher.</p>
+        <p className="text-sm text-muted-foreground">Mehrere Dateien möglich (z. B. Aufgaben und Lösungen). Sie liegen nur in deinem privaten Speicher.</p>
       </CardHeader>
       <CardContent className="flex flex-col gap-3">
         <input

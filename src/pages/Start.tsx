@@ -11,7 +11,7 @@ import { istFreierTag, streakPflegen } from "@/lernpfad/protokoll";
 import { methodeById } from "@/content";
 import { Munggi, type MunggiZustand } from "@/components/maskottchen/Munggi";
 import { Bereitschaft } from "@/components/statistik/Bereitschaft";
-import { ABRUF_PAUSE_MIN } from "@/lektion/GedaechtnisLektion";
+import { ABRUF_PAUSE_MIN } from "@/lernpfad/einheiten";
 import { cn } from "@/lib/utils";
 
 function mitPlan(link: string, id: string): string {

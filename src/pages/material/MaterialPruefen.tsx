@@ -365,7 +365,7 @@ export default function MaterialPruefen() {
           variant="ghost"
           className="text-falsch"
           onClick={async () => {
-            if (!window.confirm("Set samt Dateien aus Deinem Speicher löschen?")) return;
+            if (!window.confirm("Set samt Dateien aus deinem Speicher löschen?")) return;
             await setLoeschen(store, set);
             toast.success("Gelöscht.");
             navigate("/material");

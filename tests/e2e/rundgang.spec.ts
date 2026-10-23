@@ -54,6 +54,8 @@ test("Heute, Pfad, Plan, Fehlerheft, Statistik und Einstellungen", async ({ page
     ["/offiziell", "Offizielles"],
     ["/mehr", "Mehr"],
     ["/konz/druck", "Konz auf Papier"],
+    ["/generalprobe", "Generalprobe"],
+    ["/fokus", "1 Minute Fokus"],
   ] as const) {
     await page.goto(pfad);
     await expect(page.getByRole("heading", { name: titel, exact: true, level: 1 })).toBeVisible();
@@ -118,4 +120,49 @@ test("Konz: Einzelentscheide in Stufe 3", async ({ page }) => {
   await bild(page, "konz-vormachen");
   await page.getByRole("button", { name: "Verstanden" }).click();
   await expect(page.getByText("Stufe 3 freigeschaltet!")).toBeVisible();
+});
+
+test("Simulation, Material und Lernkarten öffnen", async ({ page }) => {
+  await nachgestelltesBackend(page);
+  await anmelden(page);
+  await page.goto("/simulation");
+  await expect(page.getByRole("heading", { level: 1 }).first()).toBeVisible();
+  await bild(page, "simulation");
+  await keinQuerscroll(page, "/simulation");
+  await page.goto("/material");
+  await expect(page.getByRole("heading", { level: 1 }).first()).toBeVisible();
+  await expect(page.getByText(/CC BY-NC 4.0/).first()).toBeVisible();
+  await bild(page, "material");
+  await keinQuerscroll(page, "/material");
+  await page.goto("/karten");
+  await expect(page.getByRole("heading", { level: 1 }).first()).toBeVisible();
+  await keinQuerscroll(page, "/karten");
+});
+
+test("Mini-Simulation läuft mit Antwortbogen und Uhr", async ({ page }) => {
+  await nachgestelltesBackend(page);
+  await anmelden(page);
+  await page.goto("/simulation?art=mini");
+  await bild(page, "simulation-mini");
+  await expect(page.getByRole("checkbox", { name: /Objekte/ })).toBeChecked();
+  await page.getByRole("button", { name: "Simulation vorbereiten" }).click();
+  await expect(page).toHaveURL(/simulation\/lauf\//);
+  await page.waitForTimeout(1500);
+  await bild(page, "simulation-lauf");
+  await keinQuerscroll(page, "/simulation/lauf");
+  await page.getByRole("button", { name: "Start" }).click();
+  await expect(page.getByText(/Muster zuordnen/).first()).toBeVisible();
+  await page.waitForTimeout(1500);
+  await bild(page, "simulation-block");
+  await keinQuerscroll(page, "/simulation/lauf block");
+  // Antwort auf dem Bogen setzen, neu laden: der Lauf geht an derselben Stelle weiter
+  const feld = page.getByRole("radiogroup", { name: "Antwort Aufgabe 1" }).first().getByRole("radio", { name: "B" });
+  await feld.click();
+  await expect(feld).toBeChecked();
+  await page.waitForTimeout(2000);
+  await page.reload();
+  await expect(page.getByText(/Muster zuordnen/).first()).toBeVisible();
+  await page.waitForTimeout(1500);
+  await expect(page.getByRole("radiogroup", { name: "Antwort Aufgabe 1" }).first().getByRole("radio", { name: "B" })).toBeChecked();
+  await bild(page, "simulation-fortgesetzt");
 });

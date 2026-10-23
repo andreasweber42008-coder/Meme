@@ -129,7 +129,7 @@ export default function Lernkarten() {
               </>
             ) : (
               <>
-                <p className="text-sm text-muted-foreground">Was weisst Du dazu? Überleg kurz, dann deck auf.</p>
+                <p className="text-sm text-muted-foreground">Was weisst du dazu? Überleg kurz, dann deck auf.</p>
                 <Button onClick={() => setAufgedeckt(true)}>
                   <Eye /> Aufdecken
                 </Button>
@@ -153,7 +153,7 @@ export default function Lernkarten() {
             <BookOpen className="h-4 w-4" /> Karten importieren
           </CardTitle>
           <p className="text-sm text-muted-foreground">
-            Die App teilt die PDFs an Überschriften auf. Die Karten liegen nur in Deinem privaten Speicher. Erneutes Importieren behält Deinen Lernstand.
+            Die App teilt die PDFs an Überschriften auf. Die Karten liegen nur in deinem privaten Speicher. Erneutes Importieren behält deinen Lernstand.
           </p>
         </CardHeader>
         <CardContent className="flex flex-col gap-2">

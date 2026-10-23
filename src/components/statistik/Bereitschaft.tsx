@@ -9,6 +9,7 @@ import { gruppenStand, type Ampel } from "@/statistik/kennzahlen";
 import { heute } from "@/lib/datum";
 import { cn } from "@/lib/utils";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const AMPEL_TEXT: Record<Ampel, string> = { gruen: "bereit", gelb: "auf Kurs", rot: "dranbleiben", grau: "noch keine Daten" };
 const PUNKT: Record<Ampel, string> = { gruen: "bg-richtig", gelb: "bg-gold", rot: "bg-falsch", grau: "bg-muted-foreground/30" };
 

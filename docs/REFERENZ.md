@@ -144,7 +144,7 @@ Nicht verwendete Ergänzungen, weil Milan oder NCWiki den Untertest abdecken:
 - Muster: «Unterschiede suchen statt Übereinstimmungen; grober Blick → Ankerpunkt → Ecken». NCWiki-Grundverfahren und Kreuzblick decken den Untertest ab.
 - Diagramme: «Achsen, Einheiten, Skalen; absolut vs. relativ; Gegenbeispiel». Milan deckt das vollständig ab.
 
-## 6. Material (Stand Phase 0)
+## 6. Material
 
 **Selbst abrufbar:**
 - NCWiki: 5 Testsimulationen 2022–2026 mit Lösungen und Konz-Auswertungen.
@@ -162,6 +162,17 @@ Nicht verwendete Ergänzungen, weil Milan oder NCWiki den Untertest abdecken:
 - Originalversionen II und III.
 - Termine der NCWiki-Simulation 2027 und des Kanti-Probelaufs.
 
+**Import in der App (`/material`):**
+- Ein Tipp pro Set oder eine ganze Gruppe auf einmal. Die Edge Function `material-abrufen` holt die Datei serverseitig (Drive, Google Docs, nc-wiki.ch mit Browser-Kennung, swissuniversities) in den privaten Bucket `material/<user_id>/…`.
+- Danach erkennt die App Lösungsschlüssel, Seiten pro Aufgabe, Bearbeitungszeit und Lösungswege. Alles ist eine Vermutung und wird auf der Prüfseite bestätigt oder korrigiert.
+- Bei 403 von nc-wiki.ch: Datei selbst hochladen (Knopf im Katalog).
+- PDFs werden für offline zusätzlich in IndexedDB auf dem Gerät gespeichert – nie im Service Worker, nie im Build.
+
+**Eigene Aufgabenbanken (im Code, weil selbst geschrieben):**
+- Med-Nat: 60 Aufgaben (`src/content/bank/mednat-*.json`), Textverständnis: 8 Texte × 6 Fragen (`text-*.json`).
+- Jede Aufgabe wurde ein zweites Mal unabhängig gelöst (ohne Lösungen). Abweichungen und Grenzfälle wurden umformuliert; nur eindeutige Aufgaben sind in der Bank. Gemeldete Aufgaben kommen nie mehr dran.
+- Jeder Distraktor hat einen Denkfehler-Code, der auf einen Methodenschritt zeigt (`src/aufgaben/bank.ts`).
+
 ## 7. Quellen
 
 - Test-Info 2026: https://www.swissuniversities.ch/fileadmin/swissuniversities/Dokumente/Lehre/Medizin/Testinfo2026_de.pdf
@@ -172,7 +183,7 @@ Nicht verwendete Ergänzungen, weil Milan oder NCWiki den Untertest abdecken:
 
 ## 8. Technik-Regeln
 
-- **Stack:** Lovables Standard-Stack: Vite, React 18, TypeScript, Tailwind, shadcn-artige Komponenten; Lovable Cloud (Supabase) für Auth, Datenbank, Speicher. Mobile-first, PWA ab Phase 3.
+- **Stack:** Lovables Standard-Stack: Vite, React 18, TypeScript, Tailwind, shadcn-artige Komponenten; Lovable Cloud (Supabase) für Auth, Datenbank, Speicher. Mobile-first, installierbare PWA (Service Worker speichert nur App-Code und Icons, keine Daten).
 - **Generatoren:** reine TypeScript-Funktionen mit Seed, reproduzierbar, mit Button «Aufgabe melden».
   - Jede Aufgabe hat genau eine richtige Antwort; das prüft ein Validator pro Generator.
   - Jeder Generator liefert die Daten für alle Methoden-Stufen (Zwischenschritte, Musterlösung pro Schritt, Distraktor → Denkfehler → Methodenschritt).
@@ -184,3 +195,18 @@ Nicht verwendete Ergänzungen, weil Milan oder NCWiki den Untertest abdecken:
   - Rechtschreibung.
   - RLS in allen Migrationen.
 - **Vor jedem Push:** `npm run check` (Typecheck, Lint, Unit-Tests, Build) und `npm run test:e2e`.
+
+## 9. App-Überblick (Stand: fertig)
+
+| Bereich | Wo | Was |
+|---|---|---|
+| Heute | `/` | Plan des Tages («Heute 25 min: …»), Serie mit Schutzschild, Tagesziel, offene Abrufe, Ampel |
+| Lernpfad | `/pfad`, `/lektion/:methode/:stufe` | 10 Einheiten × 8 Stufen, Aufstieg bei Beherrschung (Standard 80 % + Schritte) |
+| Plan | `/woche` | Countdown mit Phasen, Wochenansicht, .ics-Export, externe Termine |
+| Üben | `/ueben`, `/material`, `/simulation`, `/konz/druck`, `/karten` | freie Übung, Material-Sets mit Doppeldurchgang, Simulationen digital und auf Papier |
+| Fehlerheft | `/fehlerheft` | Ursache, Methodenschritt, Wiedervorlage 1/3/7/14/30/60 Tage, Fehler-Generalprobe |
+| Testtag | `/generalprobe`, `/fokus`, `/offiziell` | Anreise, Checkliste, Generalprobe zur echten Zeit, Atemübung, Fristen |
+| Auswertung | `/statistik` | Ampel an eigenen Zielen, Profil, Trends, häufigster Schritt-Fehler, Abzeichen – keine Zulassungsprognose |
+| Einstellungen | `/einstellungen` | Lernzeit, Matura-Modus, Ziele, Maskottchen, Design, Ton, Backup als JSON |
+
+**Erinnerungen:** solange die App offen ist (Lernzeit, Serie, Schlaf in der letzten Woche); für Erinnerungen bei geschlossener App den Plan als .ics in den Kalender laden.

@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 /* ------------------------------------------------------------------ Zeit */
 
 /** Countdown in Sekunden; ruft onEnde einmal auf. */
+// eslint-disable-next-line react-refresh/only-export-components
 export function useCountdown(sekunden: number, laeuft: boolean, onEnde?: () => void): number {
   const [rest, setRest] = useState(sekunden);
   const ende = useRef(onEnde);
@@ -41,6 +42,7 @@ export function useCountdown(sekunden: number, laeuft: boolean, onEnde?: () => v
   return rest;
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function zeitText(s: number): string {
   const m = Math.floor(s / 60);
   const r = s % 60;
@@ -89,6 +91,7 @@ export function LektionsRahmen({ titel, untertitel, fortschritt, rechts, childre
 
 /* ------------------------------------------------------------------ Fehleranalyse */
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const URSACHEN: Array<{ id: Fehlerursache; text: string }> = [
   { id: "methodenschritt", text: "Methodenschritt ausgelassen" },
   { id: "denkfehler", text: "Denkfehler" },

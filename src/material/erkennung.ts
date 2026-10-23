@@ -1,6 +1,6 @@
 /**
  * Erkennung aus dem Text, den pdf.js aus Material-PDFs zieht. Reine Funktionen ohne Seiteneffekte.
- * Alles hier ist eine Vermutung: Die Prüfseite zeigt das Ergebnis und Du korrigierst es.
+ * Alles hier ist eine Vermutung: Die Prüfseite zeigt das Ergebnis und du korrigierst es.
  */
 import { BUCHSTABEN, type Buchstabe } from "@/aufgaben/typen";
 import type { AufgabenGruppe } from "@/daten/modelle";

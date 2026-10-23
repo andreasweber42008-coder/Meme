@@ -157,7 +157,7 @@ export const OFFIZIELL: OffiziellEintrag[] = [
     art: "set",
     gruppe: "simulation",
     zeitMinuten: 0,
-    beschreibung: "Offizielle Beispiele aller Aufgabengruppen. Anzahl und Bereiche prüfst Du nach dem Import.",
+    beschreibung: "Offizielle Beispiele aller Aufgabengruppen. Anzahl und Bereiche prüfst du nach dem Import.",
   },
   {
     id: "offiziell-konz-beispiele",

@@ -7,10 +7,10 @@ describe("kartenAusZeilen", () => {
   const zeilen = [
     z("Kursskript", 24),
     z("3 Muster zuordnen", 16),
-    z("Beim Muster zuordnen vergleichst Du einen Ausschnitt mit dem grossen Muster und suchst"),
+    z("Beim Muster zuordnen vergleichst du einen Ausschnitt mit dem grossen Muster und suchst"),
     z("die einzige deckungsgleiche Variante. Arbeite mit einem festen Ankerpunkt."),
     z("4.1 Quantitative Probleme", 10),
-    z("Rechne mit gerundeten Zahlen und prüfe die Einheiten, bevor Du eine Antwort ankreuzt."),
+    z("Rechne mit gerundeten Zahlen und prüfe die Einheiten, bevor du eine Antwort ankreuzt."),
     z("12"),
     z("Kurz", 16),
     z("zu kurz"),

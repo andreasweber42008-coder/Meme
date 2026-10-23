@@ -78,6 +78,7 @@ function TagKarte({ p, istHeute }: { p: PlanTag; istHeute: boolean }) {
   );
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useIcsExport() {
   const stand = usePlanStand();
   const [e] = useEinstellungen();

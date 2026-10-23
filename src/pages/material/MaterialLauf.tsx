@@ -219,7 +219,7 @@ function StartAnsicht({
         <CardHeader>
           <CardTitle>Doppeldurchgang</CardTitle>
           <p className="text-sm text-muted-foreground">
-            Erst mit Originalzeit, dann dasselbe Set ohne Zeit. So siehst Du, was ein Zeitproblem ist und was ein Verständnisproblem.
+            Erst mit Originalzeit, dann dasselbe Set ohne Zeit. So siehst du, was ein Zeitproblem ist und was ein Verständnisproblem.
           </p>
         </CardHeader>
         <CardContent className="flex flex-col gap-3">
@@ -341,7 +341,7 @@ function Durchgang({ set, lauf, onPause, onFertig }: { set: SetMitId; lauf: Lauf
         versuche.map((v) => ({ sammlung: "versuche", id: v.id, daten: v.daten, geloescht: false, geaendert: schluss })),
         false,
       );
-    if (set.anzahl > 0) toast.success(`${b.richtig} von ${b.gewertet} richtig – stark, dass Du dranbleibst!`);
+    if (set.anzahl > 0) toast.success(`${b.richtig} von ${b.gewertet} richtig – stark, dass du dranbleibst!`);
     onFertig(lauf.id);
   }, [store, lauf, limit, set, onFertig]);
 
@@ -587,7 +587,7 @@ function Ergebnis({
               {b.richtig} <span className="text-lg font-bold text-muted-foreground">von {b.gewertet} richtig</span>
             </p>
             <p className="text-sm text-muted-foreground">
-              Im EMS sind im Schnitt etwa 50 % richtig. Jede Aufgabe, die Du hier verstehst, sitzt beim nächsten Mal.
+              Im EMS sind im Schnitt etwa 50 % richtig. Jede Aufgabe, die du hier verstehst, sitzt beim nächsten Mal.
             </p>
             {ohneSchluessel > 0 && (
               <p className="text-sm">
@@ -638,7 +638,7 @@ function Ergebnis({
         doppel.mitZeit?.id === lauf.id && (
           <Card className="border-primary/50">
             <CardContent className="flex flex-col gap-3 pt-4 sm:flex-row sm:items-center">
-              <p className="flex-1 text-sm">Jetzt dasselbe Set ohne Zeit: So trennst Du Zeitprobleme von Verständnisproblemen.</p>
+              <p className="flex-1 text-sm">Jetzt dasselbe Set ohne Zeit: So trennst du Zeitprobleme von Verständnisproblemen.</p>
               <Button onClick={() => onStart("ohne-zeit")}>
                 <Hourglass /> 2. Durchgang ohne Zeit
               </Button>
