@@ -119,7 +119,7 @@ export interface Versuch {
   zeit: number;
   tag: Tag;
   gruppe: AufgabenGruppe;
-  quelle: "lektion" | "drill" | "material" | "simulation" | "einstufung" | "wiedervorlage" | "konz";
+  quelle: "lektion" | "drill" | "material" | "simulation" | "einstufung" | "wiedervorlage" | "konz" | "training";
   methodeId?: string;
   stufe?: number;
   generator?: string;

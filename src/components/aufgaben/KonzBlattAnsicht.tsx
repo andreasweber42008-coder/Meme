@@ -24,6 +24,8 @@ interface Props {
   aufgedeckt?: boolean;
   /** nur die ersten n Zeilen zeigen */
   zeilen?: number;
+  /** Zeilen vor dieser Nummer sind geprüft und werden eingefärbt (Zeile für Zeile üben) */
+  aufgedecktBis?: number;
 }
 
 const Zeichen = memo(function Zeichen({ blatt, r, c, m, aufgedeckt, gesperrt, onToggle, bisLetzte }: {
@@ -67,7 +69,7 @@ const Zeichen = memo(function Zeichen({ blatt, r, c, m, aufgedeckt, gesperrt, on
   );
 });
 
-export function KonzBlattAnsicht({ blatt, markiert, onToggle, gesperrt, aufgedeckt, zeilen }: Props) {
+export function KonzBlattAnsicht({ blatt, markiert, onToggle, gesperrt, aufgedeckt, zeilen, aufgedecktBis = 0 }: Props) {
   const pro = useProZeile();
   const anzahl = Math.min(zeilen ?? blatt.zeilen.length, blatt.zeilen.length);
   let letzte = -1;
@@ -85,10 +87,10 @@ export function KonzBlattAnsicht({ blatt, markiert, onToggle, gesperrt, aufgedec
                 r={r}
                 c={c}
                 m={!!markiert[r]?.[c]}
-                aufgedeckt={aufgedeckt}
-                gesperrt={gesperrt}
+                aufgedeckt={aufgedeckt || r < aufgedecktBis}
+                gesperrt={gesperrt || r < aufgedecktBis}
                 onToggle={onToggle}
-                bisLetzte={r * 1000 + c <= letzte}
+                bisLetzte={r < aufgedecktBis || r * 1000 + c <= letzte}
               />
             ))}
           </div>

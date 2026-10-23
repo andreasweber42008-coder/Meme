@@ -34,7 +34,7 @@ function schwierigkeitFuer(stufe: number): number {
 
 /* ------------------------------------------------------------------ Drill */
 
-function DrillKarte({ drill, methodeName, onFertig, schrittTitel }: { drill: SchrittDrill; methodeName: string; schrittTitel?: string; onFertig: (richtig: boolean) => void }) {
+export function DrillKarte({ drill, methodeName, onFertig, schrittTitel }: { drill: SchrittDrill; methodeName: string; schrittTitel?: string; onFertig: (richtig: boolean) => void }) {
   const [wahl, setWahl] = useState<number | null>(null);
   const aufgedeckt = wahl !== null;
   return (

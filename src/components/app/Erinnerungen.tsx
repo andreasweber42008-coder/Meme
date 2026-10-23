@@ -5,7 +5,7 @@ import { testdatum } from "@/plan/plan";
 import { heute, tageZwischen, uhrzeit } from "@/lib/datum";
 
 function melden(titel: string, text: string) {
-  toast(titel, { description: text, duration: 10_000 });
+  toast(titel, { description: text, duration: 6000 });
   try {
     if ("Notification" in window && Notification.permission === "granted") new Notification(titel, { body: text, icon: "/icons/icon-192.png" });
   } catch {
@@ -28,6 +28,8 @@ export function Erinnerungen() {
     const pruefen = () => {
       const { e, tage } = stand.current;
       if (!e.onboardingFertig) return;
+      // Nicht stören, während du übst oder eine Simulation läuft
+      if (/^\/(lektion|training|simulation\/lauf|einstufung|fokus)/.test(window.location.pathname)) return;
       const tag = heute();
       const jetzt = uhrzeit();
       const t = tage[tag];

@@ -167,3 +167,38 @@ test("Mini-Simulation läuft mit Antwortbogen und Uhr", async ({ page }) => {
   await expect(page.getByRole("radiogroup", { name: "Antwort Aufgabe 1" }).first().getByRole("radio", { name: "B" })).toBeChecked();
   await bild(page, "simulation-fortgesetzt");
 });
+
+test("Freies Training: alle Typen wählbar, endlos üben", async ({ page }) => {
+  await nachgestelltesBackend(page);
+  await anmelden(page);
+  await page.goto("/ueben");
+  await expect(page.getByRole("list", { name: "Aufgabentypen" }).getByRole("link")).toHaveCount(9);
+  await bild(page, "ueben");
+  await keinQuerscroll(page, "/ueben");
+  // Quanti: drei Aufgaben hintereinander
+  await page.getByRole("link", { name: /Quanti/ }).click();
+  for (let i = 0; i < 3; i++) {
+    await page.getByRole("radio").first().click();
+    await page.getByRole("button", { name: "Prüfen" }).click();
+    await expect(page.getByText(/Richtig wäre|Richtig!|Stark!|Genau so!|Sauber!|Treffer!|Super!/).first()).toBeVisible();
+    await page.getByRole("button", { name: /Nächste Aufgabe/ }).click();
+  }
+  await expect(page.getByLabel("richtig von geübt")).toContainText("/3");
+  await bild(page, "training-quanti");
+  await page.getByRole("button", { name: "Beenden" }).click();
+  await expect(page.getByText("geübt")).toBeVisible();
+  // Konz: Zeile prüfen
+  await page.goto("/training/konz");
+  await page.getByRole("button", { name: "Zeile 1 prüfen" }).click();
+  await expect(page.getByRole("button", { name: "Zeile 2 prüfen" })).toBeVisible();
+  await bild(page, "training-konz");
+  // Figuren: Runde starten
+  await page.goto("/training/figuren-lernen");
+  await page.getByRole("button", { name: "Einprägen starten" }).click();
+  await page.getByRole("button", { name: /Abfrage starten/ }).click();
+  await expect(page.getByText("Welche Fläche war schwarz?")).toBeVisible();
+  // Text
+  await page.goto("/training/textverstaendnis");
+  await expect(page.getByText(/Frage 1 von 6/)).toBeVisible();
+  await keinQuerscroll(page, "/training/textverstaendnis");
+});

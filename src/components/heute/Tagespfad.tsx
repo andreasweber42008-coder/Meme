@@ -1,23 +1,10 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { BarChart3, Box, Brain, Calculator, CalendarDays, Check, FileStack, FileText, FlaskConical, Gift, Grid3x3, ListChecks, RotateCcw, Shapes, Star, Timer, UserRound, Wind, ZoomIn, type LucideIcon } from "lucide-react";
-import type { AufgabenGruppe } from "@/daten/modelle";
+import { Brain, CalendarDays, Check, FileStack, Gift, Grid3x3, ListChecks, RotateCcw, Star, Timer, Wind, type LucideIcon } from "lucide-react";
+import { GRUPPEN_ICON } from "@/components/gruppenIcons";
 import type { PlanAufgabe, PlanArt } from "@/plan/plan";
 import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { cn } from "@/lib/utils";
-
-/** Lektionen zeigen das Symbol ihrer Aufgabengruppe */
-const GRUPPEN_ICON: Record<AufgabenGruppe, LucideIcon> = {
-  "muster-zuordnen": ZoomIn,
-  "med-nat": FlaskConical,
-  "objekte-im-raum": Box,
-  quanti: Calculator,
-  "figuren-lernen": Shapes,
-  "fakten-lernen": UserRound,
-  textverstaendnis: FileText,
-  "diagramme-tabellen": BarChart3,
-  konz: Grid3x3,
-};
 
 const ICON: Partial<Record<PlanArt, LucideIcon>> = {
   wiederholung: RotateCcw,
