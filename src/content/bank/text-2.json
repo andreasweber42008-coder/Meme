@@ -1,0 +1,875 @@
+[
+ {
+  "id": "t5",
+  "titel": "Der Weg eines Impfstoffs zur Zulassung",
+  "thema": "Impfstoffentwicklung und klinische Studienphasen",
+  "absaetze": [
+   "Von der Entdeckung eines Impfstoffkandidaten bis zur Zulassung vergehen üblicherweise mehr als zehn Jahre, und von 100 Kandidaten, die in die präklinische Prüfung gelangen, wird statistisch weniger als ein Zehntel zugelassen. In der präklinischen Phase werden in Zellkulturen und Tierversuchen die Immunogenität, also die Fähigkeit, eine Immunantwort auszulösen, sowie die Giftigkeit untersucht. Die Aussagekraft von Tiermodellen ist begrenzt: Mäuse besitzen teilweise andere Immunrezeptoren als der Mensch, und ein Impfstoff, der Mäuse schützt, versagt beim Menschen nicht selten.",
+   "In Phase I erhalten 20 bis 100 gesunde Erwachsene den Impfstoff. Im Vordergrund stehen Sicherheit, Verträglichkeit und Dosisfindung. Die Dosis wird stufenweise gesteigert, wobei die nächsthöhere Stufe erst nach Auswertung der vorherigen verabreicht wird. Zwar wird bereits die Bildung von Antikörpern gemessen, die Schutzwirkung lässt sich aber nicht beurteilen, weil bei so wenigen Teilnehmenden kaum Erkrankungsfälle auftreten. In Phase II mit mehreren hundert Personen, oft schon aus der späteren Zielgruppe wie etwa älteren Menschen, werden Dosis und Impfschema optimiert; zudem werden häufige Nebenwirkungen erkennbar.",
+   "Phase III umfasst Tausende bis Zehntausende Teilnehmende, die nach dem Zufallsprinzip einer Impf- oder einer Kontrollgruppe zugeteilt werden; die Kontrollgruppe erhält ein Placebo oder einen bereits zugelassenen Vergleichsimpfstoff. Die Wirksamkeit gibt an, um wie viel das Erkrankungsrisiko relativ gesenkt wird: Erkranken von je 10 000 Personen in der Placebogruppe 100, in der Impfgruppe 10, beträgt sie 90 Prozent. Das absolute Risiko sinkt dabei um 0,9 Prozentpunkte. Je seltener die Krankheit, desto mehr Teilnehmende braucht es, um genügend Erkrankungsfälle zu beobachten. Ausgewertet wird ereignisgesteuert: Eine Zwischenanalyse erfolgt, sobald eine vorab festgelegte Zahl von Fällen erreicht ist.",
+   "Seltene Nebenwirkungen bleiben in Studien oft unentdeckt. Nach einer Faustregel, der Dreierregel, muss die Impfgruppe etwa dreimal so viele Personen umfassen, wie dem Kehrwert der Häufigkeit entspricht, damit eine Nebenwirkung mit hoher Wahrscheinlichkeit mindestens einmal auftritt. Mit 30 000 Geimpften lässt sich also eine Nebenwirkung der Häufigkeit 1:10 000 erfassen, eine der Häufigkeit 1:100 000 dagegen meist erst nach der Zulassung. Deshalb wird ein Impfstoff auch danach überwacht, etwa über Meldesysteme. Ein zeitlicher Zusammenhang belegt dabei keine Ursache: Um ein Signal zu prüfen, vergleicht man die beobachtete Häufigkeit mit der Hintergrundrate, die in der ungeimpften Bevölkerung zu erwarten wäre.",
+   "In einer Pandemie lässt sich die Entwicklung beschleunigen, ohne eine Phase zu überspringen. Die Phasen werden überlappend durchgeführt, die Produktion beginnt auf eigenes finanzielles Risiko vor der Zulassung, und die Behörden begutachten die Daten laufend statt erst am Ende (rollierende Begutachtung). Zudem werden bei hoher Infektionsrate die nötigen Fallzahlen rasch erreicht. Bei Krankheiten mit sehr wenigen Fällen, etwa Ebola zwischen zwei Ausbrüchen, ist eine klassische Phase-III-Studie kaum durchführbar. Eine Zulassung kann sich dann auf Immunmarker stützen, die mit Schutz einhergehen (Surrogatmarker), sofern dieser Zusammenhang belegt ist."
+  ],
+  "fragen": [
+   {
+    "id": "t5f1",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+     "In Phase I lässt sich die Schutzwirkung beurteilen, weil gezielt gesunde Personen geimpft werden.",
+     "Phase-II-Studien werden ausschliesslich mit gesunden jungen Erwachsenen durchgeführt.",
+     "In Phase I erhalten alle Teilnehmenden von Beginn an die höchste geplante Dosis.",
+     "Ein Impfstoff, der Mäuse schützt, schützt mit grosser Sicherheit auch Menschen.",
+     "Die Messung von Antikörpern in Phase I erlaubt noch keine Aussage darüber, ob der Impfstoff vor Erkrankung schützt."
+    ],
+    "loesung": 4,
+    "fehler": {
+     "0": [
+      "verneinung",
+      "Absatz 2: Die Schutzwirkung lässt sich in Phase I gerade nicht beurteilen."
+     ],
+     "1": [
+      "absolut",
+      "Absatz 2: Phase II umfasst oft schon die Zielgruppe, etwa ältere Menschen."
+     ],
+     "2": [
+      "vertauscht",
+      "Absatz 2: Die Dosis wird stufenweise gesteigert."
+     ],
+     "3": [
+      "richtung",
+      "Absatz 1: Ein solcher Impfstoff versagt beim Menschen «nicht selten»."
+     ]
+    },
+    "weg": "Absatz 2: In Phase I werden Antikörper gemessen, die Schutzwirkung lässt sich wegen der wenigen Erkrankungsfälle aber nicht beurteilen.",
+    "absatz": [
+     2
+    ]
+   },
+   {
+    "id": "t5f2",
+    "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+    "aussagen": [
+     "Bei einer Wirksamkeit von 90 Prozent erkranken 10 Prozent der Geimpften.",
+     "Im Beispiel des Textes senkt die Impfung das absolute Erkrankungsrisiko um weniger als einen Prozentpunkt.",
+     "Erkranken von je 10 000 Personen in der Placebogruppe 50 und in der Impfgruppe 25, beträgt die Wirksamkeit 25 Prozent."
+    ],
+    "optionen": [
+     "Nur I",
+     "Nur II",
+     "Nur III",
+     "Nur I und II",
+     "Nur II und III"
+    ],
+    "loesung": 1,
+    "fehler": {
+     "0": [
+      "rechnung",
+      "I verwechselt die relative Wirksamkeit mit dem Anteil Erkrankter; im Beispiel erkranken 0,1 Prozent der Geimpften."
+     ],
+     "2": [
+      "rechnung",
+      "III: (50 − 25) / 50 = 50 Prozent, nicht 25."
+     ],
+     "3": [
+      "rechnung",
+      "I: relative Wirksamkeit als Anteil Erkrankter gelesen."
+     ],
+     "4": [
+      "rechnung",
+      "III: Differenz der Fälle statt relativer Senkung berechnet."
+     ]
+    },
+    "weg": "Absatz 3: Wirksamkeit ist die relative Senkung des Risikos. Im Beispiel erkranken 10 von 10 000 Geimpften, also 0,1 Prozent (I falsch). Das absolute Risiko sinkt um 0,9 Prozentpunkte (II richtig). Für III gilt: (50 − 25) / 50 = 50 Prozent (III falsch).",
+    "absatz": [
+     3
+    ]
+   },
+   {
+    "id": "t5f3",
+    "frage": "Welche Aussage lässt sich NICHT aus dem Text ableiten?",
+    "optionen": [
+     "Je seltener eine Erkrankung ist, desto mehr Teilnehmende braucht eine Phase-III-Studie.",
+     "Eine Zwischenanalyse findet statt, sobald eine vorher bestimmte Zahl von Erkrankungsfällen erreicht ist.",
+     "Eine hohe Infektionsrate in der Bevölkerung kann eine Phase-III-Studie beschleunigen.",
+     "In einer Pandemie werden einzelne Studienphasen übersprungen, um Zeit zu gewinnen.",
+     "Die Kontrollgruppe einer Phase-III-Studie erhält nicht zwingend ein Placebo."
+    ],
+    "loesung": 3,
+    "fehler": {
+     "0": "verneinung",
+     "1": [
+      "verneinung",
+      "Steht in Absatz 3 – also ableitbar."
+     ],
+     "2": [
+      "zuschnell",
+      "Absatz 5: Bei hoher Infektionsrate werden die nötigen Fallzahlen rasch erreicht."
+     ],
+     "4": [
+      "zuschnell",
+      "Absatz 3: Placebo oder zugelassener Vergleichsimpfstoff."
+     ]
+    },
+    "weg": "Absatz 5: Die Entwicklung wird beschleunigt, «ohne eine Phase zu überspringen» – die Phasen überlappen nur.",
+    "absatz": [
+     5
+    ]
+   },
+   {
+    "id": "t5f4",
+    "frage": "Welche Aussage ist falsch?",
+    "optionen": [
+     "Mit 30 000 Geimpften lässt sich eine Nebenwirkung der Häufigkeit 1:100 000 mit hoher Wahrscheinlichkeit beobachten.",
+     "Nach der Dreierregel wären für eine Nebenwirkung der Häufigkeit 1:50 000 etwa 150 000 Geimpfte nötig.",
+     "Ein zeitlicher Zusammenhang zwischen Impfung und Erkrankung belegt allein noch keine Verursachung.",
+     "Zur Prüfung eines Sicherheitssignals wird die beobachtete Häufigkeit mit einer erwarteten Hintergrundrate verglichen.",
+     "Die Überwachung eines Impfstoffs endet nicht mit seiner Zulassung."
+    ],
+    "loesung": 0,
+    "fehler": {
+     "1": [
+      "rechnung",
+      "3 × 50 000 = 150 000 – die Aussage stimmt."
+     ],
+     "2": "verneinung",
+     "3": "verneinung",
+     "4": [
+      "zuschnell",
+      "Absatz 4: Der Impfstoff wird auch nach der Zulassung überwacht."
+     ]
+    },
+    "weg": "Absatz 4: Nach der Dreierregel bräuchte es für 1:100 000 etwa 300 000 Geimpfte; mit 30 000 wird eine solche Nebenwirkung meist erst nach der Zulassung sichtbar.",
+    "absatz": [
+     4
+    ]
+   },
+   {
+    "id": "t5f5",
+    "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+    "aussagen": [
+     "Bei Ebola kann eine Zulassung ohne klassische Phase-III-Wirksamkeitsdaten erfolgen, wenn ein belegter Surrogatmarker vorliegt.",
+     "In einer Pandemie dürfen Surrogatmarker auch ohne belegten Zusammenhang mit Schutz verwendet werden.",
+     "Bei der rollierenden Begutachtung prüfen die Behörden die Daten laufend."
+    ],
+    "optionen": [
+     "Nur I",
+     "Nur II",
+     "Nur I und III",
+     "Nur II und III",
+     "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+     "0": [
+      "zuschnell",
+      "III steht in Absatz 5."
+     ],
+     "1": [
+      "absolut",
+      "II übersieht die Bedingung «sofern dieser Zusammenhang belegt ist»."
+     ],
+     "3": [
+      "absolut",
+      "II: Einschränkung «sofern ... belegt» übersehen."
+     ],
+     "4": [
+      "absolut",
+      "II widerspricht der Bedingung in Absatz 5."
+     ]
+    },
+    "weg": "Absatz 5: Bei Ebola ist Phase III kaum durchführbar, eine Zulassung kann sich auf Surrogatmarker stützen, sofern deren Zusammenhang mit Schutz belegt ist (I richtig, II falsch). Die rollierende Begutachtung bedeutet laufende Prüfung (III richtig).",
+    "absatz": [
+     5
+    ]
+   },
+   {
+    "id": "t5f6",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+     "Von 100 präklinisch geprüften Impfstoffkandidaten werden in der Regel mehr als zehn zugelassen.",
+     "Phase II dient vor allem dem Nachweis seltener Nebenwirkungen.",
+     "Die Produktion eines Impfstoffs darf erst nach seiner Zulassung beginnen.",
+     "Würde die vorab festgelegte Fallzahl einer Phase-III-Studie wegen sinkender Infektionsraten erst spät erreicht, verzögerte sich die Zwischenanalyse.",
+     "In Phase I wird die Verträglichkeit bereits gezielt an älteren Menschen als späterer Zielgruppe geprüft."
+    ],
+    "loesung": 3,
+    "fehler": {
+     "0": [
+      "richtung",
+      "Absatz 1: weniger als ein Zehntel."
+     ],
+     "1": [
+      "vertauscht",
+      "Absatz 2/4: In Phase II werden häufige Nebenwirkungen erkennbar; seltene oft erst nach der Zulassung."
+     ],
+     "2": [
+      "vorwissen",
+      "Absatz 5: In der Pandemie beginnt die Produktion vor der Zulassung."
+     ],
+     "4": [
+      "vertauscht",
+      "Die Zielgruppe wird oft in Phase II einbezogen; Phase I prüft an gesunden Erwachsenen."
+     ]
+    },
+    "weg": "Absatz 3: Die Zwischenanalyse erfolgt, sobald die festgelegte Fallzahl erreicht ist. Treten wenige Fälle auf, wird diese Zahl später erreicht, und die Analyse verzögert sich (vgl. Absatz 5: hohe Infektionsrate beschleunigt).",
+    "absatz": [
+     3,
+     5
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t6",
+  "titel": "Schmerzleitung und ihre Kontrolle",
+  "thema": "Schmerzleitung und Gate-Control",
+  "absaetze": [
+   "Schmerz beginnt an Nozizeptoren, freien Nervenendigungen, die auf mechanische, thermische und chemische Reize ansprechen, sofern diese das Gewebe schädigen oder zu schädigen drohen. Dünn myelinisierte Aδ-Fasern leiten mit 5 bis 30 Metern pro Sekunde und vermitteln den hellen, gut lokalisierbaren «ersten Schmerz». Marklose C-Fasern leiten mit 0,5 bis 2 Metern pro Sekunde und vermitteln den dumpfen, brennenden, schlecht lokalisierbaren «zweiten Schmerz». Die dick myelinisierten Aβ-Fasern, die Berührung melden, erreichen 35 bis 75 Meter pro Sekunde. Liegt der Reizort einen Meter vom Rückenmark entfernt, trifft das Signal einer Aδ-Faser mit 20 Metern pro Sekunde nach 50 Millisekunden ein, jenes einer C-Faser mit 1 Meter pro Sekunde erst nach einer Sekunde.",
+   "Im Hinterhorn des Rückenmarks werden die Signale auf ein zweites Neuron umgeschaltet; Überträgerstoffe sind Glutamat und bei starken Reizen zusätzlich Substanz P. Das zweite Neuron kreuzt auf Höhe seines Eintritts zur Gegenseite und zieht zum Thalamus. Von dort gelangen die Signale zur Grosshirnrinde, die Ort und Stärke des Schmerzes erfasst, und zum limbischen System, das seine unangenehme Gefühlskomponente vermittelt. Die Bahnen für feine Berührung kreuzen dagegen erst im Hirnstamm. Wird eine Hälfte des Rückenmarks durchtrennt, fällt deshalb unterhalb der Verletzung das Schmerzempfinden auf der Gegenseite aus, das Berührungsempfinden dagegen auf der gleichen Seite.",
+   "Die Gate-Control-Theorie erklärt, warum die Weiterleitung nicht starr ist. Hemmende Zwischenneurone im Hinterhorn wirken wie ein Tor. Aβ-Fasern aktivieren diese Zwischenneurone und schliessen so das Tor, während Aδ- und C-Fasern sie hemmen und das Tor öffnen. Deshalb lindert Reiben einer gestossenen Stelle den Schmerz. Die transkutane elektrische Nervenstimulation (TENS) nutzt dasselbe Prinzip, indem sie Aβ-Fasern über die Haut reizt. Zusätzlich hemmen absteigende Bahnen aus dem Hirnstamm die Weiterleitung, unter anderem über körpereigene Opioide. So wird etwa eine Verletzung im Wettkampf unter Stress zunächst kaum wahrgenommen.",
+   "Entzündungsstoffe wie Prostaglandine und Bradykinin senken die Reizschwelle der Nozizeptoren. Diese periphere Sensibilisierung äussert sich als Hyperalgesie, bei der ein schmerzhafter Reiz stärker schmerzt als normal, und als Allodynie, bei der ein normalerweise schmerzloser Reiz wie die Berührung sonnenverbrannter Haut Schmerz auslöst. Entzündungshemmer wie Ibuprofen hemmen die Bildung von Prostaglandinen und wirken daher vor allem bei entzündlich bedingtem Schmerz. Etwa ein Drittel der C-Fasern in Gelenken ist in gesundem Gewebe nicht erregbar und wird erst bei einer Entzündung aktiv («stille Nozizeptoren»).",
+   "Ein anhaltender Einstrom von Signalen aus C-Fasern steigert zudem die Erregbarkeit der Neurone im Hinterhorn, sodass gleich starke Reize zunehmend stärkere Antworten auslösen (zentrale Sensibilisierung). Dieser Zustand kann fortbestehen, nachdem das Gewebe verheilt ist, und so zu chronischem Schmerz beitragen, der definitionsgemäss länger als drei Monate andauert. Bei neuropathischem Schmerz ist der Nerv selbst geschädigt; er spricht auf klassische Entzündungshemmer schlecht an. Wie wichtig Schmerz ist, zeigen Menschen mit angeborener Schmerzunempfindlichkeit, etwa infolge einer Mutation im Natriumkanal Nav1.7: Sie verletzen sich häufig unbemerkt und haben eine verkürzte Lebenserwartung."
+  ],
+  "fragen": [
+   {
+    "id": "t6f1",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+     "C-Fasern leiten schneller als Aδ-Fasern, da sie marklos sind.",
+     "Liegt der Reizort 0,5 Meter vom Rückenmark entfernt, trifft das Signal einer C-Faser mit 1 Meter pro Sekunde rund 0,475 Sekunden nach jenem einer Aδ-Faser mit 20 Metern pro Sekunde ein.",
+     "Der zweite Schmerz ist hell und gut lokalisierbar.",
+     "Liegt der Reizort 1,5 Meter vom Rückenmark entfernt, trifft das Signal einer Aδ-Faser mit 20 Metern pro Sekunde nach 150 Millisekunden ein.",
+     "Nozizeptoren sprechen ausschliesslich auf mechanische Reize an."
+    ],
+    "loesung": 1,
+    "fehler": {
+     "0": [
+      "richtung",
+      "Absatz 1: C-Fasern leiten mit 0,5 bis 2 m/s deutlich langsamer."
+     ],
+     "2": [
+      "vertauscht",
+      "Hell und gut lokalisierbar ist der erste Schmerz."
+     ],
+     "3": [
+      "rechnung",
+      "1,5 m : 20 m/s = 0,075 s = 75 ms."
+     ],
+     "4": [
+      "absolut",
+      "Absatz 1: auch thermische und chemische Reize."
+     ]
+    },
+    "weg": "Absatz 1: Bei 0,5 m braucht die C-Faser 0,5 m : 1 m/s = 0,5 s, die Aδ-Faser 0,5 m : 20 m/s = 0,025 s. Differenz: 0,475 s.",
+    "absatz": [
+     1
+    ]
+   },
+   {
+    "id": "t6f2",
+    "frage": "Die linke Hälfte des Rückenmarks wird auf Brusthöhe durchtrennt. Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+    "aussagen": [
+     "Unterhalb der Verletzung ist das Schmerzempfinden rechts gestört.",
+     "Unterhalb der Verletzung ist das Berührungsempfinden ebenfalls rechts gestört.",
+     "Die unangenehme Gefühlskomponente des Schmerzes wird laut Text vom limbischen System vermittelt."
+    ],
+    "optionen": [
+     "Nur I",
+     "Nur III",
+     "Nur I und III",
+     "Nur II und III",
+     "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+     "0": [
+      "zuschnell",
+      "III steht in Absatz 2."
+     ],
+     "1": [
+      "zuschnell",
+      "I folgt aus der Kreuzung der Schmerzbahn auf Eintrittshöhe."
+     ],
+     "3": [
+      "vertauscht",
+      "Die Berührungsbahnen kreuzen erst im Hirnstamm – Ausfall auf der gleichen Seite (links)."
+     ],
+     "4": [
+      "vertauscht",
+      "II: Kreuzungsort von Schmerz- und Berührungsbahn verwechselt."
+     ]
+    },
+    "weg": "Absatz 2: Die Schmerzbahn kreuzt auf Eintrittshöhe, daher Ausfall auf der Gegenseite (rechts, I richtig). Berührungsbahnen kreuzen erst im Hirnstamm, daher Ausfall auf der gleichen Seite (links, II falsch). III steht im selben Absatz.",
+    "absatz": [
+     2
+    ]
+   },
+   {
+    "id": "t6f3",
+    "frage": "Welche Aussage lässt sich NICHT aus dem Text ableiten?",
+    "optionen": [
+     "Reiben einer gestossenen Stelle kann über Aβ-Fasern die Schmerzweiterleitung im Hinterhorn dämpfen.",
+     "Aδ- und C-Fasern hemmen die hemmenden Zwischenneurone.",
+     "TENS beruht auf der elektrischen Reizung von Berührungsfasern.",
+     "Körpereigene Opioide sind an der absteigenden Schmerzhemmung beteiligt.",
+     "Unter Stress wird die Schmerzweiterleitung vor allem durch eine verstärkte Aktivierung der Aβ-Fasern gehemmt."
+    ],
+    "loesung": 4,
+    "fehler": {
+     "0": "verneinung",
+     "1": [
+      "zuschnell",
+      "Absatz 3: Aδ- und C-Fasern hemmen die Zwischenneurone und öffnen so das Tor – die doppelte Hemmung ist korrekt."
+     ],
+     "2": [
+      "zuschnell",
+      "Aβ-Fasern melden laut Absatz 1 Berührung; TENS reizt Aβ-Fasern."
+     ],
+     "3": "verneinung"
+    },
+    "weg": "Absatz 3: Die Schmerzdämpfung unter Stress wird auf absteigende Bahnen aus dem Hirnstamm und körpereigene Opioide zurückgeführt, nicht auf die Aβ-Fasern.",
+    "absatz": [
+     3
+    ]
+   },
+   {
+    "id": "t6f4",
+    "frage": "Welche Aussage ist falsch?",
+    "optionen": [
+     "Bei der Allodynie verursacht ein schmerzhafter Reiz einen stärkeren Schmerz als normal.",
+     "Prostaglandine senken die Reizschwelle von Nozizeptoren.",
+     "Ibuprofen wirkt vor allem bei Schmerzen, an denen eine Entzündung beteiligt ist.",
+     "Ein Teil der Nozizeptoren in Gelenken ist in gesundem Gewebe nicht erregbar.",
+     "Neuropathische Schmerzen sprechen schlecht auf klassische Entzündungshemmer an."
+    ],
+    "loesung": 0,
+    "fehler": {
+     "1": "verneinung",
+     "2": [
+      "zuschnell",
+      "Absatz 4: Ibuprofen hemmt die Prostaglandinbildung und wirkt daher vor allem bei entzündlichem Schmerz."
+     ],
+     "3": [
+      "zuschnell",
+      "Etwa ein Drittel der C-Fasern in Gelenken ist ein solcher Teil."
+     ],
+     "4": "verneinung"
+    },
+    "weg": "Absatz 4: Das beschriebene Phänomen ist die Hyperalgesie. Bei der Allodynie löst ein normalerweise schmerzloser Reiz Schmerz aus.",
+    "absatz": [
+     4
+    ]
+   },
+   {
+    "id": "t6f5",
+    "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+    "aussagen": [
+     "Bei zentraler Sensibilisierung löst ein gleich starker Reiz eine zunehmend stärkere Antwort aus.",
+     "Chronischer Schmerz setzt voraus, dass das ursprünglich verletzte Gewebe noch nicht verheilt ist.",
+     "Menschen mit angeborener Schmerzunempfindlichkeit haben eine verkürzte Lebenserwartung."
+    ],
+    "optionen": [
+     "Nur I",
+     "Nur II",
+     "Nur III",
+     "Nur I und III",
+     "I, II und III"
+    ],
+    "loesung": 3,
+    "fehler": {
+     "0": [
+      "zuschnell",
+      "III steht in Absatz 5."
+     ],
+     "1": [
+      "verneinung",
+      "II: Die zentrale Sensibilisierung kann laut Absatz 5 nach der Heilung fortbestehen."
+     ],
+     "2": [
+      "zuschnell",
+      "I ist die Definition der zentralen Sensibilisierung."
+     ],
+     "4": [
+      "kausal",
+      "II: Chronischer Schmerz ist nicht an fortbestehende Gewebeschädigung gebunden."
+     ]
+    },
+    "weg": "Absatz 5: I beschreibt die zentrale Sensibilisierung. Diese kann fortbestehen, nachdem das Gewebe verheilt ist, und zu chronischem Schmerz beitragen (II falsch). III steht am Ende des Absatzes.",
+    "absatz": [
+     5
+    ]
+   },
+   {
+    "id": "t6f6",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+     "Würde die Wirkung körpereigener Opioide blockiert, wäre die Schmerzdämpfung unter Stress vermutlich abgeschwächt.",
+     "Substanz P wird bei jedem Schmerzreiz freigesetzt.",
+     "Stille Nozizeptoren tragen vor allem in gesundem Gewebe zur Schmerzwahrnehmung bei.",
+     "Das zweite Neuron der Schmerzbahn zieht auf derselben Seite zum Thalamus, auf der es eintritt.",
+     "Weil Betroffene sich häufig unbemerkt verletzen, ist ihr Natriumkanal Nav1.7 verändert."
+    ],
+    "loesung": 0,
+    "fehler": {
+     "1": [
+      "absolut",
+      "Absatz 2: Substanz P nur bei starken Reizen."
+     ],
+     "2": [
+      "richtung",
+      "Absatz 4: Sie sind in gesundem Gewebe nicht erregbar und werden erst bei Entzündung aktiv."
+     ],
+     "3": [
+      "vertauscht",
+      "Absatz 2: Es kreuzt auf Eintrittshöhe zur Gegenseite."
+     ],
+     "4": [
+      "kausal",
+      "Ursache und Folge vertauscht: Die Mutation führt zur Unempfindlichkeit, nicht umgekehrt."
+     ]
+    },
+    "weg": "Absatz 3: Die absteigende Hemmung wirkt unter anderem über körpereigene Opioide und erklärt, warum Verletzungen unter Stress kaum wahrgenommen werden. Fällt dieser Weg aus, ist eine schwächere Dämpfung zu erwarten.",
+    "absatz": [
+     3
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t7",
+  "titel": "Das Darmmikrobiom",
+  "thema": "Darmmikrobiom",
+  "absaetze": [
+   "Im menschlichen Dickdarm leben schätzungsweise 38 Billionen Bakterien, ungefähr so viele, wie der Körper eigene Zellen besitzt; die früher verbreitete Annahme von zehn Bakterien pro Körperzelle gilt als überholt. Ein Mensch beherbergt mehrere hundert Bakterienarten, deren Gene zusammen mehr als hundertmal zahlreicher sind als jene des menschlichen Erbguts. Die Besiedlungsdichte nimmt entlang des Verdauungstrakts zu: Im Magen mit einem pH-Wert von 1 bis 2 überleben nur bis zu etwa 1000 Bakterien pro Milliliter Inhalt, im Dünndarm bis zu 100 Millionen und im Dickdarm bis zu 100 Milliarden. Es dominieren die Firmicutes und die Bacteroidetes, deren Mengenverhältnis sich zwischen Menschen jedoch stark unterscheidet.",
+   "Die Besiedlung beginnt bei der Geburt. Vaginal geborene Kinder erhalten zunächst Bakterien aus der Scheiden- und Darmflora der Mutter, darunter viele Laktobazillen, per Kaiserschnitt geborene Kinder eher Hautkeime und Keime aus der Spitalumgebung. Diese Unterschiede gleichen sich in den ersten Lebensjahren weitgehend aus; ab etwa drei Jahren ähnelt die Zusammensetzung jener eines Erwachsenen. Muttermilch enthält Mehrfachzucker, sogenannte Oligosaccharide, die das Kind selbst nicht verdauen kann, die aber Bifidobakterien als Nahrung dienen.",
+   "Darmbakterien bauen Ballaststoffe ab, die menschliche Verdauungsenzyme nicht spalten können. Bei dieser Gärung entstehen kurzkettige Fettsäuren wie Acetat, Propionat und Butyrat. Butyrat ist die wichtigste Energiequelle der Dickdarmschleimhautzellen und deckt bis zu 70 Prozent ihres Energiebedarfs. Die Fettsäuren senken ausserdem den pH-Wert im Dickdarm, was das Wachstum mancher Krankheitserreger hemmt. Für die Versorgung mit Vitamin K ist die bakterielle Bildung bedeutsam, für Vitamin B12 dagegen gering: Es wird zwar im Dickdarm gebildet, aber im letzten Abschnitt des Dünndarms aufgenommen, also vor dem Ort seiner Bildung.",
+   "Eine dichte, vielfältige Besiedlung besetzt Nischen und verbraucht Nährstoffe, die eindringende Erreger benötigen würden; man spricht von Kolonisationsresistenz. Breitbandantibiotika verringern die Vielfalt deutlich. Manche Bakteriengruppen erholen sich erst nach Monaten, einige nie vollständig. In dieser Lücke kann sich Clostridioides difficile ausbreiten und schwere Durchfälle verursachen. Bei wiederkehrenden Infektionen wird Stuhl eines gesunden Spenders übertragen; in Studien lagen die Heilungsraten dabei um 90 Prozent, nach erneuter Antibiotikagabe dagegen bei etwa 30 bis 40 Prozent.",
+   "Veränderungen des Mikrobioms werden mit Übergewicht, Diabetes, entzündlichen Darmerkrankungen und sogar Depressionen in Verbindung gebracht. Die meisten Befunde stammen jedoch aus Beobachtungsstudien, die nicht klären, ob das veränderte Mikrobiom Ursache oder Folge ist; Krankheit, Medikamente und Ernährung können es ebenfalls verändern. Stärkere Hinweise liefern Tierversuche: Keimfrei aufgezogene Mäuse, die Darmbakterien übergewichtiger Spender erhielten, setzten bei gleicher Futtermenge mehr Fett an als Mäuse mit Bakterien schlanker Spender. Ob sich dies auf den Menschen übertragen lässt, ist nicht gesichert. Die Wirkung von Probiotika hängt stark vom Bakterienstamm ab; die meisten aufgenommenen Bakterien siedeln sich nicht dauerhaft an und sind wenige Wochen nach dem Absetzen nicht mehr nachweisbar."
+  ],
+  "fragen": [
+   {
+    "id": "t7f1",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+     "Im Körper gibt es etwa zehnmal mehr Bakterien als Körperzellen.",
+     "Die Bakteriendichte ist im Dünndarm höher als im Dickdarm.",
+     "Bei allen Menschen überwiegen die Firmicutes deutlich gegenüber den Bacteroidetes.",
+     "Die Bakteriendichte kann im Dickdarm rund hundertmillionenmal höher sein als im Magen.",
+     "Die Gene der Darmbakterien sind zusammen etwa hundertmal weniger zahlreich als die menschlichen Gene."
+    ],
+    "loesung": 3,
+    "fehler": {
+     "0": [
+      "vorwissen",
+      "Die 10:1-Schätzung gilt laut Absatz 1 als überholt."
+     ],
+     "1": [
+      "richtung",
+      "Absatz 1: Die Dichte nimmt zum Dickdarm hin zu."
+     ],
+     "2": [
+      "absolut",
+      "Absatz 1: Das Verhältnis unterscheidet sich zwischen Menschen stark."
+     ],
+     "4": [
+      "richtung",
+      "Absatz 1: mehr als hundertmal zahlreicher."
+     ]
+    },
+    "weg": "Absatz 1: Magen bis etwa 1000 (10³), Dickdarm bis 100 Milliarden (10¹¹) Bakterien pro Milliliter. 10¹¹ : 10³ = 10⁸, also rund das Hundertmillionenfache.",
+    "absatz": [
+     1
+    ]
+   },
+   {
+    "id": "t7f2",
+    "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+    "aussagen": [
+     "Bestimmte Bestandteile der Muttermilch kann das Kind nicht selbst verwerten, wohl aber bestimmte Darmbakterien.",
+     "Per Kaiserschnitt geborene Kinder behalten bis ins Erwachsenenalter ein deutlich anderes Mikrobiom.",
+     "Bereits bei der Geburt gleicht die Darmflora eines Kindes jener eines Erwachsenen."
+    ],
+    "optionen": [
+     "Nur I",
+     "Nur II",
+     "Nur III",
+     "Nur I und II",
+     "Nur I und III"
+    ],
+    "loesung": 0,
+    "fehler": {
+     "1": [
+      "absolut",
+      "II: Die Unterschiede gleichen sich in den ersten Lebensjahren weitgehend aus."
+     ],
+     "2": [
+      "vertauscht",
+      "III: Erst ab etwa drei Jahren ähnelt die Flora jener eines Erwachsenen."
+     ],
+     "3": [
+      "absolut",
+      "II übersieht die Angleichung in den ersten Lebensjahren."
+     ],
+     "4": [
+      "vertauscht",
+      "III: Zeitpunkt «ab etwa drei Jahren» mit der Geburt verwechselt."
+     ]
+    },
+    "weg": "Absatz 2: Oligosaccharide kann das Kind nicht verdauen, sie dienen Bifidobakterien als Nahrung (I richtig). Die Unterschiede nach Kaiserschnitt gleichen sich weitgehend aus (II falsch). Erwachsenenähnlich wird die Flora erst ab etwa drei Jahren (III falsch).",
+    "absatz": [
+     2
+    ]
+   },
+   {
+    "id": "t7f3",
+    "frage": "Welche Aussage lässt sich NICHT aus dem Text ableiten?",
+    "optionen": [
+     "Butyrat ist die wichtigste Energiequelle der Dickdarmschleimhautzellen.",
+     "Kurzkettige Fettsäuren können über eine Senkung des pH-Werts das Wachstum mancher Erreger hemmen.",
+     "Darmbakterien leisten einen wesentlichen Beitrag zur Versorgung mit Vitamin B12.",
+     "Ballaststoffe werden von menschlichen Verdauungsenzymen nicht gespalten.",
+     "Vitamin B12 wird in einem Darmabschnitt aufgenommen, der vor dem Ort seiner bakteriellen Bildung liegt."
+    ],
+    "loesung": 2,
+    "fehler": {
+     "0": "verneinung",
+     "1": [
+      "zuschnell",
+      "Kette aus Absatz 3: Fettsäuren – pH sinkt – manche Erreger wachsen schlechter."
+     ],
+     "3": "verneinung",
+     "4": [
+      "zuschnell",
+      "Der letzte Abschnitt des Dünndarms liegt vor dem Dickdarm, wo B12 gebildet wird."
+     ]
+    },
+    "weg": "Absatz 3: Der bakterielle Beitrag ist für Vitamin K bedeutsam, für Vitamin B12 aber gering, weil es erst im Dickdarm gebildet, jedoch schon im Dünndarm aufgenommen wird.",
+    "absatz": [
+     3
+    ]
+   },
+   {
+    "id": "t7f4",
+    "frage": "Welche Aussage ist falsch?",
+    "optionen": [
+     "Nach einer Behandlung mit Breitbandantibiotika erholen sich manche Bakteriengruppen nicht vollständig.",
+     "Kolonisationsresistenz beruht unter anderem auf der Konkurrenz um Nährstoffe.",
+     "In Studien war die Heilungsrate wiederkehrender C.-difficile-Infektionen nach Stuhlübertragung mehr als doppelt so hoch wie nach erneuter Antibiotikagabe.",
+     "Clostridioides difficile kann sich ausbreiten, wenn die Vielfalt der Darmflora vermindert ist.",
+     "Die meisten Bakterien aus Probiotika siedeln sich dauerhaft im Darm an."
+    ],
+    "loesung": 4,
+    "fehler": {
+     "0": "verneinung",
+     "1": "verneinung",
+     "2": [
+      "rechnung",
+      "90 Prozent gegenüber höchstens 40 Prozent ist mehr als das Doppelte – die Aussage stimmt."
+     ],
+     "3": [
+      "zuschnell",
+      "Absatz 4: «In dieser Lücke» bezieht sich auf die verringerte Vielfalt."
+     ]
+    },
+    "weg": "Absatz 5: Die meisten aufgenommenen Bakterien siedeln sich nicht dauerhaft an und sind wenige Wochen nach dem Absetzen nicht mehr nachweisbar.",
+    "absatz": [
+     4,
+     5
+    ]
+   },
+   {
+    "id": "t7f5",
+    "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+    "aussagen": [
+     "Beobachtungsstudien belegen, dass ein verändertes Mikrobiom Depressionen verursacht.",
+     "Im beschriebenen Versuch setzten Mäuse mit Bakterien übergewichtiger Spender bei gleicher Futtermenge mehr Fett an.",
+     "Der Mausversuch beweist, dass Darmbakterien beim Menschen Übergewicht verursachen."
+    ],
+    "optionen": [
+     "Nur I",
+     "Nur II",
+     "Nur III",
+     "Nur I und II",
+     "Nur II und III"
+    ],
+    "loesung": 1,
+    "fehler": {
+     "0": [
+      "kausal",
+      "I: Beobachtungsstudien klären laut Absatz 5 nicht, ob Ursache oder Folge."
+     ],
+     "2": [
+      "kausal",
+      "III: Die Übertragbarkeit auf den Menschen ist nicht gesichert."
+     ],
+     "3": [
+      "kausal",
+      "I: Zusammenhang als Ursache gedeutet."
+     ],
+     "4": [
+      "kausal",
+      "III: Tierbefund ungeprüft auf den Menschen übertragen."
+     ]
+    },
+    "weg": "Absatz 5: Beobachtungsstudien lassen Ursache und Folge offen (I falsch). Der Mausversuch ist beschrieben (II richtig), seine Übertragbarkeit auf den Menschen aber nicht gesichert (III falsch).",
+    "absatz": [
+     5
+    ]
+   },
+   {
+    "id": "t7f6",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+     "Einige Wochen nach dem Absetzen eines Probiotikums sind dessen Bakterien in der Regel noch reichlich im Darm nachweisbar.",
+     "Alle Probiotika wirken gleich, da sie lebende Bakterien enthalten.",
+     "Per Kaiserschnitt geborene Kinder werden zunächst vor allem mit Laktobazillen besiedelt.",
+     "Breitbandantibiotika erhöhen die Vielfalt der Darmflora.",
+     "Ein verändertes Mikrobiom bei Menschen mit einer bestimmten Krankheit kann auch eine Folge der Medikamente sein, mit denen die Krankheit behandelt wird."
+    ],
+    "loesung": 4,
+    "fehler": {
+     "0": [
+      "verneinung",
+      "Absatz 5: wenige Wochen nach dem Absetzen nicht mehr nachweisbar."
+     ],
+     "1": [
+      "absolut",
+      "Absatz 5: Die Wirkung hängt stark vom Bakterienstamm ab."
+     ],
+     "2": [
+      "vertauscht",
+      "Absatz 2: Laktobazillen erhalten vaginal geborene Kinder."
+     ],
+     "3": [
+      "richtung",
+      "Absatz 4: Sie verringern die Vielfalt."
+     ]
+    },
+    "weg": "Absatz 5: Beobachtungsstudien klären nicht, ob das veränderte Mikrobiom Ursache oder Folge ist; auch Medikamente können es verändern.",
+    "absatz": [
+     5
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t8",
+  "titel": "Muskelfasertypen und Training",
+  "thema": "Muskelfasertypen und Training",
+  "absaetze": [
+   "Die Skelettmuskulatur des Menschen besteht aus drei Haupttypen von Fasern. Typ-I-Fasern kontrahieren langsam und gewinnen ihre Energie überwiegend oxidativ. Sie enthalten viele Mitochondrien, sind von einem dichten Kapillarnetz umgeben und reich an Myoglobin, was ihnen ihre rote Farbe verleiht; sie ermüden kaum. Bis zum Erreichen ihrer Spitzenkraft benötigen sie etwa 80 bis 100 Millisekunden. Typ-IIx-Fasern erreichen ihre Spitzenkraft in 25 bis 40 Millisekunden und entwickeln pro Faser die grösste Kraft, decken ihren Energiebedarf aber überwiegend durch anaerobe Glykolyse und ermüden innerhalb von Sekunden bis Minuten. Typ-IIa-Fasern nehmen in Geschwindigkeit, Kraft und Ermüdbarkeit eine Mittelstellung ein.",
+   "Welchem Typ eine Faser angehört, bestimmt im Wesentlichen ihr Motoneuron. Alle Fasern einer motorischen Einheit, also eines Motoneurons mit den von ihm versorgten Fasern, gehören demselben Typ an. Kleine Motoneurone versorgen wenige langsame Fasern und sind leichter erregbar als grosse. Steigt die geforderte Kraft, werden nach dem Grössenprinzip zuerst kleine Einheiten mit Typ-I-Fasern und erst danach grössere mit Typ-IIa- und schliesslich Typ-IIx-Fasern hinzugezogen. Beim ruhigen Gehen arbeiten daher fast nur Typ-I-Fasern. Verband man im Tierversuch den Nerv eines schnellen Muskels mit einem langsamen Muskel, nahm dieser innerhalb von Wochen schnelle Eigenschaften an.",
+   "Der äussere Oberschenkelmuskel enthält beim Durchschnittsmenschen etwa 50 Prozent Typ-I-Fasern, bei Marathonläufern bis zu 80 Prozent, bei Sprintern mitunter weniger als 30 Prozent. Haltemuskeln wie der Schollenmuskel der Wade bestehen auch bei Untrainierten zu bis zu 80 Prozent aus Typ-I-Fasern. Die Verteilung ist weitgehend genetisch festgelegt; ob Training Typ-I- in Typ-II-Fasern umwandeln kann oder umgekehrt, ist umstritten. Gut belegt sind dagegen Verschiebungen innerhalb der Typ-II-Fasern: Sowohl Ausdauer- als auch Krafttraining wandeln Typ-IIx- in Typ-IIa-Fasern um. Bei Inaktivität nimmt der Anteil der Typ-IIx-Fasern dagegen zu. Wird ein Training beendet, steigt er vorübergehend sogar über den Ausgangswert.",
+   "Ausdauertraining erhöht die Mitochondriendichte innerhalb weniger Wochen um bis zu 50 Prozent und vermehrt die Kapillaren. Die Fasern verbrennen dadurch mehr Fett und schonen ihre Glykogenvorräte, ihr Querschnitt nimmt jedoch kaum zu. Krafttraining vergrössert dagegen den Faserquerschnitt, vor allem bei Typ-II-Fasern, während die Zahl der Fasern beim Menschen nahezu konstant bleibt. In den ersten vier bis acht Wochen beruht der Kraftzuwachs grösstenteils auf neuronalen Anpassungen, etwa einer besseren Rekrutierung und Synchronisation motorischer Einheiten; eine messbare Dickenzunahme folgt erst später.",
+   "Ab etwa dem 50. Lebensjahr gehen jährlich 1 bis 2 Prozent der Muskelmasse verloren. Typ-II-Fasern schwinden dabei stärker als Typ-I-Fasern. Zudem sterben Motoneurone ab; die verwaisten Fasern werden teilweise von benachbarten, oft langsamen Motoneuronen übernommen und nehmen deren Eigenschaften an. Krafttraining kann den Faserquerschnitt selbst bei über 80-Jährigen noch vergrössern, den Verlust an Motoneuronen aber nicht aufhalten."
+  ],
+  "fragen": [
+   {
+    "id": "t8f1",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+     "Typ-IIx-Fasern enthalten mehr Myoglobin als Typ-I-Fasern.",
+     "Typ-I-Fasern erreichen ihre Spitzenkraft schneller als Typ-IIx-Fasern.",
+     "Eine motorische Einheit kann nicht gleichzeitig Typ-I- und Typ-IIx-Fasern enthalten.",
+     "Typ-IIa-Fasern ermüden schneller als Typ-IIx-Fasern.",
+     "Typ-I-Fasern entwickeln pro Faser die grösste Kraft."
+    ],
+    "loesung": 2,
+    "fehler": {
+     "0": [
+      "vertauscht",
+      "Absatz 1: Typ-I-Fasern sind reich an Myoglobin."
+     ],
+     "1": [
+      "richtung",
+      "Absatz 1: 80 bis 100 ms gegenüber 25 bis 40 ms."
+     ],
+     "3": [
+      "richtung",
+      "Typ IIa nimmt bei der Ermüdbarkeit eine Mittelstellung zwischen Typ I und IIx ein."
+     ],
+     "4": [
+      "vertauscht",
+      "Absatz 1: Die grösste Kraft pro Faser entwickeln Typ-IIx-Fasern."
+     ]
+    },
+    "weg": "Absatz 2: Alle Fasern einer motorischen Einheit gehören demselben Typ an. Eine Mischung von Typ I und Typ IIx in einer Einheit ist daher ausgeschlossen.",
+    "absatz": [
+     2
+    ]
+   },
+   {
+    "id": "t8f2",
+    "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+    "aussagen": [
+     "Beim ruhigen Gehen werden überwiegend Typ-I-Fasern eingesetzt.",
+     "Kleine Motoneurone sind schwerer erregbar als grosse.",
+     "Wird im Tierversuch der Nerv eines schnellen Muskels mit einem langsamen Muskel verbunden, nimmt dieser schnelle Eigenschaften an."
+    ],
+    "optionen": [
+     "Nur I",
+     "Nur II",
+     "Nur III",
+     "Nur I und III",
+     "Nur II und III"
+    ],
+    "loesung": 3,
+    "fehler": {
+     "0": [
+      "zuschnell",
+      "III ist der in Absatz 2 beschriebene Tierversuch."
+     ],
+     "1": [
+      "richtung",
+      "II: Kleine Motoneurone sind leichter erregbar."
+     ],
+     "2": [
+      "zuschnell",
+      "I steht in Absatz 2."
+     ],
+     "4": [
+      "richtung",
+      "II kehrt die Erregbarkeit um."
+     ]
+    },
+    "weg": "Absatz 2: Beim ruhigen Gehen arbeiten fast nur Typ-I-Fasern (I). Kleine Motoneurone sind leichter erregbar (II falsch). III entspricht dem Tierversuch am Ende des Absatzes.",
+    "absatz": [
+     2
+    ]
+   },
+   {
+    "id": "t8f3",
+    "frage": "Welche Aussage lässt sich NICHT aus dem Text ableiten?",
+    "optionen": [
+     "Ausdauertraining wandelt nachweislich einen grossen Teil der Typ-I-Fasern in Typ-II-Fasern um.",
+     "Sowohl Ausdauer- als auch Krafttraining können den Anteil der Typ-IIx-Fasern verringern.",
+     "Der Schollenmuskel kann auch bei untrainierten Menschen überwiegend aus Typ-I-Fasern bestehen.",
+     "Nach dem Ende eines Trainings kann der Anteil der Typ-IIx-Fasern vorübergehend höher sein als vor dem Training.",
+     "Bei Sprintern kann der Anteil der Typ-I-Fasern im äusseren Oberschenkelmuskel unter einem Drittel liegen."
+    ],
+    "loesung": 0,
+    "fehler": {
+     "1": [
+      "zuschnell",
+      "Umwandlung von IIx in IIa bedeutet weniger IIx-Fasern."
+     ],
+     "2": "verneinung",
+     "3": [
+      "zuschnell",
+      "Absatz 3: Der Anteil steigt vorübergehend über den Ausgangswert."
+     ],
+     "4": [
+      "rechnung",
+      "Weniger als 30 Prozent ist weniger als ein Drittel."
+     ]
+    },
+    "weg": "Absatz 3: Ob Training Typ-I- in Typ-II-Fasern umwandeln kann, ist umstritten; gut belegt ist nur die Verschiebung innerhalb der Typ-II-Fasern.",
+    "absatz": [
+     3
+    ]
+   },
+   {
+    "id": "t8f4",
+    "frage": "Welche Aussage ist falsch?",
+    "optionen": [
+     "Ausdauertraining kann die Mitochondriendichte innerhalb weniger Wochen um bis zur Hälfte steigern.",
+     "Der Kraftzuwachs in den ersten Wochen eines Krafttrainings beruht vor allem auf einer Zunahme des Faserquerschnitts.",
+     "Krafttraining vergrössert vor allem den Querschnitt der Typ-II-Fasern.",
+     "Ausdauertrainierte Fasern schonen ihre Glykogenvorräte, indem sie vermehrt Fett verbrennen.",
+     "Beim Menschen nimmt durch Krafttraining vor allem die Dicke, nicht die Anzahl der Muskelfasern zu."
+    ],
+    "loesung": 1,
+    "fehler": {
+     "0": [
+      "rechnung",
+      "Bis zu 50 Prozent entspricht bis zur Hälfte – die Aussage stimmt."
+     ],
+     "2": "verneinung",
+     "3": "verneinung",
+     "4": [
+      "zuschnell",
+      "Absatz 4: Die Faserzahl bleibt nahezu konstant."
+     ]
+    },
+    "weg": "Absatz 4: In den ersten vier bis acht Wochen beruht der Kraftzuwachs grösstenteils auf neuronalen Anpassungen; die messbare Dickenzunahme folgt erst später.",
+    "absatz": [
+     4
+    ]
+   },
+   {
+    "id": "t8f5",
+    "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+    "aussagen": [
+     "Wer ab dem 50. Lebensjahr jährlich 1 bis 2 Prozent Muskelmasse verliert, hat nach zehn Jahren mindestens 20 Prozent verloren.",
+     "Im Alter schwinden Typ-I-Fasern stärker als Typ-II-Fasern.",
+     "Krafttraining kann im hohen Alter den Verlust an Motoneuronen aufhalten."
+    ],
+    "optionen": [
+     "Nur I",
+     "Nur III",
+     "Nur I und II",
+     "Nur I und III",
+     "Keine der Aussagen"
+    ],
+    "loesung": 4,
+    "fehler": {
+     "0": [
+      "rechnung",
+      "I: 10 × 1 bis 2 Prozent ergibt höchstens etwa 10 bis 20 Prozent, nicht mindestens 20."
+     ],
+     "1": [
+      "verneinung",
+      "III: Absatz 5 sagt, Krafttraining könne den Verlust «nicht aufhalten»."
+     ],
+     "2": [
+      "vertauscht",
+      "II: Typ-II-Fasern schwinden stärker."
+     ],
+     "3": [
+      "rechnung",
+      "I: Obergrenze als Mindestwert gelesen; III übersieht das «nicht»."
+     ]
+    },
+    "weg": "Absatz 5: Bei 1 bis 2 Prozent pro Jahr sind es nach zehn Jahren etwa 10 bis 20 Prozent (I falsch). Typ-II-Fasern schwinden stärker (II falsch). Den Motoneuronverlust kann Krafttraining nicht aufhalten (III falsch).",
+    "absatz": [
+     5
+    ]
+   },
+   {
+    "id": "t8f6",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+     "Die Verteilung der Fasertypen wird hauptsächlich durch Training bestimmt.",
+     "Eine schnelle Faser, die nach dem Verlust ihres Motoneurons von einem langsamen Motoneuron übernommen wird, nimmt langsamere Eigenschaften an.",
+     "Bei Inaktivität nimmt der Anteil der Typ-I-Fasern zu.",
+     "Bei maximaler Kraftanforderung werden ausschliesslich Typ-IIx-Fasern eingesetzt.",
+     "Bei über 80-Jährigen bleibt Krafttraining ohne Wirkung auf die Muskelfasern."
+    ],
+    "loesung": 1,
+    "fehler": {
+     "0": [
+      "vorwissen",
+      "Absatz 3: Die Verteilung ist weitgehend genetisch festgelegt."
+     ],
+     "2": [
+      "richtung",
+      "Absatz 3: Bei Inaktivität nimmt der Anteil der Typ-IIx-Fasern zu."
+     ],
+     "3": [
+      "absolut",
+      "Absatz 2: Die Einheiten werden zusätzlich hinzugezogen; die kleineren bleiben aktiv."
+     ],
+     "4": [
+      "verneinung",
+      "Absatz 5: Der Faserquerschnitt lässt sich auch bei über 80-Jährigen vergrössern."
+     ]
+    },
+    "weg": "Absatz 5: Verwaiste Fasern nehmen die Eigenschaften des übernehmenden Motoneurons an. Absatz 2 bestätigt, dass das Motoneuron den Fasertyp bestimmt. Eine von einem langsamen Motoneuron übernommene Faser wird also langsamer.",
+    "absatz": [
+     2,
+     5
+    ]
+   }
+  ]
+ }
+]

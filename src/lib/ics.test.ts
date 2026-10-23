@@ -24,3 +24,10 @@ describe("Kalender-Export", () => {
     for (const z of ics.split("\r\n")) expect(new TextEncoder().encode(z).length).toBeLessThanOrEqual(75);
   });
 });
+
+describe("Alarm nach Beginn", () => {
+  it("negativer Vorlauf ergibt positiven Trigger", () => {
+    const ics = icsErzeugen([{ uid: "x", titel: "Frist", tag: "2027-02-15", alarmMinutenVorher: -540 }]);
+    expect(ics).toContain("TRIGGER:PT540M");
+  });
+});

@@ -155,6 +155,12 @@ export interface MaterialDatei {
   art: "aufgaben" | "loesungen" | "gesamt";
   seiten?: number;
   titel?: string;
+  /** Zusatzrolle: Abruf-Heft (Gedächtnistests), Konz-Auswertung, Auswerte-Schablone */
+  rolle?: "abruf" | "konz" | "schablone";
+  contentType?: string;
+  bytes?: number;
+  /** Woher die Datei stammt (für erneutes Abrufen) */
+  herkunft?: { quelle: "drive" | "gdoc" | "ncwiki" | "url"; ref: string };
 }
 
 export interface MaterialSet {
@@ -179,6 +185,8 @@ export interface MaterialSet {
   erstellt: number;
   lizenz?: string;
   hinweis?: string;
+  /** Ergebnis der automatischen Erkennung (Schlüssel, Seiten, Zeit) */
+  analyse?: { am: number; schluessel: number; seiten: number; loesungswege: number; zeitMinuten?: number; fehler?: string };
 }
 
 export interface Lauf {
@@ -216,6 +224,26 @@ export interface SimulationsErgebnis {
   gruppen: Partial<Record<AufgabenGruppe, { richtig: number; gesamt: number; punkte?: number }>>;
   antworten?: Record<string, number | null>;
   abgeschlossen: boolean;
+  /** Mini-Simulation: gewählte Gruppen (art ist dann «teil-a» oder «teil-b», je nach Mehrheit) */
+  mini?: AufgabenGruppe[];
+  /** Heftwechsel-Minuten zum Zeitpunkt des Starts (Ablauf reproduzierbar) */
+  heftwechselMinuten?: number;
+  /** geplante Startzeit «HH:MM» (Generalprobe: offizieller Testbeginn) */
+  geplanterStart?: string;
+  /** Plan-Aufgabe, die beim Abschluss erledigt wird */
+  planId?: string;
+  /** Laufzustand für das Fortsetzen nach Neuladen: aktueller Block und dessen Startzeitpunkt (ms) */
+  lauf?: { block: number; blockStart: number };
+  /** Block-ID → benötigte Sekunden */
+  blockSekunden?: Record<string, number>;
+  /** Konz: markierte Zeichen als Index zeile × 40 + spalte (während des Laufs) */
+  konzMarkiert?: number[];
+  /** Konz-Wertung (Generator oder Papier-Eingabe) */
+  konz?: { regelId: string; richtig: number; falsch: number; uebersehen: number; rohwert: number; punktwert: number };
+  /** XP und Abzeichen wurden vergeben */
+  belohnt?: boolean;
+  /** Antwort-Schlüssel («gruppe:nr»), die schon im Fehlerheft stehen */
+  imFehlerheft?: string[];
 }
 
 export interface Termin {
@@ -246,6 +274,8 @@ export interface Meldung {
   seed: string;
   schwierigkeit: number;
   text: string;
+  /** Bank-Aufgabe (z. B. «Aufgabenbank mn12») – wird dann nie mehr gezeigt */
+  quelle?: string;
 }
 
 export interface Lernkarte {

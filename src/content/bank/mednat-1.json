@@ -1,0 +1,829 @@
+[
+  {
+    "id": "mn01",
+    "thema": "Herz-Kreislauf",
+    "schwierigkeit": 1,
+    "text": "Wird das Herz in der Füllungsphase stärker mit Blut gefüllt, werden die Herzmuskelfasern stärker vorgedehnt. Innerhalb eines physiologischen Bereichs nimmt mit der Vordehnung die Kraft der nachfolgenden Kontraktion zu, sodass mehr Blut ausgeworfen wird. Werden die Fasern über diesen Bereich hinaus gedehnt, nimmt die Kontraktionskraft wieder ab.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Je stärker das Herz gefüllt wird, desto mehr Blut wirft es immer aus.",
+      "Eine Vordehnung über den physiologischen Bereich hinaus verringert die Kontraktionskraft.",
+      "Die Füllung des Herzens wird durch das Nervensystem gesteuert.",
+      "Eine schwächere Füllung führt zu einer stärkeren Kontraktion.",
+      "Bei maximaler Dehnung ist die Kontraktionskraft am grössten."
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": "absolut",
+      "2": "vorwissen",
+      "3": "richtung",
+      "4": "vertauscht"
+    },
+    "weg": "Der letzte Satz sagt: über den physiologischen Bereich hinaus nimmt die Kraft ab. «immer» in A widerspricht dieser Einschränkung."
+  },
+  {
+    "id": "mn02",
+    "thema": "Niere",
+    "schwierigkeit": 3,
+    "text": "Sinkt der Blutdruck in den Nierengefässen, schütten spezialisierte Zellen der Niere das Enzym Renin aus. Renin spaltet von einem Plasmaprotein Angiotensin I ab, das in der Lunge zu Angiotensin II umgewandelt wird. Angiotensin II verengt die Blutgefässe und regt die Nebennierenrinde zur Freisetzung von Aldosteron an. Aldosteron bewirkt, dass die Niere mehr Natrium und damit Wasser zurückhält. Beide Wirkungen erhöhen den Blutdruck, was die Reninausschüttung wieder vermindert.",
+    "frage": "Welche der folgenden Aussagen lässt/lassen sich aus dem Text ableiten?",
+    "aussagen": [
+      "Ein Anstieg des Blutdrucks in den Nierengefässen vermindert die Reninausschüttung.",
+      "Angiotensin II entsteht in der Niere.",
+      "Ein Medikament, das die Umwandlung von Angiotensin I in Angiotensin II blockiert, vermindert die durch Angiotensin II ausgelöste Aldosteronfreisetzung."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und III",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "kette",
+        "III fälschlich verworfen – die Kette Angiotensin I → II → Aldosteron zu Ende verfolgen."
+      ],
+      "1": [
+        "vertauscht",
+        "II ist falsch: Angiotensin II entsteht laut Text in der Lunge."
+      ],
+      "3": [
+        "vertauscht",
+        "II ist falsch: Angiotensin II entsteht in der Lunge."
+      ],
+      "4": [
+        "vertauscht",
+        "II ist falsch: Angiotensin II entsteht in der Lunge."
+      ]
+    },
+    "weg": "I: letzter Satz (höherer Druck → weniger Renin). II: Umwandlung in der Lunge. III: weniger Angiotensin II → weniger Anregung der Nebennierenrinde. Also I und III."
+  },
+  {
+    "id": "mn03",
+    "thema": "Sinnesorgane",
+    "schwierigkeit": 2,
+    "text": "Um nahe Gegenstände scharf zu sehen, zieht sich der ringförmige Ziliarmuskel zusammen. Dadurch entspannen sich die Zonulafasern, an denen die Linse aufgehängt ist, und die elastische Linse nimmt eine kugeligere Form an. Ihre Brechkraft steigt. Mit zunehmendem Alter verliert die Linse an Elastizität.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Beim Blick in die Ferne ist der Ziliarmuskel stärker kontrahiert als beim Blick in die Nähe.",
+      "Eine kugeligere Linse hat eine höhere Brechkraft.",
+      "Ältere Menschen sehen in der Ferne schlechter.",
+      "Wenn sich die Zonulafasern anspannen, wird die Linse kugeliger.",
+      "Der Ziliarmuskel ist direkt an der Linse befestigt."
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": "richtung",
+      "2": "vorwissen",
+      "3": "vertauscht",
+      "4": "vorwissen"
+    },
+    "weg": "Die Linse wird kugeliger – «Ihre Brechkraft steigt». B steht so im Text. Zur Fernsicht im Alter sagt der Text nichts."
+  },
+  {
+    "id": "mn04",
+    "thema": "Genetik",
+    "schwierigkeit": 3,
+    "text": "Die Blutgruppe im AB0-System wird von zwei Allelen bestimmt; je eines erbt ein Mensch von Mutter und Vater. Die Allele A und B werden gegenüber dem Allel 0 dominant vererbt. A und B sind untereinander kodominant, das heisst, bei der Kombination AB werden beide ausgeprägt. Blutgruppe 0 tritt nur auf, wenn beide Allele 0 sind.",
+    "frage": "Welche der Aussagen ist/sind richtig?",
+    "aussagen": [
+      "Zwei Eltern mit Blutgruppe A können ein Kind mit Blutgruppe 0 haben.",
+      "Ein Kind mit Blutgruppe AB kann einen Elternteil mit Blutgruppe 0 haben.",
+      "Eine Person mit Blutgruppe B trägt immer zwei B-Allele."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur III",
+      "Nur I und II",
+      "Nur I und III"
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": [
+        "kette",
+        "II ist falsch: Ein Elternteil mit 0 gibt nur ein 0-Allel weiter – AB ist dann nicht möglich."
+      ],
+      "2": [
+        "absolut",
+        "III ist falsch: Blutgruppe B kann auch B und 0 bedeuten («immer»)."
+      ],
+      "3": [
+        "kette",
+        "II ist falsch – Erbgang skizzieren."
+      ],
+      "4": [
+        "absolut",
+        "III ist falsch («immer»)."
+      ]
+    },
+    "weg": "I: Eltern A0 × A0 können ein Kind 00 haben. II: Ein 0-Elternteil vererbt 0, das Kind bräuchte A und B. III: B0 ist auch Blutgruppe B."
+  },
+  {
+    "id": "mn05",
+    "thema": "Pharmakologie",
+    "schwierigkeit": 2,
+    "text": "Die Halbwertszeit eines Medikaments ist die Zeit, in der seine Konzentration im Blut auf die Hälfte absinkt. Für ein bestimmtes Schmerzmittel beträgt sie 4 Stunden, unabhängig von der Ausgangskonzentration. Eine Wirkung tritt nur ein, solange die Konzentration über 10 mg/l liegt.",
+    "frage": "Eine Person hat nach der Einnahme eine Konzentration von 80 mg/l im Blut. Wie lange hält die Wirkung ohne weitere Einnahme an?",
+    "optionen": [
+      "4 Stunden",
+      "8 Stunden",
+      "12 Stunden",
+      "16 Stunden",
+      "32 Stunden"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "rechnung",
+        "Nur eine Halbwertszeit gerechnet."
+      ],
+      "1": [
+        "rechnung",
+        "Eine Halbierung zu wenig: 80 → 40 → 20 → 10."
+      ],
+      "3": [
+        "rechnung",
+        "Eine Halbierung zu viel – die Wirkung endet bei 10 mg/l."
+      ],
+      "4": [
+        "rechnung",
+        "Linear statt halbierend gerechnet."
+      ]
+    },
+    "weg": "80 → 40 (4 h) → 20 (8 h) → 10 mg/l (12 h). Ab dann keine Wirkung mehr."
+  },
+  {
+    "id": "mn06",
+    "thema": "Immunologie",
+    "schwierigkeit": 2,
+    "text": "Bei einer aktiven Impfung werden dem Körper abgeschwächte oder abgetötete Erreger bzw. deren Bestandteile verabreicht. Das Immunsystem bildet daraufhin selbst Antikörper und Gedächtniszellen. Bei einer passiven Impfung werden dagegen fertige Antikörper gespritzt; diese werden innerhalb einiger Wochen abgebaut, Gedächtniszellen entstehen dabei nicht.",
+    "frage": "Welche Aussage lässt sich NICHT aus dem Text ableiten?",
+    "optionen": [
+      "Nach einer passiven Impfung bildet der Körper keine Gedächtniszellen.",
+      "Eine aktive Impfung kann Bestandteile von Erregern enthalten.",
+      "Der Schutz durch die gespritzten Antikörper einer passiven Impfung ist zeitlich begrenzt.",
+      "Eine aktive Impfung schützt schneller als eine passive.",
+      "Bei einer aktiven Impfung stellt der Körper selbst Antikörper her."
+    ],
+    "loesung": 3,
+    "fehler": {
+      "0": "verneinung",
+      "1": "verneinung",
+      "2": "verneinung",
+      "4": "verneinung"
+    },
+    "weg": "Über die Geschwindigkeit des Schutzes sagt der Text nichts. Alle anderen Aussagen stehen im Text."
+  },
+  {
+    "id": "mn07",
+    "thema": "Atmung",
+    "schwierigkeit": 2,
+    "text": "Sauerstoff gelangt in der Lunge durch Diffusion aus den Lungenbläschen ins Blut. Die Diffusion erfolgt stets vom Ort des höheren zum Ort des niedrigeren Partialdrucks. Ihre Geschwindigkeit ist umso grösser, je grösser die Partialdruckdifferenz und die Austauschfläche sind und je dünner die trennende Membran ist.",
+    "frage": "Bei einer Lungenerkrankung verdickt sich die Membran zwischen Lungenbläschen und Blut. Welche Folge lässt sich ableiten?",
+    "optionen": [
+      "Sauerstoff diffundiert langsamer ins Blut.",
+      "Sauerstoff diffundiert aus dem Blut in die Lungenbläschen.",
+      "Die Austauschfläche der Lunge nimmt ab.",
+      "Die Partialdruckdifferenz wird kleiner.",
+      "Es gelangt gar kein Sauerstoff mehr ins Blut."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "richtung",
+      "2": "vorwissen",
+      "3": "vorwissen",
+      "4": "absolut"
+    },
+    "weg": "Je dünner die Membran, desto schneller – also bei dicker Membran langsamer."
+  },
+  {
+    "id": "mn08",
+    "thema": "Hormone",
+    "schwierigkeit": 3,
+    "text": "Der Hypothalamus bildet das Hormon TRH, das die Hypophyse zur Ausschüttung von TSH anregt. TSH stimuliert die Schilddrüse, die Hormone T3 und T4 abzugeben. Steigt die Konzentration von T3 und T4 im Blut, hemmen sie die Ausschüttung von TRH und TSH.",
+    "frage": "Bei einer Person bildet die Schilddrüse wegen einer Erkrankung zu wenig T3 und T4. Welche Veränderung(en) ist/sind nach dem Text zu erwarten?",
+    "aussagen": [
+      "Die TSH-Konzentration im Blut steigt.",
+      "Die TRH-Ausschüttung nimmt ab.",
+      "Die Hypophyse wird weniger gehemmt."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und III",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "kette",
+        "III fälschlich verworfen – weniger T3/T4 heisst weniger Hemmung."
+      ],
+      "1": [
+        "richtung",
+        "II ist falsch: Weniger Hemmung führt zu mehr TRH."
+      ],
+      "3": [
+        "richtung",
+        "II ist falsch – Regelkreis mit +/− skizzieren."
+      ],
+      "4": [
+        "richtung",
+        "II ist falsch – Regelkreis mit +/− skizzieren."
+      ]
+    },
+    "weg": "Weniger T3/T4 → weniger Hemmung von Hypothalamus und Hypophyse → mehr TRH und mehr TSH. I und III."
+  },
+  {
+    "id": "mn09",
+    "thema": "Zellbiologie",
+    "schwierigkeit": 1,
+    "text": "Wasser bewegt sich durch eine halbdurchlässige Membran stets in Richtung der höheren Konzentration gelöster Teilchen. Rote Blutkörperchen in einer Lösung mit niedrigerer Teilchenkonzentration als im Zellinneren nehmen deshalb Wasser auf und schwellen an; in einer Lösung mit höherer Teilchenkonzentration verlieren sie Wasser und schrumpfen.",
+    "frage": "Rote Blutkörperchen werden in destilliertes Wasser ohne gelöste Teilchen gelegt. Was lässt sich ableiten?",
+    "optionen": [
+      "Sie schrumpfen.",
+      "Sie schwellen an.",
+      "Ihr Volumen bleibt gleich.",
+      "Sie geben gelöste Teilchen ab, bis die Konzentrationen ausgeglichen sind.",
+      "Sie platzen sofort."
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": "richtung",
+      "2": "vorwissen",
+      "3": "vorwissen",
+      "4": "absolut"
+    },
+    "weg": "Destilliertes Wasser hat eine niedrigere Teilchenkonzentration als das Zellinnere → Wasser strömt ein → Anschwellen."
+  },
+  {
+    "id": "mn10",
+    "thema": "Nervensystem",
+    "schwierigkeit": 2,
+    "text": "Beim Kniesehnenreflex führt ein Schlag auf die Sehne unterhalb der Kniescheibe zu einer Dehnung des vorderen Oberschenkelmuskels. Dehnungsrezeptoren im Muskel leiten die Erregung über einen sensiblen Nerv zum Rückenmark. Dort wird sie direkt – ohne Zwischenneuron – auf ein motorisches Neuron übertragen, das denselben Muskel zur Kontraktion bringt. Der Unterschenkel schnellt nach vorn.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Am Kniesehnenreflex ist das Gehirn beteiligt.",
+      "Beim Kniesehnenreflex wird die Erregung im Rückenmark ohne Zwischenneuron übertragen.",
+      "Der Reflex führt zur Kontraktion des hinteren Oberschenkelmuskels.",
+      "Die Dehnungsrezeptoren liegen in einem anderen Muskel als dem, der sich zusammenzieht.",
+      "Der Reflex kann willentlich unterdrückt werden."
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": "vorwissen",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "vorwissen"
+    },
+    "weg": "Der Text sagt ausdrücklich: im Rückenmark direkt, ohne Zwischenneuron, auf denselben Muskel."
+  },
+  {
+    "id": "mn11",
+    "thema": "Physik in der Medizin",
+    "schwierigkeit": 2,
+    "text": "Röntgenstrahlen werden beim Durchgang durch Gewebe umso stärker geschwächt, je höher die Dichte des Gewebes und je grösser seine Dicke ist. Auf dem Röntgenbild erscheinen Stellen hell, an denen wenig Strahlung den Detektor erreicht, und dunkel, wo viel Strahlung ankommt.",
+    "frage": "Knochen hat eine höhere Dichte als Muskelgewebe. Welche Aussage lässt sich ableiten?",
+    "optionen": [
+      "Knochen erscheint auf dem Röntgenbild heller als gleich dickes Muskelgewebe.",
+      "Knochen erscheint auf dem Röntgenbild dunkler als gleich dickes Muskelgewebe.",
+      "Die luftgefüllte Lunge erscheint auf dem Röntgenbild hell.",
+      "Dickes Muskelgewebe schwächt die Strahlung immer stärker als dünner Knochen.",
+      "Röntgenstrahlen werden von Knochen vollständig absorbiert."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vorwissen",
+      "3": "absolut",
+      "4": "absolut"
+    },
+    "weg": "Höhere Dichte → stärkere Schwächung → weniger Strahlung am Detektor → hell."
+  },
+  {
+    "id": "mn12",
+    "thema": "Genetik",
+    "schwierigkeit": 4,
+    "text": "Die Rot-Grün-Sehschwäche wird X-chromosomal-rezessiv vererbt. Frauen besitzen zwei X-Chromosomen, Männer ein X- und ein Y-Chromosom. Ein Mann ist betroffen, wenn sein einziges X-Chromosom das veränderte Allel trägt. Eine Frau ist nur betroffen, wenn beide X-Chromosomen das veränderte Allel tragen. Söhne erhalten ihr X-Chromosom immer von der Mutter.",
+    "frage": "Welche Aussage(n) lässt/lassen sich ableiten?",
+    "aussagen": [
+      "Ein betroffener Vater kann die Sehschwäche nicht an seine Söhne vererben.",
+      "Eine Frau mit nur einem veränderten Allel ist nicht betroffen.",
+      "Ist die Mutter betroffen, sind alle ihre Söhne betroffen."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und II",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 4,
+    "fehler": {
+      "0": [
+        "kette",
+        "II und III fälschlich verworfen."
+      ],
+      "1": [
+        "kette",
+        "I und III fälschlich verworfen."
+      ],
+      "2": [
+        "kette",
+        "III fälschlich verworfen: Eine betroffene Mutter hat auf beiden X das Allel, Söhne erhalten ihr X von ihr."
+      ],
+      "3": [
+        "kette",
+        "I fälschlich verworfen: Söhne erhalten vom Vater das Y-Chromosom."
+      ]
+    },
+    "weg": "I: Söhne erhalten das X von der Mutter. II: Frauen sind nur mit zwei Allelen betroffen. III: Betroffene Mutter → jedes X trägt das Allel → jeder Sohn betroffen."
+  },
+  {
+    "id": "mn13",
+    "thema": "Verdauung",
+    "schwierigkeit": 1,
+    "text": "Das Verdauungsenzym Pepsin spaltet Eiweisse im Magen. Es arbeitet am besten bei einem pH-Wert um 2 und verliert oberhalb von pH 5 seine Wirkung weitgehend. Im Dünndarm wird der Speisebrei durch Bikarbonat auf einen pH-Wert um 8 gebracht.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Im Dünndarm ist Pepsin weitgehend unwirksam.",
+      "Pepsin spaltet auch Fette.",
+      "Bei pH 4 arbeitet Pepsin besser als bei pH 2.",
+      "Im Magen herrscht ein pH-Wert um 8.",
+      "Ohne Pepsin können Eiweisse überhaupt nicht verdaut werden."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vorwissen",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "absolut"
+    },
+    "weg": "Im Dünndarm pH um 8, also über 5 – dort verliert Pepsin seine Wirkung weitgehend."
+  },
+  {
+    "id": "mn14",
+    "thema": "Blut",
+    "schwierigkeit": 1,
+    "text": "Kohlenmonoxid (CO) bindet etwa 250-mal stärker an den roten Blutfarbstoff Hämoglobin als Sauerstoff. An Hämoglobin gebundenes CO löst sich nur langsam wieder. Hämoglobin, an das CO gebunden ist, kann keinen Sauerstoff transportieren.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Mit CO beladenes Hämoglobin fällt für den Sauerstofftransport aus.",
+      "CO bindet schwächer an Hämoglobin als Sauerstoff.",
+      "CO wird schnell wieder vom Hämoglobin freigegeben.",
+      "Reiner Sauerstoff löst CO sofort vom Hämoglobin.",
+      "CO zerstört die roten Blutkörperchen dauerhaft."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "vorwissen",
+      "4": "vorwissen"
+    },
+    "weg": "Letzter Satz: Hämoglobin mit CO kann keinen Sauerstoff transportieren."
+  },
+  {
+    "id": "mn15",
+    "thema": "Mikrobiologie",
+    "schwierigkeit": 3,
+    "text": "Bakterien vermehren sich durch Zweiteilung. Bei jeder Teilung können zufällige Veränderungen im Erbgut entstehen. Trägt ein Bakterium zufällig eine Veränderung, die es gegen ein Antibiotikum unempfindlich macht, überlebt es dessen Einsatz, während empfindliche Bakterien absterben. Die überlebenden Bakterien vermehren sich weiter.",
+    "frage": "Welche Aussage(n) lässt/lassen sich ableiten?",
+    "aussagen": [
+      "Der Einsatz eines Antibiotikums kann den Anteil unempfindlicher Bakterien erhöhen.",
+      "Das Antibiotikum verursacht die Veränderungen im Erbgut.",
+      "Unempfindliche Bakterien entstehen erst, nachdem das Antibiotikum eingesetzt wurde."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und II",
+      "Nur I und III",
+      "Keine der Aussagen"
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": [
+        "kausal",
+        "II ist falsch: Die Veränderungen entstehen zufällig bei der Teilung."
+      ],
+      "2": [
+        "kausal",
+        "II ist falsch: Ursache und Auswahl verwechselt."
+      ],
+      "3": [
+        "kausal",
+        "III ist falsch: Die Veränderung kann schon vorher bestehen."
+      ],
+      "4": [
+        "kette",
+        "I fälschlich verworfen: Empfindliche sterben, unempfindliche vermehren sich."
+      ]
+    },
+    "weg": "Empfindliche Bakterien sterben, unempfindliche überleben und vermehren sich → ihr Anteil steigt. Die Veränderungen entstehen zufällig, nicht durch das Antibiotikum."
+  },
+  {
+    "id": "mn16",
+    "thema": "Herz-Kreislauf",
+    "schwierigkeit": 2,
+    "text": "Die Erregung des Herzens beginnt im Sinusknoten in der Wand des rechten Vorhofs. Sie breitet sich über die Vorhöfe aus und erreicht den AV-Knoten, der sie verzögert weiterleitet. Über das His-Bündel und die Tawara-Schenkel gelangt die Erregung zur Herzspitze und von dort in die Kammermuskulatur. Fällt der Sinusknoten aus, kann der AV-Knoten die Führung übernehmen, allerdings mit einer niedrigeren Frequenz.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Der AV-Knoten liegt in der Herzspitze.",
+      "Fällt der Sinusknoten aus und übernimmt der AV-Knoten, schlägt das Herz langsamer.",
+      "Die Kammern werden vor den Vorhöfen erregt.",
+      "Der Sinusknoten liegt im linken Vorhof.",
+      "Ohne Sinusknoten steht das Herz still."
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": "vorwissen",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "absolut"
+    },
+    "weg": "Letzter Satz: Der AV-Knoten übernimmt mit niedrigerer Frequenz."
+  },
+  {
+    "id": "mn17",
+    "thema": "Pharmakologie",
+    "schwierigkeit": 2,
+    "text": "Ein Agonist bindet an einen Rezeptor und löst dieselbe Wirkung aus wie der körpereigene Botenstoff. Ein Antagonist bindet ebenfalls an den Rezeptor, löst aber keine Wirkung aus und verhindert, dass der Botenstoff binden kann. Betablocker sind Antagonisten an den Rezeptoren, über die Adrenalin die Herzfrequenz steigert.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Betablocker steigern die Herzfrequenz.",
+      "Betablocker können die durch Adrenalin ausgelöste Steigerung der Herzfrequenz abschwächen.",
+      "Betablocker zerstören Adrenalin.",
+      "Ein Antagonist löst dieselbe Wirkung aus wie der Botenstoff.",
+      "Betablocker wirken an allen Rezeptoren des Körpers."
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": "richtung",
+      "2": "vorwissen",
+      "3": "vertauscht",
+      "4": "absolut"
+    },
+    "weg": "Antagonist verhindert die Bindung von Adrenalin an diesen Rezeptoren → dessen Frequenzsteigerung wird abgeschwächt."
+  },
+  {
+    "id": "mn18",
+    "thema": "Temperaturregulation",
+    "schwierigkeit": 1,
+    "text": "Steigt die Körperkerntemperatur, erweitern sich die Blutgefässe der Haut, die Hautdurchblutung nimmt zu und es wird vermehrt Schweiss gebildet. Durch die Verdunstung des Schweisses wird dem Körper Wärme entzogen. Bei hoher Luftfeuchtigkeit verdunstet Schweiss schlechter.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Bei hoher Luftfeuchtigkeit wird dem Körper durch Schweiss weniger Wärme entzogen.",
+      "Bei sinkender Körperkerntemperatur wird mehr Schweiss gebildet.",
+      "Eine stärkere Hautdurchblutung erhöht die Körperkerntemperatur.",
+      "Schwitzen ist bei trockener Luft unwirksam.",
+      "Die Blutgefässe der Haut verengen sich, wenn die Körperkerntemperatur steigt."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "richtung",
+      "2": "kausal",
+      "3": "vorwissen",
+      "4": "vertauscht"
+    },
+    "weg": "Wärmeentzug durch Verdunstung; bei hoher Luftfeuchtigkeit verdunstet weniger → weniger Wärmeentzug."
+  },
+  {
+    "id": "mn19",
+    "thema": "Stoffwechsel",
+    "schwierigkeit": 3,
+    "text": "Insulin senkt den Blutzucker, indem es die Aufnahme von Glukose in Muskel- und Fettzellen fördert und die Leber zur Speicherung von Glukose als Glykogen anregt. Glukagon wirkt als Gegenspieler: Es regt die Leber an, Glykogen abzubauen und Glukose ins Blut abzugeben. Beim Typ-1-Diabetes bildet die Bauchspeicheldrüse kein Insulin mehr.",
+    "frage": "Welche Aussage(n) lässt/lassen sich ableiten?",
+    "aussagen": [
+      "Bei Typ-1-Diabetes fehlt ein blutzuckersenkendes Hormon.",
+      "Glukagon erhöht den Blutzucker.",
+      "Bei Typ-1-Diabetes bildet die Bauchspeicheldrüse auch kein Glukagon."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und II",
+      "Nur I und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "zuschnell",
+        "II fälschlich verworfen: Glukagon gibt Glukose ins Blut ab."
+      ],
+      "1": [
+        "zuschnell",
+        "I fälschlich verworfen: Insulin senkt den Blutzucker und fehlt."
+      ],
+      "3": [
+        "vorwissen",
+        "III steht nicht im Text."
+      ],
+      "4": [
+        "vorwissen",
+        "III steht nicht im Text."
+      ]
+    },
+    "weg": "I: Insulin fehlt. II: Glukagon gibt Glukose ins Blut ab. III: Über Glukagon bei Typ 1 sagt der Text nichts."
+  },
+  {
+    "id": "mn20",
+    "thema": "Knochen",
+    "schwierigkeit": 2,
+    "text": "Knochengewebe wird ständig ab- und aufgebaut. Osteoklasten bauen Knochensubstanz ab, Osteoblasten bauen sie auf. Das Hormon Östrogen hemmt die Aktivität der Osteoklasten. Nach den Wechseljahren sinkt bei Frauen die Östrogenkonzentration stark.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Nach den Wechseljahren sind die Osteoklasten weniger gehemmt.",
+      "Östrogen fördert die Osteoklasten.",
+      "Osteoblasten bauen Knochensubstanz ab.",
+      "Männer sind nie von Knochenabbau betroffen.",
+      "Nach den Wechseljahren bilden Frauen keine Osteoblasten mehr."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "richtung",
+      "2": "vertauscht",
+      "3": "absolut",
+      "4": "vorwissen"
+    },
+    "weg": "Weniger Östrogen → weniger Hemmung der Osteoklasten."
+  },
+  {
+    "id": "mn21",
+    "thema": "Anatomie",
+    "schwierigkeit": 2,
+    "text": "In der Anatomie bedeutet «proximal» näher zum Rumpf, «distal» weiter vom Rumpf entfernt, «medial» zur Körpermitte hin und «lateral» von der Körpermitte weg. Speiche (Radius) und Elle (Ulna) sind die beiden Unterarmknochen. Bei nach vorn gedrehter Handfläche liegt die Speiche lateral, die Elle medial. Das Handgelenk liegt distal des Ellbogens.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Bei nach vorn gedrehter Handfläche liegt die Elle näher an der Körpermitte als die Speiche.",
+      "Der Ellbogen liegt distal des Handgelenks.",
+      "Bei nach vorn gedrehter Handfläche liegt die Speiche medial der Elle.",
+      "Das Handgelenk liegt näher am Rumpf als der Ellbogen.",
+      "Die Speiche ist länger als die Elle."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "vorwissen"
+    },
+    "weg": "Elle medial = zur Körpermitte hin, Speiche lateral."
+  },
+  {
+    "id": "mn22",
+    "thema": "Physik in der Medizin",
+    "schwierigkeit": 2,
+    "text": "Bei der Ultraschalluntersuchung sendet ein Schallkopf kurze Schallimpulse ins Gewebe. An Grenzflächen zwischen Geweben unterschiedlicher Dichte wird ein Teil des Schalls reflektiert. Je tiefer eine Grenzfläche liegt, desto länger braucht ihr Echo zurück zum Schallkopf; daraus berechnet das Gerät die Tiefe. Luft reflektiert Ultraschall fast vollständig; deshalb wird zwischen Schallkopf und Haut ein Gel aufgetragen.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Ein Echo, das später zurückkommt, stammt von einer tiefer liegenden Grenzfläche.",
+      "Das Gel soll den Schall verstärken.",
+      "Zwischen Geweben gleicher Dichte wird besonders viel Schall reflektiert.",
+      "Ultraschall wird in Luft besonders gut weitergeleitet.",
+      "Ultraschall schädigt das untersuchte Gewebe."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vorwissen",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "vorwissen"
+    },
+    "weg": "«Je tiefer, desto länger braucht ihr Echo zurück» – A steht so im Text."
+  },
+  {
+    "id": "mn23",
+    "thema": "Niere",
+    "schwierigkeit": 3,
+    "text": "Die Nieren filtrieren pro Minute etwa 120 ml Blutplasma. Ein Stoff, der frei filtriert, aber weder zurückgeholt noch zusätzlich ausgeschieden wird, erscheint vollständig im Urin. Liegt die Plasmakonzentration eines solchen Stoffes bei 0,5 mg pro ml, wird also pro Minute die gesamte filtrierte Menge ausgeschieden.",
+    "frage": "Wie viel dieses Stoffes wird pro Stunde mit dem Urin ausgeschieden?",
+    "optionen": [
+      "60 mg",
+      "360 mg",
+      "3,6 g",
+      "7,2 g",
+      "36 g"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "frage",
+        "Pro Minute statt pro Stunde gerechnet."
+      ],
+      "1": [
+        "rechnung",
+        "Kommafehler (Faktor 10)."
+      ],
+      "3": [
+        "rechnung",
+        "Doppelt gerechnet."
+      ],
+      "4": [
+        "rechnung",
+        "Faktor 10 zu viel."
+      ]
+    },
+    "weg": "120 ml/min · 0,5 mg/ml = 60 mg/min; · 60 = 3600 mg = 3,6 g pro Stunde."
+  },
+  {
+    "id": "mn24",
+    "thema": "Blut",
+    "schwierigkeit": 2,
+    "text": "Bei einer Gefässverletzung ziehen sich zunächst die glatten Muskelzellen der Gefässwand zusammen. Danach lagern sich Blutplättchen an der verletzten Stelle an und bilden einen ersten, lockeren Pfropf. Anschliessend wird in einer Kaskade aus Gerinnungsfaktoren lösliches Fibrinogen in unlösliches Fibrin umgewandelt, das den Pfropf stabilisiert. Vitamin K wird für die Bildung mehrerer Gerinnungsfaktoren benötigt.",
+    "frage": "Welche Aussage lässt sich NICHT aus dem Text ableiten?",
+    "optionen": [
+      "Die Gefässverengung erfolgt vor der Anlagerung der Blutplättchen.",
+      "Fibrin stabilisiert den Pfropf.",
+      "Ein Vitamin-K-Mangel kann die Bildung von Gerinnungsfaktoren beeinträchtigen.",
+      "Fibrinogen ist löslich, Fibrin unlöslich.",
+      "Die Blutplättchen wandeln Fibrinogen in Fibrin um."
+    ],
+    "loesung": 4,
+    "fehler": {
+      "0": "verneinung",
+      "1": "verneinung",
+      "2": "verneinung",
+      "3": "verneinung"
+    },
+    "weg": "Die Umwandlung geschieht laut Text durch eine Kaskade aus Gerinnungsfaktoren – nicht durch die Blutplättchen."
+  },
+  {
+    "id": "mn25",
+    "thema": "Sinnesorgane",
+    "schwierigkeit": 1,
+    "text": "Schallwellen versetzen das Trommelfell in Schwingung. Die Gehörknöchelchen Hammer, Amboss und Steigbügel übertragen die Schwingung in dieser Reihenfolge auf das ovale Fenster der Hörschnecke. In der flüssigkeitsgefüllten Schnecke werden Sinneszellen gereizt; hohe Töne reizen sie am Anfang der Schnecke, tiefe Töne an ihrer Spitze.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Der Steigbügel überträgt die Schwingung auf das ovale Fenster.",
+      "Der Hammer überträgt die Schwingung direkt auf das ovale Fenster.",
+      "Tiefe Töne reizen die Sinneszellen am Anfang der Schnecke.",
+      "Die Hörschnecke ist mit Luft gefüllt.",
+      "Bei einem verletzten Trommelfell ist man vollständig taub."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "absolut"
+    },
+    "weg": "Reihenfolge Hammer → Amboss → Steigbügel → ovales Fenster."
+  },
+  {
+    "id": "mn26",
+    "thema": "Diagnostik",
+    "schwierigkeit": 4,
+    "text": "Die Sensitivität eines Tests ist der Anteil der Erkrankten, die vom Test als krank erkannt werden. Die Spezifität ist der Anteil der Gesunden, die vom Test als gesund erkannt werden. Ein Schnelltest hat eine Sensitivität von 90 % und eine Spezifität von 95 %. Er wird bei 1000 Personen angewendet, von denen 100 erkrankt sind.",
+    "frage": "Wie viele Personen erhalten fälschlicherweise ein positives Testergebnis?",
+    "optionen": [
+      "10",
+      "45",
+      "50",
+      "90",
+      "135"
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": [
+        "frage",
+        "Falsch negative statt falsch positive gezählt."
+      ],
+      "2": [
+        "rechnung",
+        "5 % von 1000 statt von den 900 Gesunden."
+      ],
+      "3": [
+        "frage",
+        "Richtig positive statt falsch positive."
+      ],
+      "4": [
+        "frage",
+        "Alle positiven Ergebnisse gezählt."
+      ]
+    },
+    "weg": "900 Gesunde · 5 % (1 − Spezifität) = 45 falsch positive."
+  },
+  {
+    "id": "mn27",
+    "thema": "Lymphsystem",
+    "schwierigkeit": 1,
+    "text": "Das Lymphsystem transportiert Flüssigkeit, die aus den Blutkapillaren ins Gewebe übergetreten ist, zurück ins Blut. Lymphgefässe besitzen Klappen, die einen Rückfluss verhindern. Die Lymphe fliesst durch Lymphknoten, in denen Krankheitserreger herausgefiltert werden. Wird der Lymphabfluss blockiert, sammelt sich Flüssigkeit im Gewebe an.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Ein blockierter Lymphabfluss führt zu einer Ansammlung von Flüssigkeit im Gewebe.",
+      "Die Lymphe fliesst in den Lymphgefässen in beide Richtungen.",
+      "Die Lymphe wird in den Lymphknoten gebildet.",
+      "Das Lymphsystem transportiert Blut vom Herzen weg.",
+      "Krankheitserreger gelangen nie ins Lymphsystem."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vorwissen",
+      "3": "vertauscht",
+      "4": "absolut"
+    },
+    "weg": "Letzter Satz des Textes."
+  },
+  {
+    "id": "mn28",
+    "thema": "Säure-Basen",
+    "schwierigkeit": 4,
+    "text": "Im Blut reagiert Kohlendioxid (CO₂) mit Wasser zu Kohlensäure, die zu Hydrogencarbonat und einem Wasserstoff-Ion (H⁺) zerfällt. Je mehr H⁺-Ionen im Blut vorhanden sind, desto niedriger ist der pH-Wert. Atmet eine Person schneller und tiefer, gibt sie mehr CO₂ über die Lunge ab.",
+    "frage": "Was lässt sich für eine Person ableiten, die über längere Zeit stark hyperventiliert (schneller und tiefer atmet)?",
+    "aussagen": [
+      "Der CO₂-Gehalt im Blut sinkt.",
+      "Im Blut entstehen weniger H⁺-Ionen.",
+      "Der pH-Wert des Blutes sinkt."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur I und II",
+      "Nur II und III",
+      "Nur III",
+      "I, II und III"
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": [
+        "kette",
+        "II fälschlich verworfen – weniger CO₂ heisst weniger Kohlensäure und weniger H⁺."
+      ],
+      "2": [
+        "richtung",
+        "III ist falsch: Weniger H⁺ bedeutet einen höheren pH-Wert."
+      ],
+      "3": [
+        "richtung",
+        "III ist falsch – Kette mit +/− skizzieren."
+      ],
+      "4": [
+        "richtung",
+        "III ist falsch – der pH-Wert steigt."
+      ]
+    },
+    "weg": "Mehr CO₂-Abgabe → weniger CO₂ im Blut → weniger Kohlensäure → weniger H⁺ → pH steigt."
+  },
+  {
+    "id": "mn29",
+    "thema": "Nervensystem",
+    "schwierigkeit": 2,
+    "text": "Viele Nervenfasern sind von einer isolierenden Myelinscheide umgeben, die in regelmässigen Abständen unterbrochen ist. An diesen Unterbrechungen, den Ranvier-Schnürringen, springt die Erregung von Schnürring zu Schnürring. Dadurch wird sie deutlich schneller weitergeleitet als bei Fasern ohne Myelinscheide. Bei der Multiplen Sklerose wird die Myelinscheide zerstört.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Bei Multipler Sklerose kann die Erregungsleitung in den betroffenen Fasern verlangsamt sein.",
+      "Fasern ohne Myelinscheide leiten die Erregung schneller.",
+      "Die Myelinscheide verläuft ohne Unterbrechung.",
+      "Multiple Sklerose wird durch Viren verursacht.",
+      "An den Schnürringen wird die Erregung gestoppt."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "vorwissen",
+      "4": "vertauscht"
+    },
+    "weg": "Myelin macht die Leitung schnell; wird es zerstört, kann die Leitung langsamer werden."
+  },
+  {
+    "id": "mn30",
+    "thema": "Atmung",
+    "schwierigkeit": 3,
+    "text": "Das Atemzugvolumen ist die Luftmenge, die bei einem normalen Atemzug ein- und ausgeatmet wird. Bei einer erwachsenen Person beträgt es in Ruhe etwa 0,5 Liter. Davon gelangen etwa 0,15 Liter nicht bis in die Lungenbläschen, sondern bleiben in den Atemwegen (Totraum) und nehmen nicht am Gasaustausch teil.",
+    "frage": "Eine Person atmet in Ruhe 14-mal pro Minute. Wie viel Luft erreicht pro Minute die Lungenbläschen?",
+    "optionen": [
+      "2,1 Liter",
+      "4,9 Liter",
+      "7,0 Liter",
+      "9,1 Liter",
+      "0,35 Liter"
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": [
+        "frage",
+        "Nur den Totraum berechnet."
+      ],
+      "2": [
+        "rechnung",
+        "Totraum nicht abgezogen."
+      ],
+      "3": [
+        "rechnung",
+        "Totraum addiert statt abgezogen."
+      ],
+      "4": [
+        "frage",
+        "Nur einen Atemzug berechnet."
+      ]
+    },
+    "weg": "(0,5 − 0,15) l · 14 = 0,35 l · 14 = 4,9 l pro Minute."
+  }
+]

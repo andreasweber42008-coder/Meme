@@ -1,0 +1,872 @@
+[
+  {
+    "id": "mn31",
+    "thema": "Zellbiologie",
+    "schwierigkeit": 2,
+    "text": "Die Natrium-Kalium-Pumpe in der Zellmembran befördert unter Verbrauch von ATP bei jedem Arbeitszyklus drei Natrium-Ionen aus der Zelle hinaus und zwei Kalium-Ionen in die Zelle hinein. Dadurch ist die Natriumkonzentration ausserhalb der Zelle höher als innen, die Kaliumkonzentration innen höher als aussen. Das Gift Ouabain blockiert die Pumpe.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Pro Arbeitszyklus verlassen mehr Ionen die Zelle, als in sie hineingelangen.",
+      "Die Pumpe arbeitet ohne Energieverbrauch.",
+      "Die Natriumkonzentration ist innerhalb der Zelle höher als ausserhalb.",
+      "Ouabain steigert die Pumpleistung.",
+      "Die Pumpe befördert Kalium aus der Zelle hinaus."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "richtung",
+      "4": "vertauscht"
+    },
+    "weg": "Drei Natrium-Ionen hinaus, zwei Kalium-Ionen hinein: 3 > 2."
+  },
+  {
+    "id": "mn32",
+    "thema": "Herz-Kreislauf",
+    "schwierigkeit": 3,
+    "text": "Das Herzzeitvolumen ist die Blutmenge, die eine Herzkammer pro Minute auswirft. Es ergibt sich aus dem Schlagvolumen (ausgeworfene Menge pro Herzschlag) multipliziert mit der Herzfrequenz. In Ruhe beträgt das Schlagvolumen einer Person 70 ml bei einer Herzfrequenz von 60 Schlägen pro Minute.",
+    "frage": "Bei körperlicher Belastung steigt die Herzfrequenz derselben Person auf 150 pro Minute, das Schlagvolumen auf 100 ml. Um welchen Faktor nimmt das Herzzeitvolumen ungefähr zu?",
+    "optionen": [
+      "um den Faktor 1,4",
+      "um den Faktor 2,5",
+      "um den Faktor 3,6",
+      "um den Faktor 5",
+      "um den Faktor 15"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "frage",
+        "Nur das Schlagvolumen verglichen."
+      ],
+      "1": [
+        "frage",
+        "Nur die Herzfrequenz verglichen."
+      ],
+      "3": [
+        "rechnung",
+        "Faktoren addiert statt multipliziert."
+      ],
+      "4": [
+        "rechnung",
+        "Belastungswert durch die Ruhefrequenz statt durch das Ruhe-Herzzeitvolumen geteilt."
+      ]
+    },
+    "weg": "Ruhe: 70 · 60 = 4,2 l/min. Belastung: 100 · 150 = 15 l/min. 15 : 4,2 ≈ 3,6."
+  },
+  {
+    "id": "mn33",
+    "thema": "Chemie",
+    "schwierigkeit": 2,
+    "text": "Der pH-Wert ist ein logarithmisches Mass für die Konzentration von Wasserstoff-Ionen in einer Lösung. Sinkt der pH-Wert um 1, ist die Wasserstoff-Ionen-Konzentration zehnmal so hoch. Lösungen mit pH unter 7 heissen sauer, über 7 basisch.",
+    "frage": "Der Magensaft hat einen pH-Wert von 2, Blut einen von etwa 7,4. Welche Aussage lässt sich ableiten?",
+    "optionen": [
+      "Im Magensaft ist die Wasserstoff-Ionen-Konzentration mehr als 10 000-mal so hoch wie im Blut.",
+      "Im Blut ist die Wasserstoff-Ionen-Konzentration höher als im Magensaft.",
+      "Blut ist leicht sauer.",
+      "Die Wasserstoff-Ionen-Konzentration im Magensaft ist etwa 5,4-mal so hoch wie im Blut.",
+      "Magensaft ist basisch."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "richtung",
+      "2": "vertauscht",
+      "3": [
+        "rechnung",
+        "Linear statt logarithmisch gerechnet."
+      ],
+      "4": "vertauscht"
+    },
+    "weg": "Differenz 5,4 pH-Stufen → Faktor 10^5,4, also deutlich mehr als 10 000."
+  },
+  {
+    "id": "mn34",
+    "thema": "Genetik",
+    "schwierigkeit": 2,
+    "text": "Die Mukoviszidose wird autosomal-rezessiv vererbt: Betroffen ist nur, wer von beiden Eltern je ein verändertes Allel erhalten hat. Personen mit einem veränderten und einem gesunden Allel sind gesund, geben das veränderte Allel aber mit einer Wahrscheinlichkeit von 50 % an jedes Kind weiter.",
+    "frage": "Beide Eltern tragen je ein verändertes und ein gesundes Allel. Wie gross ist die Wahrscheinlichkeit, dass ihr Kind betroffen ist?",
+    "optionen": [
+      "0 %",
+      "25 %",
+      "50 %",
+      "75 %",
+      "100 %"
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": [
+        "kette",
+        "Gesunde Eltern können betroffene Kinder haben."
+      ],
+      "2": [
+        "rechnung",
+        "Nur ein Elternteil berücksichtigt."
+      ],
+      "3": [
+        "frage",
+        "Wahrscheinlichkeit für «mindestens ein verändertes Allel» berechnet."
+      ],
+      "4": "absolut"
+    },
+    "weg": "Das Kind braucht von beiden Eltern das veränderte Allel: 0,5 · 0,5 = 0,25."
+  },
+  {
+    "id": "mn35",
+    "thema": "Hormone",
+    "schwierigkeit": 3,
+    "text": "Bei Stress schüttet das Nebennierenmark Adrenalin aus. Adrenalin erhöht die Herzfrequenz, erweitert die Bronchien und fördert in der Leber den Abbau von Glykogen zu Glukose. Gleichzeitig wird die Durchblutung des Verdauungstrakts verringert.",
+    "frage": "Welche Wirkung(en) von Adrenalin lässt/lassen sich aus dem Text ableiten?",
+    "aussagen": [
+      "Der Blutzucker kann ansteigen.",
+      "Die Verdauungstätigkeit wird gefördert.",
+      "Die Atemwege werden weiter."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und III",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "zuschnell",
+        "III fälschlich verworfen: Erweiterte Bronchien = weitere Atemwege."
+      ],
+      "1": [
+        "vertauscht",
+        "II ist falsch: Die Durchblutung des Verdauungstrakts sinkt."
+      ],
+      "3": [
+        "vertauscht",
+        "II ist falsch."
+      ],
+      "4": [
+        "vertauscht",
+        "II ist falsch."
+      ]
+    },
+    "weg": "I: Glykogen → Glukose. III: Bronchien erweitert. II widerspricht der verringerten Durchblutung."
+  },
+  {
+    "id": "mn36",
+    "thema": "Physik",
+    "schwierigkeit": 2,
+    "text": "Nach dem Gesetz von Hagen-Poiseuille ist der Volumenstrom durch ein Rohr bei gleicher Druckdifferenz proportional zur vierten Potenz des Radius. Halbiert sich also der Radius, sinkt der Volumenstrom auf ein Sechzehntel.",
+    "frage": "Eine Arterie verengt sich auf 80 % ihres ursprünglichen Radius. Auf ungefähr wie viel Prozent des ursprünglichen Volumenstroms sinkt der Blutfluss bei gleicher Druckdifferenz?",
+    "optionen": [
+      "auf ca. 80 %",
+      "auf ca. 64 %",
+      "auf ca. 51 %",
+      "auf ca. 41 %",
+      "auf ca. 20 %"
+    ],
+    "loesung": 3,
+    "fehler": {
+      "0": [
+        "rechnung",
+        "Linear gerechnet."
+      ],
+      "1": [
+        "rechnung",
+        "Nur zur zweiten Potenz gerechnet."
+      ],
+      "2": [
+        "rechnung",
+        "Nur zur dritten Potenz gerechnet."
+      ],
+      "4": [
+        "frage",
+        "Die Abnahme des Radius statt des Volumenstroms angegeben."
+      ]
+    },
+    "weg": "0,8⁴ = 0,64 · 0,64 ≈ 0,41."
+  },
+  {
+    "id": "mn37",
+    "thema": "Immunologie",
+    "schwierigkeit": 2,
+    "text": "Bei einer Allergie bildet das Immunsystem gegen eigentlich harmlose Stoffe Antikörper der Klasse IgE. Diese binden an Mastzellen. Kommt es zu einem erneuten Kontakt mit dem Allergen, schütten die Mastzellen Histamin aus. Histamin erweitert Blutgefässe und macht sie durchlässiger, was zu Rötung und Schwellung führt. Antihistaminika blockieren die Rezeptoren, an denen Histamin wirkt.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Antihistaminika verhindern die Bildung von IgE-Antikörpern.",
+      "Beim ersten Kontakt mit dem Allergen schütten die Mastzellen am meisten Histamin aus.",
+      "Antihistaminika können die durch Histamin verursachte Schwellung vermindern.",
+      "Histamin verengt die Blutgefässe.",
+      "Allergien richten sich nur gegen gefährliche Stoffe."
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": "kette",
+      "1": "vertauscht",
+      "3": "vertauscht",
+      "4": "vertauscht"
+    },
+    "weg": "Rezeptoren blockiert → Histamin wirkt nicht → weniger Rötung und Schwellung."
+  },
+  {
+    "id": "mn38",
+    "thema": "Niere",
+    "schwierigkeit": 2,
+    "text": "Das Hormon ADH (antidiuretisches Hormon) wird ausgeschüttet, wenn die Konzentration gelöster Teilchen im Blut steigt. Es bewirkt, dass in den Sammelrohren der Niere mehr Wasser zurück ins Blut aufgenommen wird; der Urin wird dadurch konzentrierter und seine Menge geringer. Alkohol hemmt die Ausschüttung von ADH.",
+    "frage": "Welche Aussage lässt sich ableiten?",
+    "optionen": [
+      "Nach Alkoholkonsum wird tendenziell mehr Urin gebildet.",
+      "ADH verdünnt den Urin.",
+      "Bei Wassermangel sinkt die ADH-Ausschüttung.",
+      "Alkohol fördert die Wasseraufnahme in den Sammelrohren.",
+      "ADH wird in der Niere gebildet."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "richtung",
+      "3": "richtung",
+      "4": "vorwissen"
+    },
+    "weg": "Alkohol → weniger ADH → weniger Wasserrückaufnahme → mehr Urin."
+  },
+  {
+    "id": "mn39",
+    "thema": "Stoffwechsel",
+    "schwierigkeit": 3,
+    "text": "Beim Abbau von 1 g Fett werden etwa 9 kcal Energie frei, beim Abbau von 1 g Kohlenhydraten oder 1 g Eiweiss jeweils etwa 4 kcal. Ein Riegel enthält 10 g Fett, 30 g Kohlenhydrate und 5 g Eiweiss.",
+    "frage": "Welcher Anteil der Energie des Riegels stammt ungefähr aus dem Fett?",
+    "optionen": [
+      "ca. 22 %",
+      "ca. 39 %",
+      "ca. 43 %",
+      "ca. 53 %",
+      "ca. 61 %"
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": [
+        "frage",
+        "Massenanteil statt Energieanteil berechnet (10 von 45 g)."
+      ],
+      "2": [
+        "rechnung",
+        "Eiweiss vergessen: 90 : 210."
+      ],
+      "3": [
+        "rechnung",
+        "Nur die Energiedichten verglichen (9 : 17), ohne die Mengen."
+      ],
+      "4": [
+        "frage",
+        "Den Anteil von Kohlenhydraten und Eiweiss angegeben."
+      ]
+    },
+    "weg": "Fett 10 · 9 = 90 kcal, Kohlenhydrate 30 · 4 = 120 kcal, Eiweiss 5 · 4 = 20 kcal. 90 : 230 ≈ 39 %."
+  },
+  {
+    "id": "mn40",
+    "thema": "Nervensystem",
+    "schwierigkeit": 3,
+    "text": "Das vegetative Nervensystem besteht aus Sympathikus und Parasympathikus. Der Sympathikus bereitet den Körper auf Leistung vor: Er erhöht die Herzfrequenz und erweitert die Pupillen. Der Parasympathikus wirkt in Ruhe: Er senkt die Herzfrequenz, verengt die Pupillen und fördert die Verdauung. Atropin hemmt die Wirkung des Parasympathikus.",
+    "frage": "Welche Wirkung(en) ist/sind nach der Gabe von Atropin zu erwarten?",
+    "aussagen": [
+      "Die Pupillen werden weiter.",
+      "Die Herzfrequenz sinkt.",
+      "Die Verdauungstätigkeit nimmt ab."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und III",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "kette",
+        "III fälschlich verworfen: Die Förderung der Verdauung fällt weg."
+      ],
+      "1": [
+        "richtung",
+        "II ist falsch: Ohne parasympathische Bremse steigt die Herzfrequenz eher."
+      ],
+      "3": [
+        "richtung",
+        "II ist falsch."
+      ],
+      "4": [
+        "richtung",
+        "II ist falsch."
+      ]
+    },
+    "weg": "Parasympathikus gehemmt → seine Wirkungen fallen weg: Pupillen nicht mehr verengt, Herzfrequenz nicht mehr gesenkt, Verdauung nicht mehr gefördert."
+  },
+  {
+    "id": "mn41",
+    "thema": "Atmung",
+    "schwierigkeit": 1,
+    "text": "Beim Einatmen zieht sich das Zwerchfell zusammen und flacht ab; zusätzlich heben die äusseren Zwischenrippenmuskeln den Brustkorb. Der Brustraum vergrössert sich, der Druck in der Lunge sinkt unter den Luftdruck der Umgebung und Luft strömt ein. Das Ausatmen in Ruhe erfolgt passiv durch die Entspannung dieser Muskeln.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Beim Einatmen ist der Druck in der Lunge niedriger als der Umgebungsluftdruck.",
+      "Beim Einatmen entspannt sich das Zwerchfell.",
+      "Das Ausatmen in Ruhe erfordert Muskelkraft.",
+      "Beim Einatmen verkleinert sich der Brustraum.",
+      "Das Zwerchfell wölbt sich beim Einatmen stärker nach oben."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "richtung",
+      "4": "vertauscht"
+    },
+    "weg": "Der Druck sinkt unter den Umgebungsdruck, deshalb strömt Luft ein."
+  },
+  {
+    "id": "mn42",
+    "thema": "Chemie",
+    "schwierigkeit": 3,
+    "text": "Eine Lösung mit einer Stoffmenge von 1 mol pro Liter heisst einmolar (1 M). Natriumchlorid (Kochsalz) hat eine molare Masse von etwa 58,5 g pro mol. Eine physiologische Kochsalzlösung enthält 9 g Natriumchlorid pro Liter.",
+    "frage": "Welche Stoffmengenkonzentration hat eine physiologische Kochsalzlösung ungefähr?",
+    "optionen": [
+      "0,015 M",
+      "0,15 M",
+      "0,9 M",
+      "1,5 M",
+      "6,5 M"
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": [
+        "rechnung",
+        "Kommafehler (Faktor 10)."
+      ],
+      "2": [
+        "frage",
+        "Den Massenanteil in Prozent als Molarität genommen."
+      ],
+      "3": [
+        "rechnung",
+        "Kommafehler (Faktor 10)."
+      ],
+      "4": [
+        "rechnung",
+        "Molare Masse durch Masse geteilt (58,5 : 9)."
+      ]
+    },
+    "weg": "9 g : 58,5 g/mol ≈ 0,154 mol pro Liter ≈ 0,15 M."
+  },
+  {
+    "id": "mn43",
+    "thema": "Sinnesorgane",
+    "schwierigkeit": 2,
+    "text": "In der Netzhaut gibt es zwei Arten von Lichtsinneszellen. Stäbchen sind sehr lichtempfindlich und ermöglichen das Sehen in der Dämmerung, unterscheiden aber keine Farben. Zapfen benötigen mehr Licht und ermöglichen das Farbensehen. In der Netzhautgrube, dem Ort des schärfsten Sehens, liegen nur Zapfen.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "In der Dämmerung lassen sich Farben schlechter unterscheiden.",
+      "In der Netzhautgrube liegen besonders viele Stäbchen.",
+      "Zapfen sind lichtempfindlicher als Stäbchen.",
+      "Stäbchen ermöglichen das Farbensehen.",
+      "In der Netzhautgrube ist das Sehen in der Dämmerung am besten."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "kette"
+    },
+    "weg": "In der Dämmerung arbeiten vor allem die Stäbchen, die keine Farben unterscheiden."
+  },
+  {
+    "id": "mn44",
+    "thema": "Pharmakologie",
+    "schwierigkeit": 3,
+    "text": "Wird ein Medikament geschluckt, gelangt es aus dem Darm zunächst über die Pfortader in die Leber, bevor es den Körperkreislauf erreicht. In der Leber wird ein Teil bereits abgebaut (First-Pass-Effekt). Bei einem bestimmten Wirkstoff werden auf diesem Weg 75 % abgebaut. Wird der Wirkstoff in die Vene gespritzt, umgeht er die erste Leberpassage.",
+    "frage": "Ein Patient erhält den Wirkstoff bisher als 2-mg-Injektion in die Vene. Welche Dosis müsste er schlucken, damit dieselbe Menge den Körperkreislauf erreicht (bei vollständiger Aufnahme aus dem Darm)?",
+    "optionen": [
+      "0,5 mg",
+      "1,5 mg",
+      "2,5 mg",
+      "6 mg",
+      "8 mg"
+    ],
+    "loesung": 4,
+    "fehler": {
+      "0": [
+        "richtung",
+        "Durch 4 geteilt statt mit 4 multipliziert."
+      ],
+      "1": [
+        "frage",
+        "75 % von 2 mg berechnet."
+      ],
+      "3": [
+        "rechnung",
+        "Mit 3 multipliziert (75 % als Faktor 3)."
+      ],
+      "2": [
+        "rechnung",
+        "Den Abbau addiert statt die Dosis hochzurechnen."
+      ]
+    },
+    "weg": "Nur 25 % erreichen den Kreislauf → 2 mg : 0,25 = 8 mg."
+  },
+  {
+    "id": "mn45",
+    "thema": "Blut",
+    "schwierigkeit": 3,
+    "text": "Menschen mit Blutgruppe A tragen auf ihren roten Blutkörperchen das Antigen A und haben im Plasma Antikörper gegen B. Bei Blutgruppe B ist es umgekehrt. Menschen mit Blutgruppe AB tragen beide Antigene und haben keine dieser Antikörper; Menschen mit Blutgruppe 0 tragen keines der Antigene und haben Antikörper gegen A und B. Werden rote Blutkörperchen übertragen, deren Antigen auf passende Antikörper im Plasma des Empfängers trifft, verklumpen sie.",
+    "frage": "Welche Übertragung(en) roter Blutkörperchen führt/führen nach dem Text nicht zu einer Verklumpung?",
+    "aussagen": [
+      "Spender 0 → Empfänger A",
+      "Spender AB → Empfänger B",
+      "Spender A → Empfänger AB"
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur III",
+      "Nur I und III",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "zuschnell",
+        "III fälschlich verworfen: AB-Empfänger hat keine Antikörper."
+      ],
+      "1": [
+        "zuschnell",
+        "I fälschlich verworfen: 0-Blutkörperchen tragen kein Antigen."
+      ],
+      "3": [
+        "kette",
+        "II ist falsch: Das A-Antigen des Spenders trifft auf Anti-A im B-Empfänger."
+      ],
+      "4": [
+        "kette",
+        "II ist falsch."
+      ]
+    },
+    "weg": "I: keine Antigene → keine Verklumpung. II: A-Antigen trifft auf Anti-A → Verklumpung. III: AB hat keine Antikörper → keine Verklumpung."
+  },
+  {
+    "id": "mn46",
+    "thema": "Physik",
+    "schwierigkeit": 2,
+    "text": "Radioaktive Stoffe zerfallen mit einer festen Halbwertszeit: Nach Ablauf einer Halbwertszeit ist jeweils die Hälfte der noch vorhandenen Atomkerne zerfallen. Das in der Medizin eingesetzte Technetium-99m hat eine Halbwertszeit von etwa 6 Stunden.",
+    "frage": "Welcher Anteil der ursprünglich verabreichten Menge Technetium-99m ist nach 24 Stunden noch vorhanden?",
+    "optionen": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16",
+      "1/24"
+    ],
+    "loesung": 3,
+    "fehler": {
+      "0": [
+        "rechnung",
+        "Nur eine Halbwertszeit gerechnet."
+      ],
+      "1": [
+        "rechnung",
+        "Nur zwei Halbwertszeiten gerechnet."
+      ],
+      "2": [
+        "rechnung",
+        "Drei statt vier Halbwertszeiten."
+      ],
+      "4": [
+        "rechnung",
+        "Linear statt halbierend gerechnet."
+      ]
+    },
+    "weg": "24 h = 4 Halbwertszeiten → (1/2)⁴ = 1/16."
+  },
+  {
+    "id": "mn47",
+    "thema": "Verdauung",
+    "schwierigkeit": 2,
+    "text": "Gallensaft wird in der Leber gebildet, in der Gallenblase gespeichert und eingedickt und bei fettreicher Nahrung in den Dünndarm abgegeben. Die Gallensäuren zerteilen Fetttropfen in kleinere Tröpfchen, sodass fettspaltende Enzyme eine grössere Angriffsfläche haben. Gallensaft selbst enthält keine fettspaltenden Enzyme.",
+    "frage": "Nach einer Entfernung der Gallenblase fliesst Gallensaft ununterbrochen in kleinen Mengen in den Darm. Welche Aussage lässt sich ableiten?",
+    "optionen": [
+      "Nach der Entfernung wird kein Gallensaft mehr gebildet.",
+      "Bei einer sehr fettreichen Mahlzeit steht weniger Gallensaft auf einmal zur Verfügung als vorher.",
+      "Gallensaft spaltet Fette chemisch.",
+      "Ohne Gallenblase können keine Kohlenhydrate verdaut werden.",
+      "Die Gallenblase bildet die Gallensäuren."
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": "vertauscht",
+      "2": "vertauscht",
+      "3": "vorwissen",
+      "4": "vertauscht"
+    },
+    "weg": "Ohne Speicher fehlt die grosse Portion auf einmal; gebildet wird der Gallensaft weiterhin in der Leber."
+  },
+  {
+    "id": "mn48",
+    "thema": "Immunologie",
+    "schwierigkeit": 4,
+    "text": "Das HI-Virus befällt T-Helferzellen, die das Eindringen in die Zelle über das Oberflächenmolekül CD4 ermöglichen. Zusätzlich benötigt das Virus einen Korezeptor, meistens CCR5. Menschen, die von beiden Eltern eine bestimmte Veränderung des CCR5-Gens geerbt haben, bilden kein funktionsfähiges CCR5. Sie sind gegen die meisten HI-Virus-Stämme weitgehend geschützt; einige Stämme nutzen statt CCR5 einen anderen Korezeptor.",
+    "frage": "Welche Aussage(n) lässt/lassen sich ableiten?",
+    "aussagen": [
+      "Ein Wirkstoff, der CCR5 blockiert, könnte das Eindringen vieler HI-Viren in T-Helferzellen erschweren.",
+      "Menschen ohne funktionsfähiges CCR5 besitzen kein CD4.",
+      "Es gibt HI-Virus-Stämme, die nicht auf CCR5 angewiesen sind."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und III",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "absolut",
+        "III fälschlich verworfen: «meistens» und «die meisten» Stämme heisst nicht alle."
+      ],
+      "1": [
+        "vorwissen",
+        "II steht nicht im Text."
+      ],
+      "3": [
+        "vorwissen",
+        "II steht nicht im Text."
+      ],
+      "4": [
+        "vorwissen",
+        "II steht nicht im Text."
+      ]
+    },
+    "weg": "I: CCR5 blockiert → wie fehlendes CCR5. III: «meistens» / «die meisten» → andere Stämme nutzen anderes. II: Über CD4 bei diesen Menschen sagt der Text nichts."
+  },
+  {
+    "id": "mn49",
+    "thema": "Herz-Kreislauf",
+    "schwierigkeit": 2,
+    "text": "Venen führen das Blut zum Herzen zurück. In den Beinvenen verhindern Venenklappen, dass das Blut der Schwerkraft folgend zurückfliesst. Die umliegenden Muskeln drücken bei jeder Kontraktion die Venen zusammen und pressen das Blut herzwärts (Muskelpumpe). Schliessen die Venenklappen nicht mehr richtig, staut sich Blut in den Beinen.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Bewegung der Beinmuskeln unterstützt den Rückfluss des Blutes zum Herzen.",
+      "Venenklappen pumpen das Blut aktiv zum Herzen.",
+      "Arterien besitzen ebenfalls Klappen.",
+      "Langes Stehen ohne Bewegung fördert den Rückfluss in den Beinvenen.",
+      "Undichte Venenklappen beschleunigen den Rückfluss."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vorwissen",
+      "3": "richtung",
+      "4": "richtung"
+    },
+    "weg": "Muskelpumpe: Kontraktion presst Blut herzwärts."
+  },
+  {
+    "id": "mn50",
+    "thema": "Zellbiologie",
+    "schwierigkeit": 3,
+    "text": "Bei der Mitose entstehen aus einer Körperzelle zwei Tochterzellen mit identischem, vollständigem Chromosomensatz. Bei der Meiose entstehen aus einer Keimbahnzelle vier Zellen, die jeweils nur einen einfachen Chromosomensatz besitzen. Menschliche Körperzellen enthalten 46 Chromosomen. Eizellen und Samenzellen entstehen durch Meiose.",
+    "frage": "Welche Aussage(n) lässt/lassen sich ableiten?",
+    "aussagen": [
+      "Eine menschliche Eizelle enthält 23 Chromosomen.",
+      "Nach einer Mitose enthält jede Tochterzelle 23 Chromosomen.",
+      "Aus einer Keimbahnzelle entstehen bei der Meiose doppelt so viele Zellen wie aus einer Körperzelle bei der Mitose."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und III",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "rechnung",
+        "III fälschlich verworfen: 4 ist doppelt so viel wie 2."
+      ],
+      "1": [
+        "vertauscht",
+        "II ist falsch: Mitose erhält den vollständigen Satz (46)."
+      ],
+      "3": [
+        "vertauscht",
+        "II ist falsch."
+      ],
+      "4": [
+        "vertauscht",
+        "II ist falsch."
+      ]
+    },
+    "weg": "I: Meiose → einfacher Satz = 23. II: Mitose → 46. III: 4 Zellen statt 2."
+  },
+  {
+    "id": "mn51",
+    "thema": "Stoffwechsel",
+    "schwierigkeit": 2,
+    "text": "Bei intensiver Belastung reicht der Sauerstoff in den Muskeln nicht mehr aus, um Glukose vollständig abzubauen. Die Muskelzellen bauen Glukose dann ohne Sauerstoff zu Milchsäure (Laktat) ab. Dieser Weg liefert pro Molekül Glukose nur etwa ein Fünfzehntel der Energie des vollständigen Abbaus mit Sauerstoff, dafür sehr schnell.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Der Abbau ohne Sauerstoff liefert pro Glukosemolekül weniger Energie als der Abbau mit Sauerstoff.",
+      "Laktat entsteht nur in Ruhe.",
+      "Der Abbau mit Sauerstoff ist schneller als der Abbau ohne Sauerstoff.",
+      "Ohne Sauerstoff kann der Muskel keine Glukose abbauen.",
+      "Laktat liefert fünfzehnmal mehr Energie als Glukose."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "absolut",
+      "4": "vertauscht"
+    },
+    "weg": "Ein Fünfzehntel der Energie → weniger. Der Text nennt den Weg ohne Sauerstoff «dafür sehr schnell» – C dreht das um."
+  },
+  {
+    "id": "mn52",
+    "thema": "Anatomie",
+    "schwierigkeit": 2,
+    "text": "Das Gehirn wird von drei Hirnhäuten umhüllt: aussen die harte Hirnhaut (Dura mater), in der Mitte die Spinnwebenhaut (Arachnoidea) und innen die weiche Hirnhaut (Pia mater), die direkt der Hirnoberfläche anliegt. Zwischen Spinnwebenhaut und weicher Hirnhaut liegt der mit Hirnwasser gefüllte Subarachnoidalraum.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Der Subarachnoidalraum liegt zwischen Spinnwebenhaut und weicher Hirnhaut.",
+      "Die harte Hirnhaut liegt direkt der Hirnoberfläche an.",
+      "Der Subarachnoidalraum liegt zwischen harter Hirnhaut und Spinnwebenhaut.",
+      "Die weiche Hirnhaut liegt ausserhalb der Spinnwebenhaut.",
+      "Das Hirnwasser befindet sich ausserhalb der harten Hirnhaut."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "vertauscht"
+    },
+    "weg": "Reihenfolge von aussen: Dura – Arachnoidea – Subarachnoidalraum – Pia. Der Raum liegt also innen von der Spinnwebenhaut."
+  },
+  {
+    "id": "mn53",
+    "thema": "Diagnostik",
+    "schwierigkeit": 3,
+    "text": "Der Body-Mass-Index (BMI) wird berechnet, indem das Körpergewicht in Kilogramm durch das Quadrat der Körpergrösse in Metern geteilt wird. Ein BMI zwischen 18,5 und 25 gilt bei Erwachsenen als Normalgewicht.",
+    "frage": "Eine Person ist 1,80 m gross. Welches ist das höchste Körpergewicht, bei dem sie gerade noch einen BMI von 25 hat?",
+    "optionen": [
+      "45 kg",
+      "72 kg",
+      "81 kg",
+      "90 kg",
+      "100 kg"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "rechnung",
+        "Mit der Grösse statt ihrem Quadrat multipliziert."
+      ],
+      "1": [
+        "rechnung",
+        "Mit 1,8 · 1,6 gerechnet."
+      ],
+      "3": [
+        "rechnung",
+        "1,8² als 3,6 gerechnet."
+      ],
+      "4": [
+        "rechnung",
+        "Ohne Rechnung geschätzt."
+      ]
+    },
+    "weg": "25 · 1,8² = 25 · 3,24 = 81 kg."
+  },
+  {
+    "id": "mn54",
+    "thema": "Mikrobiologie",
+    "schwierigkeit": 2,
+    "text": "Penicillin hemmt den Aufbau der Zellwand von Bakterien, indem es ein Enzym blockiert, das die Bausteine der Zellwand miteinander verknüpft. Bakterien, die sich teilen und dabei neue Zellwand aufbauen, platzen dadurch. Menschliche Zellen besitzen keine Zellwand. Viren besitzen weder Zellwand noch eigenen Stoffwechsel.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Penicillin ist gegen Viren nicht wirksam.",
+      "Penicillin schädigt menschliche Zellwände.",
+      "Penicillin wirkt am stärksten auf Bakterien, die sich nicht teilen.",
+      "Penicillin stärkt die Zellwand von Bakterien.",
+      "Penicillin wirkt gegen alle Bakterien gleich gut."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "richtung",
+      "3": "richtung",
+      "4": "absolut"
+    },
+    "weg": "Penicillin greift an der Zellwand an – Viren haben keine Zellwand."
+  },
+  {
+    "id": "mn55",
+    "thema": "Hormone",
+    "schwierigkeit": 2,
+    "text": "Die Nebenschilddrüsen bilden das Parathormon (PTH), wenn die Kalziumkonzentration im Blut sinkt. PTH setzt Kalzium aus den Knochen frei und vermindert die Kalziumausscheidung über die Niere. Calcitonin aus der Schilddrüse wirkt als Gegenspieler und senkt den Kalziumspiegel.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Ein hoher Kalziumspiegel im Blut fördert die Ausschüttung von PTH.",
+      "Ein dauerhaft stark erhöhter PTH-Spiegel kann den Knochen Kalzium entziehen.",
+      "Calcitonin erhöht den Kalziumspiegel.",
+      "PTH steigert die Kalziumausscheidung über die Niere.",
+      "PTH wird in der Schilddrüse gebildet."
+    ],
+    "loesung": 1,
+    "fehler": {
+      "0": "richtung",
+      "2": "vertauscht",
+      "3": "vertauscht",
+      "4": "vertauscht"
+    },
+    "weg": "PTH setzt Kalzium aus den Knochen frei – auf Dauer verlieren diese Kalzium."
+  },
+  {
+    "id": "mn56",
+    "thema": "Physik",
+    "schwierigkeit": 3,
+    "text": "Der Druck in einer Flüssigkeitssäule nimmt mit der Höhe der Säule zu: Pro 10 cm Wassersäule steigt der Druck um etwa 7,4 mmHg. Blut verhält sich näherungsweise wie Wasser. Bei einer stehenden Person beträgt der mittlere arterielle Druck auf Herzhöhe 95 mmHg.",
+    "frage": "Wie hoch ist der mittlere arterielle Druck ungefähr in einer Arterie am Fuss, der 120 cm unter dem Herzen liegt?",
+    "optionen": [
+      "ca. 6 mmHg",
+      "ca. 87 mmHg",
+      "ca. 102 mmHg",
+      "ca. 184 mmHg",
+      "ca. 984 mmHg"
+    ],
+    "loesung": 3,
+    "fehler": {
+      "0": [
+        "richtung",
+        "Den Höhendruck abgezogen statt addiert."
+      ],
+      "1": [
+        "rechnung",
+        "Nur 10 cm berücksichtigt und abgezogen."
+      ],
+      "2": [
+        "rechnung",
+        "Nur 10 cm berücksichtigt."
+      ],
+      "4": [
+        "rechnung",
+        "Pro Zentimeter statt pro 10 cm gerechnet."
+      ]
+    },
+    "weg": "120 cm = 12 · 7,4 ≈ 89 mmHg; 95 + 89 ≈ 184 mmHg."
+  },
+  {
+    "id": "mn57",
+    "thema": "Genetik",
+    "schwierigkeit": 3,
+    "text": "Bei der Trisomie 21 liegt das Chromosom 21 dreifach statt doppelt vor. Häufigste Ursache ist, dass sich bei der Bildung einer Eizelle oder einer Samenzelle die beiden Chromosomen 21 nicht trennen. Die Wahrscheinlichkeit für diese Fehlverteilung in den Eizellen steigt mit dem Alter der Mutter.",
+    "frage": "Welche Aussage(n) lässt/lassen sich ableiten?",
+    "aussagen": [
+      "Eine Person mit Trisomie 21 besitzt in den betroffenen Zellen 47 statt 46 Chromosomen, wenn sonst alle Chromosomen normal vorliegen.",
+      "Eine Fehlverteilung kann auch bei der Bildung von Samenzellen auftreten.",
+      "Jüngere Mütter haben kein Risiko für ein Kind mit Trisomie 21."
+    ],
+    "optionen": [
+      "Nur I",
+      "Nur II",
+      "Nur I und II",
+      "Nur II und III",
+      "I, II und III"
+    ],
+    "loesung": 2,
+    "fehler": {
+      "0": [
+        "zuschnell",
+        "II fälschlich verworfen: Der Text nennt Ei- oder Samenzelle."
+      ],
+      "1": [
+        "rechnung",
+        "I fälschlich verworfen: 46 + 1 = 47."
+      ],
+      "3": [
+        "absolut",
+        "III ist falsch: Das Risiko steigt mit dem Alter, ist vorher aber nicht null."
+      ],
+      "4": [
+        "absolut",
+        "III ist falsch («kein Risiko»)."
+      ]
+    },
+    "weg": "I: ein Chromosom zusätzlich → 47. II: «Eizelle oder Samenzelle». III: steigend heisst nicht null bei Jüngeren."
+  },
+  {
+    "id": "mn58",
+    "thema": "Chemie",
+    "schwierigkeit": 2,
+    "text": "Enzyme beschleunigen chemische Reaktionen, ohne dabei verbraucht zu werden. Jedes Enzym hat ein aktives Zentrum, in das nur bestimmte Substrate passen. Bei zu hohen Temperaturen verändert sich die räumliche Struktur des Enzyms dauerhaft, und es verliert seine Wirkung. Bei niedrigen Temperaturen arbeitet es langsamer, behält aber seine Struktur.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Ein Enzym, das gekühlt wurde, kann nach dem Erwärmen auf normale Temperatur wieder normal arbeiten.",
+      "Enzyme werden bei der Reaktion verbraucht.",
+      "Ein Enzym kann jedes beliebige Substrat umsetzen.",
+      "Eine Überhitzung macht ein Enzym schneller.",
+      "Ein überhitztes Enzym gewinnt seine Wirkung beim Abkühlen zurück."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "absolut",
+      "3": "richtung",
+      "4": "vertauscht"
+    },
+    "weg": "Kälte verlangsamt nur, die Struktur bleibt erhalten. Hitze verändert sie dauerhaft."
+  },
+  {
+    "id": "mn59",
+    "thema": "Nervensystem",
+    "schwierigkeit": 4,
+    "text": "Die Sehbahn verläuft so, dass die Nervenfasern aus der jeweils nasenseitigen Hälfte beider Netzhäute in der Sehnervenkreuzung (Chiasma opticum) auf die Gegenseite kreuzen. Die Fasern aus den schläfenseitigen Netzhauthälften kreuzen nicht. Die nasenseitige Netzhauthälfte nimmt dabei Licht aus dem äusseren (schläfenseitigen) Gesichtsfeld auf.",
+    "frage": "Ein Tumor drückt genau in der Mitte auf die Sehnervenkreuzung und schädigt nur die kreuzenden Fasern. Welcher Ausfall ist zu erwarten?",
+    "optionen": [
+      "Ausfall der äusseren (schläfenseitigen) Gesichtsfeldhälften beider Augen",
+      "Ausfall der inneren (nasenseitigen) Gesichtsfeldhälften beider Augen",
+      "vollständige Blindheit des linken Auges",
+      "Ausfall des gesamten rechten Gesichtsfelds beider Augen",
+      "kein Ausfall, da die Fasern auf der Gegenseite ersetzt werden"
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "vertauscht",
+      "2": "kette",
+      "3": "kette",
+      "4": "vorwissen"
+    },
+    "weg": "Kreuzende Fasern = nasenseitige Netzhauthälften = äussere Gesichtsfelder beider Augen."
+  },
+  {
+    "id": "mn60",
+    "thema": "Niere",
+    "schwierigkeit": 2,
+    "text": "Diuretika sind Medikamente, die die Urinausscheidung steigern. Schleifendiuretika hemmen in der Henle-Schleife die Rückaufnahme von Natrium, Kalium und Chlorid. Dadurch bleibt mehr Wasser im Urin. Als Nebenwirkung kann der Kaliumspiegel im Blut sinken.",
+    "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+    "optionen": [
+      "Unter Schleifendiuretika wird mehr Kalium mit dem Urin ausgeschieden.",
+      "Schleifendiuretika erhöhen den Kaliumspiegel im Blut.",
+      "Schleifendiuretika vermindern die Urinmenge.",
+      "Schleifendiuretika wirken in den Sammelrohren.",
+      "Schleifendiuretika fördern die Natriumrückaufnahme."
+    ],
+    "loesung": 0,
+    "fehler": {
+      "1": "richtung",
+      "2": "richtung",
+      "3": "vorwissen",
+      "4": "vertauscht"
+    },
+    "weg": "Weniger Kalium-Rückaufnahme → mehr Kalium im Urin → Kaliumspiegel im Blut kann sinken."
+  }
+]

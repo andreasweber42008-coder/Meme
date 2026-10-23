@@ -8,7 +8,7 @@ export interface IcsEreignis {
   /** «HH:MM»; ohne Zeit = ganztägig */
   zeit?: string;
   minuten?: number;
-  /** Erinnerung so viele Minuten vor Beginn (ganztägig: vor 00:00) */
+  /** Erinnerung so viele Minuten vor Beginn (ganztägig: vor 00:00); negativ = nach Beginn, z. B. −540 = 09:00 am Tag */
   alarmMinutenVorher?: number;
 }
 
@@ -70,7 +70,7 @@ export function icsErzeugen(ereignisse: IcsEreignis[], jetzt = new Date()): stri
     zeilen.push(`SUMMARY:${text(e.titel)}`);
     if (e.beschreibung) zeilen.push(`DESCRIPTION:${text(e.beschreibung)}`);
     if (e.alarmMinutenVorher !== undefined) {
-      zeilen.push("BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${text(e.titel)}`, `TRIGGER:-PT${Math.max(0, Math.round(e.alarmMinutenVorher))}M`, "END:VALARM");
+      zeilen.push("BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${text(e.titel)}`, e.alarmMinutenVorher >= 0 ? `TRIGGER:-PT${Math.round(e.alarmMinutenVorher)}M` : `TRIGGER:PT${Math.round(-e.alarmMinutenVorher)}M`, "END:VALARM");
     }
     zeilen.push("END:VEVENT");
   }

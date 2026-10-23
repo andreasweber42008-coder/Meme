@@ -8,8 +8,10 @@
     <title>Munggi</title>
     <meta name="description" content="Persönliche Lern-App für den EMS" />
     <script>
-      // Dunkelmodus nach Systemeinstellung, bevor React lädt (kein Aufblitzen).
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      // Dunkelmodus (Einstellung oder System), bevor React lädt – kein Aufblitzen.
+      var design = null;
+      try { design = localStorage.getItem("munggi-design"); } catch (e) {}
+      if (design === "dunkel" || (design !== "hell" && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");
       }
     </script>

@@ -1,0 +1,530 @@
+[
+  {
+    "id": "t1",
+    "titel": "Die Phasen der Wundheilung",
+    "thema": "Wundheilung",
+    "absaetze": [
+      "Die Heilung einer Hautwunde verläuft in vier Phasen, die sich zeitlich überlappen: Blutstillung, Entzündung, Proliferation und Umbau. Unmittelbar nach der Verletzung ziehen sich die verletzten Gefässe für einige Minuten zusammen. Gleichzeitig haften Blutplättchen (Thrombozyten) an freigelegtem Kollagen und bilden einen ersten Pfropf. Die Gerinnungskaskade wandelt anschliessend das gelöste Fibrinogen in Fibrin um, das den Pfropf zu einem stabilen Gerinnsel vernetzt. Dieses Gerinnsel stillt nicht nur die Blutung, sondern dient auch als provisorisches Gerüst, auf dem später Zellen in die Wunde einwandern. Zudem setzen die Thrombozyten Wachstumsfaktoren wie PDGF frei, die Entzündungszellen anlocken.",
+      "Nach der anfänglichen Verengung erweitern sich die Gefässe, und ihre Wand wird durchlässiger. Neutrophile Granulozyten erreichen die Wunde innerhalb weniger Stunden, ihre Zahl ist nach etwa 24 Stunden am höchsten. Sie nehmen Bakterien auf und gehen danach zugrunde. Ab dem zweiten bis dritten Tag überwiegen Makrophagen, die aus Monozyten des Blutes hervorgehen. Sie beseitigen Zelltrümmer und abgestorbene Neutrophile und ändern im Verlauf ihr Verhalten: Zunächst geben sie entzündungsfördernde Botenstoffe ab, später vor allem Faktoren, welche Fibroblasten und die Bildung neuer Gefässe anregen. Werden Makrophagen im Tierversuch entfernt, heilen Wunden deutlich verzögert; fehlen dagegen in einer sterilen Wunde die Neutrophilen, wird die Heilung kaum beeinträchtigt.",
+      "Die Proliferationsphase beginnt um den vierten Tag und dauert bis zu drei Wochen. Fibroblasten wandern ein und bilden zunächst Kollagen Typ III, das dünne und wenig geordnete Fasern formt. Der Sauerstoffmangel im Wundgebiet fördert die Bildung des Wachstumsfaktors VEGF, der das Einsprossen neuer Kapillaren auslöst. Aus Kapillaren, Fibroblasten und neuer Matrix entsteht das körnig-rote Granulationsgewebe. Gleichzeitig wandern Keratinozyten vom Wundrand und aus Haarfollikeln über die Wundfläche. In feuchtem Milieu geschieht dies etwa doppelt so schnell wie unter trockenem Schorf, unter dem sich die Zellen einen Weg durch tiefere Gewebeschichten bahnen müssen. Ein Teil der Fibroblasten wandelt sich in Myofibroblasten um, die Aktinfasern enthalten und die Wundränder zusammenziehen; diese Kontraktion kann die Wundfläche um bis zu 40 Prozent verkleinern.",
+      "Die Umbauphase setzt etwa in der dritten Woche ein und kann länger als ein Jahr dauern. Kollagen Typ III wird schrittweise durch das belastbarere Kollagen Typ I ersetzt, und die Fasern richten sich entlang der Zugrichtung aus. Die Gefässdichte nimmt ab, die Narbe wird blasser. Nach drei Wochen besitzt die Narbe etwa 20 Prozent der Reissfestigkeit unverletzter Haut, nach einem Jahr rund 80 Prozent; die ursprüngliche Festigkeit erreicht sie nie.",
+      "Diabetes mellitus, eine verminderte Durchblutung oder Mangelernährung verlängern die Entzündungsphase. In chronischen Wunden, definiert als Wunden, die nach acht Wochen nicht abgeheilt sind, verharren die Makrophagen im entzündungsfördernden Zustand, und eiweissspaltende Enzyme bauen neu gebildete Matrix sowie Wachstumsfaktoren ab. Umgekehrt kann eine überschiessende Kollagenbildung zu hypertrophen Narben führen, die auf das ursprüngliche Wundgebiet begrenzt bleiben, oder zu Keloiden, die über die Wundränder hinauswachsen und sich kaum zurückbilden. In fetaler Haut heilen Wunden bis etwa zum sechsten Schwangerschaftsmonat ohne Narbe, bei geringerer Entzündungsreaktion und höherem Anteil an Kollagen Typ III."
+    ],
+    "fragen": [
+      {
+        "id": "t1f1",
+        "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+        "optionen": [
+          "Neutrophile Granulozyten sind für die Heilung steriler Wunden unverzichtbar.",
+          "Unter trockenem Schorf wird eine Wundfläche etwa halb so schnell von Keratinozyten überwandert wie in feuchtem Milieu.",
+          "Die Vernetzung durch Fibrin geht der Verengung der verletzten Gefässe zeitlich voraus.",
+          "Kollagen Typ I wird in der Proliferationsphase gebildet und später durch Kollagen Typ III ersetzt.",
+          "Das Einsprossen neuer Kapillaren wird durch einen hohen Sauerstoffgehalt im Wundgebiet ausgelöst."
+        ],
+        "loesung": 1,
+        "fehler": {
+          "0": ["vertauscht", "Unverzichtbar sind laut Absatz 2 die Makrophagen; das Fehlen von Neutrophilen beeinträchtigt die Heilung steriler Wunden kaum."],
+          "2": ["richtung", "Absatz 1: Zuerst verengen sich die Gefässe, anschliessend vernetzt Fibrin den Pfropf."],
+          "3": ["vertauscht", "Absatz 3/4: Zuerst entsteht Typ III, das später durch Typ I ersetzt wird."],
+          "4": ["richtung", "Absatz 3: Auslöser ist der Sauerstoffmangel."]
+        },
+        "weg": "Absatz 3: In feuchtem Milieu wandern die Keratinozyten etwa doppelt so schnell wie unter trockenem Schorf. Umgekehrt heisst das: unter Schorf etwa halb so schnell.",
+        "absatz": [3]
+      },
+      {
+        "id": "t1f2",
+        "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+        "aussagen": [
+          "Das Fibringerinnsel erfüllt neben der Blutstillung noch eine weitere Aufgabe.",
+          "Makrophagen geben in einer normal heilenden Wunde während ihrer gesamten Anwesenheit überwiegend entzündungsfördernde Botenstoffe ab.",
+          "Hypertrophe Narben wachsen über die ursprünglichen Wundränder hinaus."
+        ],
+        "optionen": ["Nur I", "Nur II", "Nur III", "Nur I und II", "Nur I und III"],
+        "loesung": 0,
+        "fehler": {
+          "1": ["kette", "II übersieht, dass die Makrophagen später auf heilungsfördernde Faktoren umschalten (Absatz 2)."],
+          "2": ["vertauscht", "III beschreibt Keloide, nicht hypertrophe Narben."],
+          "3": ["kette", "II: Umschalten der Makrophagen nicht zu Ende gelesen."],
+          "4": ["vertauscht", "III: Keloid und hypertrophe Narbe vertauscht."]
+        },
+        "weg": "I stimmt (Absatz 1: Gerinnsel als provisorisches Gerüst für einwandernde Zellen). II ist falsch, weil die Makrophagen später vor allem Wachstumsfaktoren abgeben (Absatz 2). III ist falsch: Hypertrophe Narben bleiben auf das Wundgebiet begrenzt, über die Ränder wachsen Keloide (Absatz 5).",
+        "absatz": [1, 2, 5]
+      },
+      {
+        "id": "t1f3",
+        "frage": "Welche Aussage lässt sich NICHT aus dem Text ableiten?",
+        "optionen": [
+          "Myofibroblasten gehen aus Fibroblasten hervor.",
+          "Die Umbauphase kann länger dauern als alle übrigen Phasen zusammen.",
+          "Bei Diabetes mellitus ist die Entzündungsphase verlängert.",
+          "Die Kontraktion durch Myofibroblasten kann eine Wunde um mehr als die Hälfte ihrer Fläche verkleinern.",
+          "Wunden fetaler Haut können bis etwa zum sechsten Schwangerschaftsmonat ohne Narbe heilen."
+        ],
+        "loesung": 3,
+        "fehler": {
+          "0": ["verneinung", "Steht in Absatz 3, ist also ableitbar; gefragt ist die NICHT ableitbare Aussage."],
+          "1": ["zuschnell", "Blutstillung (Minuten), Entzündung (Tage) und Proliferation (bis drei Wochen) sind zusammen kürzer als eine Umbauphase von über einem Jahr."],
+          "2": "verneinung",
+          "4": ["zuschnell", "Absatz 5 nennt genau diese Grenze."]
+        },
+        "weg": "Absatz 3: Die Kontraktion verkleinert die Wundfläche um bis zu 40 Prozent, also nicht um mehr als die Hälfte. Alle anderen Aussagen stehen in den Absätzen 3 bis 5.",
+        "absatz": [3]
+      },
+      {
+        "id": "t1f4",
+        "frage": "Welche Aussage zur Narbe ist falsch?",
+        "optionen": [
+          "Zwischen der dritten Woche und dem Ende des ersten Jahres steigt die Reissfestigkeit einer Narbe etwa auf das Vierfache.",
+          "Die Umbauphase beginnt ungefähr dann, wenn die Proliferationsphase endet.",
+          "Nach drei Wochen besitzt eine Narbe etwa ein Fünftel der Reissfestigkeit unverletzter Haut.",
+          "Während des Umbaus nimmt die Gefässdichte im Narbengewebe ab.",
+          "Nach einem Jahr ist eine Narbe um etwa 80 Prozent weniger reissfest als unverletzte Haut."
+        ],
+        "loesung": 4,
+        "fehler": {
+          "0": ["rechnung", "Von 20 auf 80 Prozent ist das Vierfache – die Aussage stimmt."],
+          "1": ["zuschnell", "Proliferation bis zu drei Wochen, Umbau ab etwa der dritten Woche (Absätze 3 und 4)."],
+          "2": ["rechnung", "20 Prozent entsprechen einem Fünftel."],
+          "3": "verneinung"
+        },
+        "weg": "Absatz 4: Nach einem Jahr erreicht die Narbe rund 80 Prozent der Reissfestigkeit, ist also etwa 20 Prozent weniger fest – nicht 80 Prozent weniger.",
+        "absatz": [4]
+      },
+      {
+        "id": "t1f5",
+        "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+        "aussagen": [
+          "Ein Sauerstoffmangel im Wundgebiet fördert indirekt die Bildung von Granulationsgewebe.",
+          "Die Keratinozyten, die eine Wunde überwandern, stammen ausschliesslich vom Wundrand.",
+          "In chronischen Wunden werden auch Wachstumsfaktoren abgebaut."
+        ],
+        "optionen": ["Nur I", "Nur I und II", "Nur I und III", "Nur II und III", "I, II und III"],
+        "loesung": 2,
+        "fehler": {
+          "0": ["zuschnell", "III steht wörtlich in Absatz 5."],
+          "1": ["absolut", "II: «ausschliesslich» übersehen – Keratinozyten kommen auch aus Haarfollikeln."],
+          "3": ["absolut", "II ist wegen «ausschliesslich» falsch; I ergibt sich über die Kette Sauerstoffmangel – VEGF – Kapillaren."],
+          "4": ["absolut", "II: «ausschliesslich» übersehen."]
+        },
+        "weg": "I: Sauerstoffmangel fördert VEGF, VEGF löst Kapillarsprossung aus, Kapillaren sind Teil des Granulationsgewebes (Absatz 3). II ist falsch: Keratinozyten kommen auch aus Haarfollikeln (Absatz 3). III steht in Absatz 5.",
+        "absatz": [3, 5]
+      },
+      {
+        "id": "t1f6",
+        "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+        "optionen": [
+          "Monozyten aus dem Blut gelangen vor den neutrophilen Granulozyten in die Wunde.",
+          "PDGF wird von Makrophagen freigesetzt, um Thrombozyten anzulocken.",
+          "Eine Wunde, die nach sechs Wochen noch nicht verschlossen ist, gilt gemäss Text als chronisch.",
+          "Keloide bilden sich in der Regel von selbst zurück.",
+          "Wird die Umstellung der Makrophagen auf heilungsfördernde Faktoren verhindert, ist eine verzögerte Wundheilung zu erwarten."
+        ],
+        "loesung": 4,
+        "fehler": {
+          "0": ["richtung", "Absatz 2: Neutrophile kommen innerhalb von Stunden, Makrophagen aus Monozyten überwiegen erst ab dem zweiten bis dritten Tag."],
+          "1": ["vertauscht", "Absatz 1: PDGF stammt von den Thrombozyten und lockt Entzündungszellen an."],
+          "2": ["vertauscht", "Absatz 5: Die Grenze liegt bei acht Wochen."],
+          "3": ["verneinung", "Absatz 5: Keloide bilden sich «kaum» zurück."]
+        },
+        "weg": "Absatz 2: Makrophagen regen später Fibroblasten und Gefässneubildung an, ihr Fehlen verzögert die Heilung. Absatz 5: In chronischen Wunden verharren sie im entzündungsfördernden Zustand. Bleibt die Umstellung aus, ist also eine verzögerte Heilung zu erwarten.",
+        "absatz": [2, 5]
+      }
+    ]
+  },
+  {
+    "id": "t2",
+    "titel": "Hörschnecke und Cochlea-Implantat",
+    "thema": "Hören",
+    "absaetze": [
+      "Schall versetzt das Trommelfell in Schwingung, und die Gehörknöchelchen übertragen diese auf das ovale Fenster am Eingang des flüssigkeitsgefüllten Innenohrs. Da die Fläche des Trommelfells etwa 17-mal so gross ist wie jene der Steigbügelfussplatte und die Knöchelchen zusätzlich als Hebel wirken, steigt der Schalldruck insgesamt etwa um den Faktor 22. Ohne diese Druckverstärkung würden rund 98 Prozent der Schallenergie am Übergang von der Luft zur Flüssigkeit reflektiert.",
+      "Die Hörschnecke (Cochlea) ist ein gewundener Kanal, den die Basilarmembran unterteilt. Die Druckwelle löst eine Wanderwelle aus, die stets an der Basis beim ovalen Fenster beginnt und zur Spitze läuft. Ihre Amplitude erreicht an einem frequenzabhängigen Ort ein Maximum: An der Basis ist die Membran schmal und steif und schwingt am stärksten bei hohen Frequenzen; zur Spitze hin wird sie breiter und nachgiebiger und spricht auf tiefe Frequenzen an. Diese Ordnung nach Frequenzen heisst Tonotopie. Im Alter lässt vor allem die Empfindlichkeit für hohe Töne nach, unter anderem, weil die Haarzellen an der Basis von jeder Wanderwelle erfasst werden, unabhängig von deren Frequenz.",
+      "Auf der Basilarmembran sitzt das Corti-Organ mit zwei Typen von Sinneszellen: etwa 3500 inneren Haarzellen in einer Reihe und rund 12 000 äusseren Haarzellen in drei Reihen. Obwohl die äusseren Haarzellen in der Überzahl sind, ziehen rund 95 Prozent der zum Gehirn führenden Nervenfasern von den inneren Haarzellen ab. Die äusseren Haarzellen verändern bei Reizung ihre Länge und verstärken dadurch die Schwingung der Basilarmembran örtlich um bis zu 40 Dezibel. Werden die äusseren Haarzellen etwa durch Lärm geschädigt, bleiben leise Töne unhörbar, und Töne ähnlicher Frequenz lassen sich schlechter unterscheiden, selbst wenn die inneren Haarzellen intakt sind. Beim Menschen werden verlorene Haarzellen nicht ersetzt, während Vögel sie neu bilden können.",
+      "Ein Cochlea-Implantat kommt infrage, wenn die Haarzellen weitgehend ausgefallen sind, der Hörnerv aber funktionsfähig ist. Ein Sprachprozessor hinter dem Ohr zerlegt den Schall in Frequenzbänder; die Signale gelangen durch die Haut zu einem Empfänger, der eine in die Cochlea eingeführte Elektrodenkette mit 12 bis 22 Kontakten ansteuert. Jede Elektrode reizt die Nervenfasern in ihrer Umgebung direkt und umgeht damit die Haarzellen. Dabei wird die Tonotopie genutzt: Elektroden nahe der Basis erhalten die hohen Frequenzen. Die Frequenzauflösung bleibt dennoch weit gröber als beim natürlichen Hören, weil die Elektrodenkette meist nicht bis zur Spitze reicht und weil sich der Strom in der Flüssigkeit ausbreitet und benachbarte Fasern miterregt.",
+      "Viele Implantierte verstehen Sprache in ruhiger Umgebung gut, oft sogar am Telefon; Musik und Gespräche in lauter Umgebung bleiben dagegen schwierig. Gehörlos geborene Kinder profitieren am meisten, wenn sie vor dem zweiten Geburtstag versorgt werden, da sich die Hörbahn in den ersten Lebensjahren nur unter akustischer Stimulation vollständig ausbildet. Bei Erwachsenen, die nach dem Spracherwerb ertaubt sind, gilt: Je kürzer die Taubheit dauerte, desto besser das Ergebnis. Ist der Hörnerv selbst zerstört, nützt das Implantat nichts; dann kann ein Hirnstammimplantat den Hörkern im Hirnstamm direkt reizen."
+    ],
+    "fragen": [
+      {
+        "id": "t2f1",
+        "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+        "optionen": [
+          "Die Druckverstärkung im Mittelohr beruht allein auf dem Flächenunterschied zwischen Trommelfell und Steigbügelfussplatte.",
+          "Ein tiefer Ton erzeugt sein Schwingungsmaximum nahe dem ovalen Fenster.",
+          "Im Alter nimmt vor allem die Empfindlichkeit für tiefe Töne ab.",
+          "Auch tiefe Töne versetzen die Basilarmembran nahe der Basis in Schwingung.",
+          "Die Basilarmembran ist an der Spitze der Cochlea schmaler als an der Basis."
+        ],
+        "loesung": 3,
+        "fehler": {
+          "0": ["absolut", "Absatz 1: Die Knöchelchen wirken zusätzlich als Hebel – «allein» ist falsch."],
+          "1": ["vertauscht", "Nahe dem ovalen Fenster (Basis) liegen die hohen Frequenzen."],
+          "2": ["richtung", "Absatz 2: Im Alter lässt die Empfindlichkeit für hohe Töne nach."],
+          "4": ["richtung", "Absatz 2: Zur Spitze hin wird die Membran breiter."]
+        },
+        "weg": "Absatz 2: Jede Wanderwelle beginnt an der Basis, und die Haarzellen dort werden von jeder Welle erfasst, unabhängig von der Frequenz. Also schwingt die Membran an der Basis auch bei tiefen Tönen mit, auch wenn das Maximum weiter zur Spitze liegt.",
+        "absatz": [2]
+      },
+      {
+        "id": "t2f2",
+        "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+        "aussagen": [
+          "Die äusseren Haarzellen leiten den grössten Teil der Hörinformation an das Gehirn weiter.",
+          "Eine Schädigung der äusseren Haarzellen kann die Unterscheidung ähnlicher Tonhöhen beeinträchtigen, auch wenn die inneren Haarzellen intakt sind.",
+          "Beim Menschen werden durch Lärm verlorene Haarzellen innerhalb einiger Wochen ersetzt."
+        ],
+        "optionen": ["Nur I", "Nur II", "Nur III", "Nur I und II", "Nur II und III"],
+        "loesung": 1,
+        "fehler": {
+          "0": ["vertauscht", "I: Die Überzahl der äusseren Haarzellen mit der Zahl der Nervenfasern verwechselt; 95 Prozent der Fasern kommen von den inneren."],
+          "2": ["vertauscht", "III gilt laut Absatz 3 nur für Vögel."],
+          "3": ["vertauscht", "I verwechselt innere und äussere Haarzellen."],
+          "4": ["vertauscht", "III: Mensch und Vogel vertauscht."]
+        },
+        "weg": "Absatz 3: Rund 95 Prozent der afferenten Fasern ziehen von den inneren Haarzellen ab (I falsch). Bei geschädigten äusseren Haarzellen lassen sich ähnliche Frequenzen schlechter unterscheiden, selbst bei intakten inneren (II richtig). Beim Menschen werden Haarzellen nicht ersetzt (III falsch).",
+        "absatz": [3]
+      },
+      {
+        "id": "t2f3",
+        "frage": "Welche Aussage über das Cochlea-Implantat lässt sich NICHT aus dem Text ableiten?",
+        "optionen": [
+          "Das Implantat reizt die inneren Haarzellen elektrisch.",
+          "Hohe Frequenzen werden über Elektroden nahe der Basis der Cochlea vermittelt.",
+          "Die Ausbreitung des Stroms in der Flüssigkeit trägt zur groben Frequenzauflösung bei.",
+          "Selbst ein Implantat mit 22 Kontakten bietet weit weniger Reizorte, als es innere Haarzellen gibt.",
+          "Das Implantat setzt einen funktionsfähigen Hörnerv voraus."
+        ],
+        "loesung": 0,
+        "fehler": {
+          "1": "verneinung",
+          "2": ["zuschnell", "Absatz 4 nennt die Stromausbreitung ausdrücklich als einen Grund."],
+          "3": ["rechnung", "22 Kontakte gegenüber rund 3500 inneren Haarzellen – die Aussage stimmt."],
+          "4": ["verneinung", "Steht in Absatz 4 und 5, ist also ableitbar."]
+        },
+        "weg": "Absatz 4: Jede Elektrode reizt die Nervenfasern direkt und umgeht damit die Haarzellen. Die Haarzellen werden also nicht gereizt; meist sind sie sogar weitgehend ausgefallen.",
+        "absatz": [4]
+      },
+      {
+        "id": "t2f4",
+        "frage": "Welche Aussage ist falsch?",
+        "optionen": [
+          "Ohne die Druckverstärkung des Mittelohrs gelangten höchstens rund 2 Prozent der Schallenergie ins Innenohr.",
+          "Die inneren Haarzellen sind in einer einzigen Reihe angeordnet.",
+          "Rund 95 Prozent der zum Gehirn führenden Nervenfasern stammen von den äusseren Haarzellen.",
+          "Es gibt mehr als dreimal so viele äussere wie innere Haarzellen.",
+          "Die äusseren Haarzellen können die Schwingung der Basilarmembran örtlich um bis zu 40 Dezibel verstärken."
+        ],
+        "loesung": 2,
+        "fehler": {
+          "0": ["rechnung", "Werden 98 Prozent reflektiert, bleiben höchstens 2 Prozent – die Aussage stimmt."],
+          "1": "verneinung",
+          "3": ["rechnung", "12 000 : 3500 ergibt etwa 3,4 – die Aussage stimmt."],
+          "4": ["verneinung", "Steht so in Absatz 3; gesucht ist die falsche Aussage."]
+        },
+        "weg": "Absatz 3: Die 95 Prozent der Nervenfasern stammen von den inneren Haarzellen, obwohl die äusseren in der Überzahl sind.",
+        "absatz": [1, 3]
+      },
+      {
+        "id": "t2f5",
+        "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+        "aussagen": [
+          "Ohne akustische Stimulation bildet sich die Hörbahn eines gehörlos geborenen Kindes nicht vollständig aus.",
+          "Bei Erwachsenen, die nach dem Spracherwerb ertaubt sind, wirkt sich eine lange Dauer der Taubheit eher ungünstig auf das Ergebnis aus.",
+          "Ist der Hörnerv zerstört, kann ein Hirnstammimplantat infrage kommen."
+        ],
+        "optionen": ["Nur I", "Nur I und II", "Nur I und III", "Nur II und III", "I, II und III"],
+        "loesung": 4,
+        "fehler": {
+          "0": ["zuschnell", "II und III wurden zu Unrecht verworfen."],
+          "1": ["zuschnell", "III steht in Absatz 5."],
+          "2": ["richtung", "II ist nur die Umkehrung von «je kürzer, desto besser» und damit ebenfalls richtig."],
+          "3": ["zuschnell", "I folgt direkt aus der Begründung in Absatz 5."]
+        },
+        "weg": "Absatz 5: Die Hörbahn bildet sich nur unter akustischer Stimulation vollständig aus (I). «Je kürzer die Taubheit, desto besser» heisst umgekehrt: lange Taubheit ist ungünstig (II). Bei zerstörtem Hörnerv kann ein Hirnstammimplantat den Hörkern reizen (III).",
+        "absatz": [5]
+      },
+      {
+        "id": "t2f6",
+        "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+        "optionen": [
+          "Die Elektrodenkette erreicht meist nicht die Region der Cochlea, in der natürlicherweise die tiefsten Frequenzen verarbeitet werden.",
+          "Implantatträger können wegen der fehlenden Haarzellen nicht telefonieren.",
+          "Je mehr Elektrodenkontakte ein Implantat besitzt, desto besser versteht man damit Musik.",
+          "Die grobe Frequenzauflösung des Implantats entsteht, weil die Haarzellen der Basis von jeder Wanderwelle erfasst werden.",
+          "Ein Hirnstammimplantat reizt die Nervenfasern innerhalb der Cochlea."
+        ],
+        "loesung": 0,
+        "fehler": {
+          "1": ["vertauscht", "Absatz 5: Telefonieren gelingt oft; schwierig sind Musik und laute Umgebung."],
+          "2": ["vorwissen", "Ein solcher Zusammenhang wird im Text nicht genannt."],
+          "3": ["kausal", "Dieser Mechanismus erklärt in Absatz 2 den Hörverlust im Alter, nicht die Auflösung des Implantats."],
+          "4": ["vertauscht", "Absatz 5: Es reizt den Hörkern im Hirnstamm."]
+        },
+        "weg": "Absatz 4: Die Elektrodenkette reicht meist nicht bis zur Spitze. Absatz 2: An der Spitze werden die tiefen Frequenzen verarbeitet. Zusammen ergibt sich die Aussage.",
+        "absatz": [2, 4]
+      }
+    ]
+  },
+  {
+    "id": "t3",
+    "titel": "Die Leber als Stoffwechsel- und Entgiftungsorgan",
+    "thema": "Leberstoffwechsel und Entgiftung",
+    "absaetze": [
+      "Die Leber wird von rund einem Viertel des Herzzeitvolumens durchströmt. Etwa 75 Prozent dieses Blutes stammen aus der Pfortader, die nährstoffreiches, aber sauerstoffarmes Blut aus Magen, Darm und Milz heranführt. Die übrigen 25 Prozent liefert die Leberarterie mit sauerstoffreichem Blut; sie deckt damit etwa die Hälfte des Sauerstoffbedarfs der Leber. In den Leberläppchen fliesst das Mischblut von den Portalfeldern am Rand durch die Sinusoide zur Zentralvene in der Mitte. Die Galle fliesst in entgegengesetzter Richtung.",
+      "Entlang dieses Weges unterscheiden sich die Leberzellen. Zellen nahe den Portalfeldern erhalten sauerstoffreicheres Blut und betreiben vor allem sauerstoffintensive Prozesse wie die Neubildung von Glucose und die Harnstoffbildung. Zellen um die Zentralvene sind schlechter mit Sauerstoff versorgt; in ihnen überwiegen die Glykolyse und die Umwandlung körperfremder Stoffe durch Cytochrom-P450-Enzyme. Daher treten Schäden bei einem Kreislaufschock, aber auch bei einer Vergiftung mit Paracetamol vor allem um die Zentralvene auf.",
+      "Diese Biotransformation verläuft in zwei Phasen. In Phase I führen P450-Enzyme reaktive Gruppen in einen Stoff ein. Das Produkt ist dadurch oft noch nicht ausreichend wasserlöslich und gelegentlich giftiger als der Ausgangsstoff. In Phase II wird es an Glucuronsäure, Sulfat oder Glutathion gekoppelt und so wasserlöslich; kleinere Konjugate werden eher über die Niere, grössere eher über die Galle ausgeschieden. Paracetamol wird bei normaler Dosis zu über 90 Prozent direkt gekoppelt; nur etwa 5 Prozent werden in Phase I zum reaktiven Zwischenprodukt NAPQI umgewandelt, das sofort an Glutathion gebunden wird. Bei einer Überdosis sind die direkten Kopplungswege gesättigt, sodass ein wachsender Anteil über Phase I umgesetzt wird und der Glutathionvorrat schwindet. Sinkt er unter etwa 30 Prozent des Normalwerts, bindet NAPQI an Zellproteine, und die Zellen sterben ab. Das Gegenmittel Acetylcystein liefert einen Baustein für die Glutathionbildung.",
+      "Manche Substanzen, darunter Alkohol bei chronischem Konsum, steigern die Bildung von P450-Enzymen. Andere Medikamente werden dann schneller abgebaut und wirken schwächer. Zugleich entsteht aus Paracetamol mehr NAPQI, weshalb chronisch Alkoholkranke bereits bei niedrigeren Dosen gefährdet sind. Umgekehrt hemmen Inhaltsstoffe der Grapefruit ein bestimmtes P450-Enzym, wodurch die Blutspiegel einiger Wirkstoffe ansteigen. Geschluckte Medikamente gelangen zudem über die Pfortader zuerst in die Leber, bevor sie den grossen Kreislauf erreichen (First-Pass-Effekt); bei manchen Wirkstoffen erreichen so weniger als 10 Prozent unverändert den Kreislauf. Nitroglycerin, das geschluckt fast vollständig in der Leber abgebaut würde, wird deshalb unter die Zunge gegeben und gelangt über die Mundschleimhaut unter Umgehung der Pfortader in den Kreislauf.",
+      "Beim Abbau von Aminosäuren entsteht Ammoniak, das schon in geringen Konzentrationen Nervenzellen schädigt. Die Leber wandelt es in Harnstoff um. Bei einer Leberzirrhose geht nicht nur Leistungsfähigkeit verloren: Das vermehrte Bindegewebe erhöht den Strömungswiderstand, und das Pfortaderblut fliesst teilweise über Umgehungskreisläufe an der Leber vorbei. Ammoniak aus dem Darm erreicht so ungefiltert das Gehirn und kann Verwirrtheit bis zum Koma auslösen (hepatische Enzephalopathie). Laktulose wird im Dickdarm von Bakterien zu Säuren abgebaut; der sinkende pH-Wert wandelt Ammoniak in Ammonium um, das schlechter aufgenommen wird."
+    ],
+    "fragen": [
+      {
+        "id": "t3f1",
+        "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+        "optionen": [
+          "Der grösste Teil des Blutes, das die Leber durchströmt, stammt aus der Leberarterie.",
+          "Die Galle fliesst im Leberläppchen in dieselbe Richtung wie das Blut.",
+          "Pro Liter Blut führt die Leberarterie der Leber mehr Sauerstoff zu als die Pfortader.",
+          "Die Pfortader führt sauerstoffreiches Blut aus dem Darm zur Leber.",
+          "Die Leber wird von etwa drei Vierteln des Herzzeitvolumens durchströmt."
+        ],
+        "loesung": 2,
+        "fehler": {
+          "0": ["vertauscht", "Absatz 1: 75 Prozent stammen aus der Pfortader."],
+          "1": ["richtung", "Absatz 1: Die Galle fliesst in entgegengesetzter Richtung."],
+          "3": ["vertauscht", "Absatz 1: Pfortaderblut ist nährstoffreich, aber sauerstoffarm."],
+          "4": ["rechnung", "Die 75 Prozent beziehen sich auf den Pfortaderanteil; die Leber erhält rund ein Viertel des Herzzeitvolumens."]
+        },
+        "weg": "Absatz 1: Die Leberarterie liefert nur 25 Prozent des Blutes, aber etwa die Hälfte des Sauerstoffs. Die Pfortader liefert 75 Prozent des Blutes und die andere Hälfte des Sauerstoffs. Pro Volumen führt die Arterie also mehr Sauerstoff zu.",
+        "absatz": [1]
+      },
+      {
+        "id": "t3f2",
+        "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+        "aussagen": [
+          "Zellen nahe den Portalfeldern sind bei einem Kreislaufschock besonders gefährdet.",
+          "In den Zellen nahe den Portalfeldern überwiegt die Glykolyse.",
+          "Phase-I-Reaktionen machen einen Stoff stets wasserlöslicher und weniger giftig."
+        ],
+        "optionen": ["Nur I", "Nur III", "Nur I und II", "Nur II und III", "Keine der Aussagen"],
+        "loesung": 4,
+        "fehler": {
+          "0": ["vertauscht", "I: Gefährdet sind laut Absatz 2 die Zellen um die Zentralvene."],
+          "1": ["absolut", "III: «stets» übersehen – das Produkt kann giftiger sein."],
+          "2": ["vertauscht", "I und II verwechseln die Zellen am Portalfeld mit jenen um die Zentralvene."],
+          "3": ["absolut", "III übersieht «oft noch nicht» und «gelegentlich giftiger»; II vertauscht die Zonen."]
+        },
+        "weg": "Absatz 2: Schäden beim Kreislaufschock treten vor allem um die Zentralvene auf (I falsch); dort, nicht an den Portalfeldern, überwiegt die Glykolyse (II falsch). Absatz 3: Das Phase-I-Produkt ist oft noch nicht ausreichend wasserlöslich und gelegentlich giftiger (III falsch).",
+        "absatz": [2, 3]
+      },
+      {
+        "id": "t3f3",
+        "frage": "Welche Aussage zum Paracetamol-Stoffwechsel lässt sich NICHT aus dem Text ableiten?",
+        "optionen": [
+          "Bei normaler Dosis wird der grösste Teil des Paracetamols ohne vorherige Phase-I-Reaktion gekoppelt.",
+          "Bei einer Überdosis wird ein kleinerer Anteil des Paracetamols über Phase I umgesetzt als bei normaler Dosis.",
+          "Glutathion ist an der Entgiftung von NAPQI beteiligt.",
+          "Acetylcystein unterstützt die Bildung von Glutathion.",
+          "Grössere Konjugate werden eher über die Galle als über die Niere ausgeschieden."
+        ],
+        "loesung": 1,
+        "fehler": {
+          "0": ["verneinung", "Absatz 3: über 90 Prozent werden direkt gekoppelt – ableitbar."],
+          "2": ["zuschnell", "NAPQI wird sofort an Glutathion gebunden."],
+          "3": ["zuschnell", "Acetylcystein liefert einen Baustein für die Glutathionbildung."],
+          "4": "verneinung"
+        },
+        "weg": "Absatz 3: Bei Überdosis sind die direkten Kopplungswege gesättigt, sodass ein wachsender, also grösserer Anteil über Phase I umgesetzt wird – nicht ein kleinerer.",
+        "absatz": [3]
+      },
+      {
+        "id": "t3f4",
+        "frage": "Welche Aussage ist falsch?",
+        "optionen": [
+          "Chronischer Alkoholkonsum kann die Wirkung anderer Medikamente abschwächen.",
+          "Chronisch Alkoholkranke können bereits bei niedrigeren Paracetamol-Dosen einen Leberschaden erleiden.",
+          "Inhaltsstoffe der Grapefruit können die Blutspiegel bestimmter Wirkstoffe erhöhen.",
+          "Inhaltsstoffe der Grapefruit steigern wie chronischer Alkoholkonsum die Bildung von P450-Enzymen.",
+          "Bei Wirkstoffen mit starkem First-Pass-Effekt erreichen mitunter mehr als 90 Prozent der geschluckten Menge den grossen Kreislauf nicht unverändert."
+        ],
+        "loesung": 3,
+        "fehler": {
+          "0": ["zuschnell", "Kette aus Absatz 4: mehr P450-Enzyme – schnellerer Abbau – schwächere Wirkung."],
+          "1": "verneinung",
+          "2": "verneinung",
+          "4": ["rechnung", "Weniger als 10 Prozent unverändert heisst: mehr als 90 Prozent nicht unverändert."]
+        },
+        "weg": "Absatz 4: Grapefruit-Inhaltsstoffe hemmen ein P450-Enzym («umgekehrt»), statt seine Bildung zu steigern; deshalb steigen die Wirkstoffspiegel.",
+        "absatz": [4]
+      },
+      {
+        "id": "t3f5",
+        "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+        "aussagen": [
+          "Bei einer Leberzirrhose kann Ammoniak aus dem Darm unter Umgehung der Leber ins Gehirn gelangen.",
+          "Die hepatische Enzephalopathie beruht laut Text ausschliesslich auf der verminderten Leistungsfähigkeit der Leberzellen.",
+          "Laktulose senkt die Bildung von Ammoniak in der Leber."
+        ],
+        "optionen": ["Nur I", "Nur II", "Nur III", "Nur I und II", "Nur I und III"],
+        "loesung": 0,
+        "fehler": {
+          "1": ["absolut", "II: Absatz 5 betont «nicht nur» – auch die Umgehungskreisläufe tragen bei."],
+          "2": ["vertauscht", "III: Laktulose wirkt im Dickdarm auf die Aufnahme, nicht auf die Bildung in der Leber."],
+          "3": ["absolut", "II: «ausschliesslich» widerspricht «nicht nur»."],
+          "4": ["vertauscht", "III: Wirkort und Wirkung von Laktulose verwechselt."]
+        },
+        "weg": "Absatz 5: Pfortaderblut fliesst über Umgehungskreisläufe an der Leber vorbei, Ammoniak erreicht ungefiltert das Gehirn (I richtig). Der Text sagt «nicht nur Leistungsfähigkeit» (II falsch). Laktulose verringert die Aufnahme von Ammoniak im Dickdarm, nicht seine Bildung in der Leber (III falsch).",
+        "absatz": [5]
+      },
+      {
+        "id": "t3f6",
+        "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+        "optionen": [
+          "Der First-Pass-Effekt betrifft alle geschluckten Medikamente gleich stark.",
+          "Würde Nitroglycerin geschluckt statt unter die Zunge gelegt, erreichte ein kleinerer Anteil unverändert den grossen Kreislauf.",
+          "Ein unter die Zunge gelegter Wirkstoff gelangt zuerst über die Pfortader zur Leber.",
+          "Ammoniak schädigt Nervenzellen erst in hohen Konzentrationen.",
+          "Weil das Bindegewebe bei Zirrhose den Strömungswiderstand senkt, fliesst Pfortaderblut an der Leber vorbei."
+        ],
+        "loesung": 1,
+        "fehler": {
+          "0": ["absolut", "Absatz 4: «bei manchen Wirkstoffen» – nicht bei allen gleich."],
+          "2": ["vertauscht", "Absatz 4: Über die Mundschleimhaut wird die Pfortader umgangen."],
+          "3": ["verneinung", "Absatz 5: «schon in geringen Konzentrationen»."],
+          "4": ["richtung", "Absatz 5: Der Widerstand wird erhöht, nicht gesenkt."]
+        },
+        "weg": "Absatz 4: Geschluckt würde Nitroglycerin fast vollständig in der Leber abgebaut. Unter der Zunge umgeht es die Pfortader. Geschluckt erreichte also ein kleinerer Anteil unverändert den Kreislauf.",
+        "absatz": [4]
+      }
+    ]
+  },
+  {
+    "id": "t4",
+    "titel": "Innere Uhr und Schlaf",
+    "thema": "Zirkadiane Rhythmik und Schlaf",
+    "absaetze": [
+      "Die zentrale innere Uhr des Menschen liegt im Nucleus suprachiasmaticus (SCN) des Hypothalamus. Ihr Takt beruht auf einer molekularen Rückkopplungsschleife: Die Proteine CLOCK und BMAL1 aktivieren die Gene Per und Cry. Deren Proteine sammeln sich im Lauf des Tages an und hemmen nach einigen Stunden ihre eigene Aktivierung; erst wenn sie abgebaut sind, beginnt der Zyklus von Neuem. Uhren dieser Art besitzen nicht nur die Zellen des SCN, sondern fast alle Körperzellen. Diese peripheren Uhren werden vom SCN synchronisiert; jene der Leber reagiert zusätzlich stark auf die Essenszeiten.",
+      "Ohne äussere Zeitgeber läuft die Uhr frei, beim Menschen mit einer Periode von durchschnittlich etwa 24,2 Stunden. Ohne Korrektur verschiebt sich der Rhythmus somit täglich um rund zwölf Minuten nach hinten. Wichtigster Zeitgeber ist Licht. Neben Stäbchen und Zapfen enthält die Netzhaut lichtempfindliche Ganglienzellen mit Melanopsin, die direkt zum SCN projizieren. Licht am Abend und in der ersten Nachthälfte verzögert die Uhr, Licht am frühen Morgen stellt sie vor. Blinde, deren Netzhaut vollständig ausgefallen ist, haben oft einen frei laufenden Rhythmus; sind bei Blinden dagegen die Ganglienzellen intakt, kann ihre Uhr trotz fehlender bewusster Lichtwahrnehmung synchronisiert bleiben.",
+      "Der SCN steuert die Zirbeldrüse, die bei Dunkelheit das Hormon Melatonin ausschüttet. Der Spiegel steigt etwa zwei Stunden vor dem gewohnten Einschlafen an und ist zwischen zwei und vier Uhr am höchsten; helles Licht unterdrückt die Ausschüttung innerhalb von Minuten. Melatonin ist kein Schlafmittel im engeren Sinn: Es signalisiert dem Körper die biologische Nacht, sein direkter Einfluss auf das Einschlafen ist gering. Die Körperkerntemperatur erreicht ihren Tiefpunkt etwa zwei Stunden vor dem Aufwachen, der Cortisolspiegel steigt in der zweiten Nachthälfte und erreicht rund 30 Minuten nach dem Aufwachen seinen Höchstwert.",
+      "Nach dem Zwei-Prozess-Modell wirken zwei Grössen zusammen. Der Schlafdruck (Prozess S) steigt mit der Dauer des Wachseins; dabei sammelt sich im Gehirn Adenosin an, dessen Rezeptoren durch Koffein blockiert werden. Der zirkadiane Prozess C sendet ein Wachsignal, das kurz vor der gewohnten Schlafenszeit sein Maximum erreicht. Deshalb fällt das Einschlafen ein bis zwei Stunden vor der üblichen Zeit trotz langer Wachzeit oft schwer. Im Schlaf baut sich der Schlafdruck ab; dass man in der zweiten Nachthälfte dennoch weiterschläft, verdankt man dem nun schlaffördernden zirkadianen Signal. Tiefschlaf tritt vor allem in der ersten Nachthälfte auf, REM-Schlaf überwiegend in der zweiten.",
+      "Im Jugendalter verschiebt sich der Rhythmus um bis zu zwei Stunden nach hinten; die Spätverschiebung ist um das 20. Lebensjahr am grössten. Nach einem Zeitzonenwechsel passt sich die Uhr nur um etwa eine Stunde pro Tag an. Flüge nach Osten, die den Tag verkürzen, sind schwieriger zu verkraften als Flüge nach Westen, weil eine Periode von über 24 Stunden die Verlängerung eines Tages erleichtert. Da sich periphere Uhren unterschiedlich schnell anpassen, folgen Organe vorübergehend verschiedenen inneren Zeiten. Langjährige Nachtarbeit ist statistisch mit einem erhöhten Risiko für Typ-2-Diabetes verbunden; ob die gestörte Uhr oder Begleitfaktoren wie Schlafmangel die Ursache sind, ist ungeklärt."
+    ],
+    "fragen": [
+      {
+        "id": "t4f1",
+        "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+        "optionen": [
+          "Ohne äussere Zeitgeber hätte sich der Rhythmus eines durchschnittlichen Menschen nach fünf Tagen um etwa eine Stunde verspätet.",
+          "Ohne Zeitgeber verschiebt sich der Rhythmus täglich um etwa zwölf Minuten nach vorn.",
+          "Licht am frühen Morgen verzögert die innere Uhr.",
+          "Alle blinden Menschen haben einen frei laufenden Rhythmus.",
+          "Licht kann die innere Uhr nur dann synchronisieren, wenn es bewusst wahrgenommen wird."
+        ],
+        "loesung": 0,
+        "fehler": {
+          "1": ["richtung", "Absatz 2: Die Verschiebung erfolgt nach hinten."],
+          "2": ["vertauscht", "Absatz 2: Morgenlicht stellt die Uhr vor, Abendlicht verzögert sie."],
+          "3": ["absolut", "Absatz 2: nur Blinde mit vollständig ausgefallener Netzhaut, und auch diese nur «oft»."],
+          "4": ["vorwissen", "Absatz 2: Blinde mit intakten Ganglienzellen bleiben ohne bewusste Wahrnehmung synchronisiert."]
+        },
+        "weg": "Absatz 2: Periode etwa 24,2 Stunden, also tägliche Verschiebung um rund 12 Minuten nach hinten. 5 × 12 Minuten = 60 Minuten.",
+        "absatz": [2]
+      },
+      {
+        "id": "t4f2",
+        "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+        "aussagen": [
+          "Koffein verhindert, dass sich Adenosin im Gehirn ansammelt.",
+          "Das zirkadiane Wachsignal ist kurz vor der gewohnten Schlafenszeit am stärksten.",
+          "In der zweiten Nachthälfte ist der Schlafdruck geringer als beim Einschlafen."
+        ],
+        "optionen": ["Nur I", "Nur II", "Nur I und III", "Nur II und III", "I, II und III"],
+        "loesung": 3,
+        "fehler": {
+          "0": ["vertauscht", "I: Koffein blockiert die Rezeptoren, nicht die Ansammlung von Adenosin."],
+          "1": ["zuschnell", "III folgt daraus, dass sich der Schlafdruck im Schlaf abbaut."],
+          "2": ["vertauscht", "I ist falsch, II richtig."],
+          "4": ["vertauscht", "I: Rezeptorblockade mit verhinderter Ansammlung verwechselt."]
+        },
+        "weg": "Absatz 4: Adenosin sammelt sich an, Koffein blockiert dessen Rezeptoren – von einer verhinderten Ansammlung ist nicht die Rede (I falsch). Das Wachsignal erreicht kurz vor der gewohnten Schlafenszeit sein Maximum (II). Im Schlaf baut sich der Schlafdruck ab (III).",
+        "absatz": [4]
+      },
+      {
+        "id": "t4f3",
+        "frage": "Welche Aussage lässt sich NICHT aus dem Text ableiten?",
+        "optionen": [
+          "Der Melatoninspiegel beginnt schon vor dem gewohnten Einschlafen zu steigen.",
+          "Helles Licht kann die Melatoninausschüttung rasch unterdrücken.",
+          "Melatonin wirkt vor allem als Schlafmittel, das das Einschlafen direkt herbeiführt.",
+          "Der Cortisolspiegel ist kurz nach dem Aufwachen höher als in der ersten Nachthälfte.",
+          "Die Körperkerntemperatur erreicht ihren Tiefpunkt vor dem Aufwachen."
+        ],
+        "loesung": 2,
+        "fehler": {
+          "0": "verneinung",
+          "1": ["verneinung", "Absatz 3: innerhalb von Minuten – ableitbar."],
+          "3": ["zuschnell", "Cortisol steigt in der zweiten Nachthälfte und erreicht nach dem Aufwachen sein Maximum."],
+          "4": ["zuschnell", "Absatz 3: etwa zwei Stunden vor dem Aufwachen."]
+        },
+        "weg": "Absatz 3: Melatonin ist ausdrücklich «kein Schlafmittel im engeren Sinn», sein direkter Einfluss auf das Einschlafen ist gering.",
+        "absatz": [3]
+      },
+      {
+        "id": "t4f4",
+        "frage": "Welche Aussage ist falsch?",
+        "optionen": [
+          "Nach einem Flug über sechs Zeitzonen dauert die vollständige Anpassung der inneren Uhr etwa sechs Tage.",
+          "Flüge nach Westen sind schwerer zu verkraften als Flüge nach Osten, weil sie den Tag verlängern.",
+          "Licht in der ersten Nachthälfte verschiebt die innere Uhr nach hinten.",
+          "Nach einem Zeitzonenwechsel können verschiedene Organe vorübergehend unterschiedlichen inneren Zeiten folgen.",
+          "Die Spätverschiebung des Rhythmus ist um das 20. Lebensjahr am ausgeprägtesten."
+        ],
+        "loesung": 1,
+        "fehler": {
+          "0": ["rechnung", "Eine Stunde pro Tag bei sechs Stunden Verschiebung ergibt etwa sechs Tage – die Aussage stimmt."],
+          "2": ["zuschnell", "«Verzögern» bedeutet eine Verschiebung nach hinten."],
+          "3": "verneinung",
+          "4": "verneinung"
+        },
+        "weg": "Absatz 5: Ostflüge, die den Tag verkürzen, sind schwieriger; die Verlängerung eines Tages bei Westflügen wird durch die Periode von über 24 Stunden erleichtert.",
+        "absatz": [5]
+      },
+      {
+        "id": "t4f5",
+        "frage": "Welche der folgenden Aussagen lässt bzw. lassen sich aus dem Text ableiten?",
+        "aussagen": [
+          "Das erhöhte Diabetesrisiko bei langjähriger Nachtarbeit ist laut Text auf die gestörte innere Uhr zurückzuführen.",
+          "Die Proteine von Per und Cry hemmen nach einigen Stunden ihre eigene Aktivierung.",
+          "Die periphere Uhr der Leber wird nicht nur vom SCN, sondern auch durch die Essenszeiten beeinflusst."
+        ],
+        "optionen": ["Nur I", "Nur II", "Nur III", "Nur I und II", "Nur II und III"],
+        "loesung": 4,
+        "fehler": {
+          "0": ["kausal", "I: Absatz 5 lässt offen, ob die Uhr oder Begleitfaktoren die Ursache sind."],
+          "1": ["zuschnell", "III steht in Absatz 1."],
+          "2": ["zuschnell", "II steht in Absatz 1."],
+          "3": ["kausal", "I: statistischer Zusammenhang als Ursache gedeutet."]
+        },
+        "weg": "I ist nicht ableitbar: Absatz 5 nennt nur einen statistischen Zusammenhang, die Ursache ist nicht geklärt. II und III stehen in Absatz 1.",
+        "absatz": [1, 5]
+      },
+      {
+        "id": "t4f6",
+        "frage": "Welche Aussage lässt sich aus dem Text ableiten?",
+        "optionen": [
+          "Wer abends müde ist, schläft eine Stunde vor der gewohnten Schlafenszeit besonders leicht ein.",
+          "Der Tiefschlaf überwiegt in der zweiten Nachthälfte.",
+          "Dass die innere Periode des Menschen länger als 24 Stunden ist, erleichtert die Anpassung nach Flügen nach Westen.",
+          "Jugendliche verschieben ihren Rhythmus nach hinten, weil sie abends mehr Licht ausgesetzt sind.",
+          "Melatonin erreicht seinen Höchstwert etwa 30 Minuten nach dem Aufwachen."
+        ],
+        "loesung": 2,
+        "fehler": {
+          "0": ["richtung", "Absatz 4: Gerade ein bis zwei Stunden vor der üblichen Zeit fällt das Einschlafen schwer."],
+          "1": ["vertauscht", "Absatz 4: Tiefschlaf in der ersten, REM-Schlaf in der zweiten Nachthälfte."],
+          "3": ["vorwissen", "Eine Ursache für die Spätverschiebung nennt der Text nicht."],
+          "4": ["vertauscht", "Das gilt für Cortisol; Melatonin ist zwischen zwei und vier Uhr am höchsten."]
+        },
+        "weg": "Absatz 5: Westflüge verlängern den Tag, und eine Periode von über 24 Stunden erleichtert diese Verlängerung. Absatz 2 bestätigt die Periode von etwa 24,2 Stunden.",
+        "absatz": [2, 5]
+      }
+    ]
+  }
+]
