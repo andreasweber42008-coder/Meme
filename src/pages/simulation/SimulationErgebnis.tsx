@@ -19,7 +19,7 @@ import { ablaufFuer, dauerText, simArtVon, useSimInhalt } from "@/simulation/lau
 import { FehlerAnalyse, URSACHEN } from "@/lektion/gemeinsam";
 import { Optionen, Stimulus, LeseText } from "@/components/aufgaben/AufgabeAnsicht";
 import { FigurBild } from "@/components/aufgaben/FigurBild";
-import { Munggi } from "@/components/maskottchen/Munggi";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -196,7 +196,7 @@ function Ergebnis({ id, doc }: { id: string; doc: SimulationsErgebnis & { id: st
   return (
     <div className="flex flex-col gap-5">
       <div className="flex flex-col items-center gap-2 text-center">
-        <Munggi zustand="feiert" variante={e.maskottchen} className="h-24 w-24" animiert />
+        <MeinMunggi zustand="feiert" className="h-24 w-24" animiert />
         <h1 className="text-2xl font-extrabold">Geschafft!</h1>
         <p className="text-sm text-muted-foreground">
           {titel}

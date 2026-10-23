@@ -48,6 +48,7 @@ const SimulationPapier = lazy(
 );
 const Generalprobe = lazy(() => import("@/pages/Generalprobe"));
 const Fokus = lazy(() => import("@/pages/Fokus"));
+const MunggiHeim = lazy(() => import("@/pages/MunggiHeim"));
 
 const laden = (
   <div className="flex justify-center py-20" aria-busy="true">
@@ -142,6 +143,7 @@ export default function App() {
                             element={<Generalprobe />}
                           />
                           <Route path="fokus" element={<Fokus />} />
+                    <Route path="munggi" element={<MunggiHeim />} />
                           <Route path="*" element={<NichtGefunden />} />
                         </Routes>
                       </Suspense>

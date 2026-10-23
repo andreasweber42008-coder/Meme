@@ -5,7 +5,7 @@ import type { Methode } from "@/content/schema";
 import type { Fehlerursache } from "@/daten/modelle";
 import type { Option } from "@/aufgaben/typen";
 import { Button } from "@/components/ui/button";
-import { Munggi } from "@/components/maskottchen/Munggi";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { useEinstellungen } from "@/daten/hooks";
 import { cn } from "@/lib/utils";
 
@@ -213,7 +213,7 @@ export function StufenErgebnisAnzeige({ quote, schritteQuote, bestanden, aufgest
   const prozent = (x: number) => `${Math.round(x * 100)} %`;
   return (
     <div className="flex flex-col items-center gap-4 py-4 text-center">
-      <Munggi zustand={bestanden ? "feiert" : "ermutigt"} variante={e.maskottchen} className="h-32 w-32" animiert />
+      <MeinMunggi zustand={bestanden ? "feiert" : "ermutigt"} className="h-32 w-32" animiert />
       <h2 className="text-2xl font-extrabold">{bestanden ? (aufgestiegen ? `Stufe ${stufe + 1} freigeschaltet!` : stufe === 8 ? "Ernstfall bestanden!" : "Bestanden!") : "Fast – nochmals!"}</h2>
       <div className="grid w-full max-w-sm grid-cols-2 gap-2">
         <div className="rounded-xl border-2 p-3">
@@ -238,7 +238,7 @@ export function StufenErgebnisAnzeige({ quote, schritteQuote, bestanden, aufgest
           Nochmals
         </Button>
         <Link to="/" className="py-2 text-sm font-semibold text-muted-foreground">
-          Zurück zu Heute
+          Zurück zum Tagespfad
         </Link>
       </div>
     </div>

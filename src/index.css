@@ -90,3 +90,44 @@
     .seitenumbruch { break-after: page; }
   }
 }
+
+/* ------------------------------------------------------------------ Munggi-Bewegungen */
+@keyframes mg-wippen { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
+@keyframes mg-huepfen { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+@keyframes mg-springen {
+  0%, 50%, 100% { transform: translateY(0) scaleY(0.95); }
+  25%, 75% { transform: translateY(-24px) scaleY(1.02); }
+}
+@keyframes mg-sinken { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(2px); } }
+@keyframes mg-atmen { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(1.035); } }
+@keyframes mg-atmen-tief { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(1.055); } }
+@keyframes mg-kopf-pendeln { 0%, 100% { transform: rotate(0deg); } 25% { transform: rotate(-3deg); } 75% { transform: rotate(3deg); } }
+@keyframes mg-kopf-froh { 0%, 100% { transform: rotate(-6deg); } 50% { transform: rotate(6deg); } }
+@keyframes mg-kopf-wild { 0%, 100% { transform: rotate(-9deg); } 50% { transform: rotate(9deg); } }
+@keyframes mg-kopf-nicken { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(6deg); } }
+@keyframes mg-kopf-haengen { 0%, 100% { transform: rotate(7deg); } 50% { transform: rotate(11deg); } }
+@keyframes mg-kopf-schief { 0%, 100% { transform: rotate(2deg); } 50% { transform: rotate(3deg); } }
+@keyframes mg-arm-l-schwingen { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(6deg); } }
+@keyframes mg-arm-r-schwingen { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-6deg); } }
+@keyframes mg-arm-l-hoch { 0%, 100% { transform: rotate(125deg); } 50% { transform: rotate(150deg); } }
+@keyframes mg-arm-r-hoch { 0%, 100% { transform: rotate(-125deg); } 50% { transform: rotate(-150deg); } }
+@keyframes mg-arm-l-jubel { 0%, 100% { transform: rotate(150deg); } 50% { transform: rotate(172deg); } }
+@keyframes mg-arm-r-jubel { 0%, 100% { transform: rotate(-150deg); } 50% { transform: rotate(-172deg); } }
+@keyframes mg-arm-r-winken { 0%, 100% { transform: rotate(-125deg); } 50% { transform: rotate(-160deg); } }
+@keyframes mg-arm-l-haengen { 0%, 100% { transform: rotate(6deg); } 50% { transform: rotate(9deg); } }
+@keyframes mg-arm-r-haengen { 0%, 100% { transform: rotate(-6deg); } 50% { transform: rotate(-9deg); } }
+@keyframes mg-arm-r-schreiben { 0%, 100% { transform: rotate(-38deg); } 50% { transform: rotate(-31deg); } }
+@keyframes mg-wedeln { 0%, 100% { transform: rotate(0deg); } 30% { transform: rotate(14deg); } 70% { transform: rotate(-6deg); } }
+@keyframes mg-wedeln-schnell { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(22deg); } }
+@keyframes mg-wedeln-wild { 0%, 100% { transform: rotate(-16deg); } 50% { transform: rotate(26deg); } }
+@keyframes mg-wedeln-langsam { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(4deg); } }
+@keyframes mg-ohr-zucken { 0%, 78%, 92%, 100% { transform: rotate(0deg); } 85% { transform: rotate(-14deg); } }
+@keyframes mg-blinzeln { 0%, 90%, 98%, 100% { transform: scaleY(1); } 94% { transform: scaleY(0.08); } }
+@keyframes mg-tippen { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+@keyframes mg-leuchten { 0%, 100% { opacity: 1; } 50% { opacity: 0.72; } }
+@keyframes mg-strahl { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.5; } }
+@keyframes mg-konfetti { 0% { transform: translateY(0) rotate(0deg); opacity: 1; } 50% { opacity: 0.6; } 100% { transform: translateY(30px) rotate(360deg); opacity: 1; } }
+@keyframes mg-zzz { 0% { transform: translateY(4px); opacity: 0; } 40% { opacity: 1; } 100% { transform: translateY(-10px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .munggi, .munggi * { animation: none !important; }
+}

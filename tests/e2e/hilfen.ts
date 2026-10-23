@@ -74,6 +74,6 @@ export async function anmelden(page: Page) {
   await page.getByLabel("E-Mail").fill("ich@example.com");
   await page.getByLabel("Passwort").fill("richtig-passwort");
   await page.getByRole("button", { name: "Los geht's" }).click();
-  await expect(page.getByText("Tage bis EMS")).toBeVisible();
+  await expect(page.getByText(/bis zum EMS/)).toBeVisible();
 }
 

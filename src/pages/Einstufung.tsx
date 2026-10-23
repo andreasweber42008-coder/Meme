@@ -17,7 +17,7 @@ import { LeseText, Optionen, Stimulus } from "@/components/aufgaben/AufgabeAnsic
 import { FigurBild } from "@/components/aufgaben/FigurBild";
 import { KonzBlattAnsicht } from "@/components/aufgaben/KonzBlattAnsicht";
 import { LektionsRahmen, Uhr, useCountdown } from "@/lektion/gemeinsam";
-import { Munggi } from "@/components/maskottchen/Munggi";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { neuerSeed, Zufall } from "@/lib/zufall";
 import { cn } from "@/lib/utils";
 
@@ -76,7 +76,7 @@ export default function Einstufung() {
     return (
       <LektionsRahmen titel="Einstufungstest" untertitel="Ca. 20 Minuten · ein kurzer Block pro Aufgabengruppe" fortschritt={0} zurueck="/">
         <div className="flex flex-col items-center gap-3 text-center">
-          <Munggi zustand="fokussiert" className="h-28 w-28" />
+          <MeinMunggi zustand="fokussiert" className="h-28 w-28" />
           <p className="text-sm">Keine Sorge, hier gibt es kein «schlecht». Ich will nur wissen, wo du startest – damit dein Plan die richtigen Schwerpunkte setzt. Rückmeldung gibt es am Schluss.</p>
         </div>
         <ul className="flex flex-col gap-1 text-sm">
@@ -97,7 +97,7 @@ export default function Einstufung() {
     const gruppen = Object.entries(ergebnis) as Array<[AufgabenGruppe, { richtig: number; gesamt: number }]>;
     return (
       <div className="flex flex-col items-center gap-4 py-4 text-center">
-        <Munggi zustand="feiert" className="h-28 w-28" animiert />
+        <MeinMunggi zustand="feiert" className="h-28 w-28" animiert />
         <h1 className="text-2xl font-extrabold">Einstufung fertig!</h1>
         <ul className="flex w-full max-w-md flex-col gap-1.5 text-left text-sm">
           {gruppen.map(([g, r]) => {

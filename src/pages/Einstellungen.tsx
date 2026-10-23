@@ -6,6 +6,7 @@ import { useAbgleich, useSpeicher } from "@/daten/DatenProvider";
 import { useEinstellungen } from "@/daten/hooks";
 import { GRUPPEN, type Einstellungen as E, type Testort } from "@/daten/modelle";
 import { backupDatei, backupLesen } from "@/daten/backup";
+import { tagesplanZuruecksetzen } from "@/plan/tagesplan";
 import { useAuth } from "@/hooks/useAuth";
 import { UNTERTESTS } from "@/content/untertests";
 import { Button } from "@/components/ui/button";
@@ -41,6 +42,7 @@ export default function Einstellungen() {
 
   async function sichern() {
     await speichern(e);
+    await tagesplanZuruecksetzen(store);
     toast.success("Gespeichert");
   }
 

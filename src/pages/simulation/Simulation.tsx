@@ -8,7 +8,7 @@ import { TEXT_BANK } from "@/aufgaben/bank";
 import { ablaufErstellen, gesamtMinuten, GRUPPEN_INFO, istSimArt, miniArt, SIM_ARTEN, type SimArt } from "@/simulation/ablauf";
 import { minutenText, simArtVon } from "@/simulation/lauf";
 import { Button } from "@/components/ui/button";
-import { Munggi } from "@/components/maskottchen/Munggi";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { formatTag, heute, uhrzeit } from "@/lib/datum";
 import { neueId, neuerSeed } from "@/lib/zufall";
 import { cn } from "@/lib/utils";
@@ -78,7 +78,7 @@ export default function Simulation() {
   return (
     <div className="flex flex-col gap-5">
       <div className="flex items-center gap-3">
-        <Munggi zustand="fokussiert" variante={e.maskottchen} className="h-16 w-16 shrink-0" animiert />
+        <MeinMunggi zustand="fokussiert" className="h-16 w-16 shrink-0" animiert />
         <div className="min-w-0">
           <h1 className="text-2xl font-extrabold">Simulation</h1>
           <p className="text-sm text-muted-foreground">Ernstfall üben: Zeiten, Reihenfolge und Antwortbogen wie am Testtag.</p>

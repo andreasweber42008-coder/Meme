@@ -7,7 +7,7 @@ import { einheitenFuer } from "@/lernpfad/einheiten";
 import { useFortschritt } from "@/lernpfad/fortschritt";
 import { GRUPPEN } from "@/daten/modelle";
 import { useEinstellungen } from "@/daten/hooks";
-import { Munggi } from "@/components/maskottchen/Munggi";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { istFaellig } from "@/lib/srs";
 import { heute } from "@/lib/datum";
 import { cn } from "@/lib/utils";
@@ -17,12 +17,28 @@ export default function Pfad() {
   const fortschritt = useFortschritt();
   const [e] = useEinstellungen();
   const tag = heute();
+  const einheiten = GRUPPEN.flatMap((g) => einheitenFuer(g));
+  const gemeistertAnzahl = einheiten.filter((x) => fortschritt[x.methodeId]?.beherrschtAm).length;
+  const stufenFertig = einheiten.reduce((s, x) => s + (fortschritt[x.methodeId]?.beherrschtAm ? 8 : (fortschritt[x.methodeId]?.stufe ?? 1) - 1), 0);
 
   return (
     <div className="flex flex-col gap-6">
-      <header>
-        <h1 className="text-2xl font-extrabold">Lernpfad</h1>
+      <header className="flex flex-col gap-2">
+        <h1 className="text-2xl font-extrabold">Lernen</h1>
         <p className="text-sm text-muted-foreground">Jede Methode in 8 Stufen. Aufsteigen bei {Math.round(e.beherrschung * 100)} % richtig und eingehaltenen Schritten.</p>
+        <div className="flex items-center gap-3 rounded-2xl border-2 p-3">
+          <div className="flex-1">
+            <p className="text-sm font-bold">
+              {gemeistertAnzahl} von {einheiten.length} Methoden gemeistert · {stufenFertig} von {einheiten.length * 8} Stufen
+            </p>
+            <div className="mt-1.5 h-2.5 overflow-hidden rounded-full bg-muted">
+              <div className="h-full rounded-full bg-primary" style={{ width: `${(stufenFertig / (einheiten.length * 8)) * 100}%` }} />
+            </div>
+          </div>
+          <Link to="/methoden" className="shrink-0 text-sm font-semibold text-primary">
+            Bibliothek →
+          </Link>
+        </div>
       </header>
 
       {GRUPPEN.map((g) => {
@@ -102,7 +118,7 @@ export default function Pfad() {
       })}
 
       <div className="flex items-center gap-3 rounded-2xl border-2 border-dashed p-4">
-        <Munggi zustand="ermutigt" variante={e.maskottchen} className="h-14 w-14 shrink-0" />
+        <MeinMunggi zustand="ermutigt" className="h-14 w-14 shrink-0" />
         <p className="text-sm">Kleine Untertests übst du täglich, grosse im Wechsel. Konz 1–2× pro Woche mit immer neuer Regel. Der Plan auf «Heute» wählt das für dich aus.</p>
       </div>
     </div>

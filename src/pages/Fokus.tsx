@@ -2,9 +2,8 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useSpeicher } from "@/daten/DatenProvider";
-import { useEinstellungen } from "@/daten/hooks";
 import { planErledigt } from "@/lernpfad/protokoll";
-import { Munggi } from "@/components/maskottchen/Munggi";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { Button } from "@/components/ui/button";
 import { Uhr, useCountdown } from "@/lektion/gemeinsam";
 import { heute } from "@/lib/datum";
@@ -20,7 +19,6 @@ const PHASEN = [
 /** 1 Minute Fokus: Box-Atmung 4-4-4-4 vor Simulationen und am Testtag. */
 export default function Fokus() {
   const store = useSpeicher();
-  const [e] = useEinstellungen();
   const navigate = useNavigate();
   const [laeuft, setLaeuft] = useState(false);
   const [fertig, setFertig] = useState(false);
@@ -49,7 +47,7 @@ export default function Fokus() {
           animate={{ scale: laeuft ? PHASEN[phase].skala : 1 }}
           transition={{ duration: 4, ease: "easeInOut" }}
         />
-        <Munggi zustand="fokussiert" variante={e.maskottchen} className="relative h-32 w-32" />
+        <MeinMunggi zustand="fokussiert" className="relative h-32 w-32" />
       </div>
       {laeuft ? (
         <>

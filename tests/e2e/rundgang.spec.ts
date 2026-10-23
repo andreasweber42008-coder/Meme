@@ -41,11 +41,12 @@ test("Onboarding führt zum Einstufungstest", async ({ page }) => {
 test("Heute, Pfad, Plan, Fehlerheft, Statistik und Einstellungen", async ({ page }) => {
   await nachgestelltesBackend(page);
   await anmelden(page);
-  await expect(page.getByText(/Heute ·/)).toBeVisible();
+  await expect(page.getByRole("list", { name: "Tagespfad" })).toBeVisible();
   await bild(page, "heute");
   await keinQuerscroll(page, "/");
   for (const [pfad, titel] of [
-    ["/pfad", "Lernpfad"],
+    ["/pfad", "Lernen"],
+    ["/munggi", "Munggi"],
     ["/woche", "Plan"],
     ["/ueben", "Üben"],
     ["/fehlerheft", "Fehlerheft"],

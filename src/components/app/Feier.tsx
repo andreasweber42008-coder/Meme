@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { feiernAbonnieren, type Feier as FeierEreignis } from "@/lernpfad/protokoll";
 import { methodeById } from "@/content";
-import { Munggi } from "@/components/maskottchen/Munggi";
-import { useEinstellungen } from "@/daten/hooks";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { ton } from "@/lib/ton";
 
 function text(f: FeierEreignis): { titel: string; unter: string } {
@@ -23,7 +22,6 @@ const KONFETTI = ["#f59f00", "#1f8a5b", "#1c7ed6", "#e8590c", "#ae3ec9"];
 
 /** Feier-Overlay für Tagesziel, Abzeichen, Stufen-Aufstieg */
 export function Feier() {
-  const [e] = useEinstellungen();
   const [warteschlange, setWarteschlange] = useState<FeierEreignis[]>([]);
   useEffect(
     () =>
@@ -63,7 +61,7 @@ export function Feier() {
             />
           ))}
           <motion.div className="flex flex-col items-center gap-2 rounded-3xl border-2 bg-card p-6 text-center shadow-xl" initial={{ scale: 0.7 }} animate={{ scale: 1 }} transition={{ type: "spring", stiffness: 260, damping: 16 }}>
-            <Munggi zustand="feiert" variante={e.maskottchen} className="h-28 w-28" animiert />
+            <MeinMunggi zustand="feiert" className="h-28 w-28" animiert />
             <p className="text-xl font-extrabold">{text(aktuell).titel}</p>
             <p className="max-w-xs text-sm text-muted-foreground">{text(aktuell).unter}</p>
           </motion.div>

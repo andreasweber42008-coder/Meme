@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
-import { CalendarDays, CloudOff, Dumbbell, Home, Menu, Route } from "lucide-react";
+import { CloudOff, Dumbbell, GraduationCap, Home, Menu, PawPrint } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { useAbgleich } from "@/daten/DatenProvider";
 import { DesignUndTon } from "@/components/app/DesignUndTon";
@@ -10,9 +10,9 @@ import { cn } from "@/lib/utils";
 
 const NAV = [
   { to: "/", label: "Heute", icon: Home, end: true },
-  { to: "/pfad", label: "Pfad", icon: Route, end: false },
+  { to: "/pfad", label: "Lernen", icon: GraduationCap, end: false },
   { to: "/ueben", label: "Üben", icon: Dumbbell, end: false },
-  { to: "/woche", label: "Plan", icon: CalendarDays, end: false },
+  { to: "/munggi", label: "Munggi", icon: PawPrint, end: false },
   { to: "/mehr", label: "Mehr", icon: Menu, end: false },
 ];
 

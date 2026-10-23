@@ -2,9 +2,8 @@ import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } fro
 import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, ClipboardList, Coffee, Eye, EyeOff, Loader2, Lock, PenLine, Play, Wind, X } from "lucide-react";
-import type { AufgabenGruppe, MaskottchenVariante, SimulationsErgebnis } from "@/daten/modelle";
+import type { AufgabenGruppe, SimulationsErgebnis } from "@/daten/modelle";
 import { useDokument, useSpeicher } from "@/daten/DatenProvider";
-import { useEinstellungen } from "@/daten/hooks";
 import { BUCHSTABEN } from "@/aufgaben/typen";
 import { fallText } from "@/aufgaben/fakten";
 import { konzRegel } from "@/aufgaben/konz";
@@ -30,7 +29,7 @@ import { AntwortbogenSim, AntwortZeile, type BogenGruppe } from "@/components/si
 import { LeseText, Optionen, Stimulus } from "@/components/aufgaben/AufgabeAnsicht";
 import { FigurBild } from "@/components/aufgaben/FigurBild";
 import { KonzBlattAnsicht } from "@/components/aufgaben/KonzBlattAnsicht";
-import { Munggi } from "@/components/maskottchen/Munggi";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { Button } from "@/components/ui/button";
 import { uhrzeit, minutenZuZeit, zeitZuMinuten } from "@/lib/datum";
 import { ton } from "@/lib/ton";
@@ -79,7 +78,6 @@ export default function SimulationLauf() {
 function Lauf({ id, doc }: { id: string; doc: SimulationsErgebnis & { id: string } }) {
   const store = useSpeicher();
   const navigate = useNavigate();
-  const [e] = useEinstellungen();
   const ablauf = useMemo(() => ablaufFuer(doc), [doc.art, doc.mini, doc.heftwechselMinuten, doc.geplanterStart, doc.start]); // eslint-disable-line react-hooks/exhaustive-deps
   const inhalt = useSimInhalt(doc.seed, ablauf);
 
@@ -295,7 +293,6 @@ function Lauf({ id, doc }: { id: string; doc: SimulationsErgebnis & { id: string
         bereit={!!inhalt}
         onStart={starten}
         onVerlassen={() => navigate("/simulation")}
-        maskottchen={e.maskottchen}
       />
     );
 
@@ -360,7 +357,7 @@ function Lauf({ id, doc }: { id: string; doc: SimulationsErgebnis & { id: string
       <AnimatePresence mode="wait">
         {heftZu ? (
           <motion.div key="heftzu" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }} className="flex flex-1 flex-col items-center justify-center gap-4 px-4 py-16 text-center">
-            <Munggi zustand="fokussiert" variante={e.maskottchen} className="h-28 w-28" />
+            <MeinMunggi zustand="fokussiert" className="h-28 w-28" />
             <h2 className="text-3xl font-extrabold">Heft zu!</h2>
             <p className="max-w-xs text-muted-foreground">Stifte weg. Die Zeit für «{phaseText(block)}» ist um.</p>
             {idx + 1 < ablauf.length && <p className="text-sm font-semibold">Gleich: {phaseText(ablauf[idx + 1])}</p>}
@@ -474,13 +471,12 @@ function Vollbild({ children }: { children: ReactNode }) {
 
 /* ------------------------------------------------------------------ Vorbereitung */
 
-function Vorbereitung({ doc, ablauf, bereit, onStart, onVerlassen, maskottchen }: {
+function Vorbereitung({ doc, ablauf, bereit, onStart, onVerlassen }: {
   doc: SimulationsErgebnis;
   ablauf: AblaufBlock[];
   bereit: boolean;
   onStart: () => void;
   onVerlassen: () => void;
-  maskottchen: MaskottchenVariante;
 }) {
   const [jetzt, setJetzt] = useState(Date.now());
   useEffect(() => {
@@ -503,7 +499,7 @@ function Vorbereitung({ doc, ablauf, bereit, onStart, onVerlassen, maskottchen }
           <h1 className="text-xl font-extrabold">{titel}</h1>
         </div>
         <div className="flex items-center gap-3 rounded-2xl border-2 bg-card p-3">
-          <Munggi zustand="fokussiert" variante={maskottchen} className="h-16 w-16 shrink-0" animiert />
+          <MeinMunggi zustand="fokussiert" className="h-16 w-16 shrink-0" animiert />
           <div className="text-sm">
             <p className="font-bold">Bereit? {minutenText(gesamtMinuten(ablauf))} am Stück.</p>
             <p className="text-muted-foreground">Handy auf lautlos, Wasser bereit, Konzeptpapier und Stift daneben.</p>
@@ -611,7 +607,6 @@ function BlockInhalt({ block, inhalt, nr, setNr, antworten, markiert, onToggle, 
   rest: number;
   onWeiter: () => void;
 }) {
-  const [e] = useEinstellungen();
   const g = block.gruppe as AufgabenGruppe | null;
   const beantwortet = (i: number) => g !== null && antworten[antwortSchluessel(g, i)] !== null && antworten[antwortSchluessel(g, i)] !== undefined;
 
@@ -623,7 +618,7 @@ function BlockInhalt({ block, inhalt, nr, setNr, antworten, markiert, onToggle, 
         <h2 className="text-2xl font-extrabold">Heftwechsel</h2>
         <p className="max-w-sm text-muted-foreground">Testheft A wird eingesammelt, Testheft B ausgeteilt. Kurz aufstehen, trinken, durchatmen – keine Mittagspause.</p>
         <p className="font-mono text-5xl font-extrabold tabular-nums">{dauerText(rest)}</p>
-        <Munggi zustand="ermutigt" variante={e.maskottchen} className="h-24 w-24" animiert />
+        <MeinMunggi zustand="ermutigt" className="h-24 w-24" animiert />
         <Button size="lg" onClick={onWeiter}>
           Pause beenden – weiter mit Teil B
         </Button>

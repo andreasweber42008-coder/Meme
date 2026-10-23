@@ -190,3 +190,16 @@ export async function lektionAbschliessen(
 export async function planErledigt(store: Datenspeicher, planId: string, minuten = 0, xp = 0): Promise<void> {
   await xpGeben(store, xp, { minuten, erledigt: planId });
 }
+
+export const TRUHE_XP = 20;
+
+/** Tagespfad fertig: Truhe öffnen (einmal pro Tag) */
+export async function truheOeffnen(store: Datenspeicher): Promise<boolean> {
+  const tag = heute();
+  const t = tagesStand(store, tag);
+  if (t.truhe) return false;
+  await store.speichern<TagStand>("tage", tag, { ...t, truhe: true });
+  await xpGeben(store, TRUHE_XP);
+  feiern({ art: "abzeichen", abzeichen: { id: `truhe:${tag}`, titel: `Truhe geöffnet: +${TRUHE_XP} XP`, beschreibung: "Tagespfad komplett – stark!" } });
+  return true;
+}

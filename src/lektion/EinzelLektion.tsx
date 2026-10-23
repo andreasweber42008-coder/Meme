@@ -15,9 +15,12 @@ import { LeseText, Optionen, Stimulus } from "@/components/aufgaben/AufgabeAnsic
 import { AufgabeMelden } from "@/components/aufgaben/AufgabeMelden";
 import { FehlerAnalyse, LektionsRahmen, SchrittSelbstcheck, StufenErgebnisAnzeige, Uhr, useCountdown } from "./gemeinsam";
 import { neuerSeed, Zufall } from "@/lib/zufall";
+import { MeinMunggi } from "@/munggi/MeinMunggi";
 import { ton } from "@/lib/ton";
 import { XP } from "@/lib/gamification";
 import { cn } from "@/lib/utils";
+
+const LOB = ["Richtig!", "Stark!", "Genau so!", "Sauber gelöst!", "Super!", "Treffer!"];
 
 const ANZAHL: Record<"klein" | "gross", number[]> = {
   //       1  2  3   4  5  6  7   8
@@ -499,14 +502,21 @@ export function EinzelLektion({ einheit, stufe, planId }: Props) {
       {aufgedeckt && (
         <div className="flex flex-col gap-3">
           {wahl === a.loesung ? (
-            <p className="flex items-center gap-2 font-bold text-richtig">
-              <CheckCircle2 className="h-5 w-5" /> Richtig{tempo && antwortEintrag && antwortEintrag.dauerMs > a.zielSekunden * 1000 ? " – aber zu langsam" : "!"}
-            </p>
+            <div className="flex items-center gap-2">
+              <MeinMunggi zustand="freut" className="h-14 w-14 shrink-0" />
+              <p className="flex items-center gap-2 font-bold text-richtig">
+                <CheckCircle2 className="h-5 w-5" /> {LOB[i % LOB.length]}
+                {tempo && antwortEintrag && antwortEintrag.dauerMs > a.zielSekunden * 1000 ? " – aber zu langsam" : ""}
+              </p>
+            </div>
           ) : (
             <>
-              <p className="flex items-center gap-2 font-bold text-falsch">
-                <XCircle className="h-5 w-5" /> Richtig wäre {BUCHSTABEN[a.loesung]}.
-              </p>
+              <div className="flex items-center gap-2">
+                <MeinMunggi zustand="ermutigt" className="h-14 w-14 shrink-0" />
+                <p className="flex items-center gap-2 font-bold text-falsch">
+                  <XCircle className="h-5 w-5" /> Richtig wäre {BUCHSTABEN[a.loesung]}. Schau dir den Schritt an:
+                </p>
+              </div>
               {zeigeMethode && antwortEintrag && (
                 <FehlerAnalyse
                   option={gewaehltOption}

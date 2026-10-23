@@ -255,6 +255,8 @@ export interface Termin {
 }
 
 export interface TagStand {
+  /** Tagespfad-Truhe geöffnet */
+  truhe?: boolean;
   xp: number;
   minuten: number;
   erledigt: string[]; // Plan-Aufgaben-IDs
@@ -266,6 +268,12 @@ export interface Gamification {
   xpGesamt: number;
   streakSchutz: number; // verfügbare «Schutzschilde»
   abzeichen: Array<{ id: string; am: string; titel: string }>;
+  /** im Shop ausgegebene XP (Guthaben = xpGesamt − ausgegeben) */
+  ausgegeben?: number;
+  /** gekaufte Gegenstände für Munggi */
+  inventar?: string[];
+  /** angezogene Gegenstände pro Platz (kopf, augen, hals, hand, hintergrund) */
+  angezogen?: Partial<Record<"kopf" | "augen" | "hals" | "hand" | "hintergrund", string>>;
 }
 
 export interface Meldung {

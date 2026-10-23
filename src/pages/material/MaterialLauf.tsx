@@ -32,6 +32,8 @@ import { heute, uhrzeit } from "@/lib/datum";
 import { neueId } from "@/lib/zufall";
 import { cn } from "@/lib/utils";
 import { testdatum } from "@/plan/plan";
+import { planErledigt } from "@/lernpfad/protokoll";
+import { XP } from "@/lib/gamification";
 import { GRUPPEN_NAMEN, LIZENZ_HINWEIS } from "@/material/katalog";
 import { useLaeufe, useMaterialSet, useSeiten, type SetMitId } from "@/material/hooks";
 import {
@@ -342,6 +344,9 @@ function Durchgang({ set, lauf, onPause, onFertig }: { set: SetMitId; lauf: Lauf
         false,
       );
     if (set.anzahl > 0) toast.success(`${b.richtig} von ${b.gewertet} richtig – stark, dass du dranbleibst!`);
+    // Station des Tagespfads erledigen (Link aus dem Plan mit ?plan=…)
+    const planId = new URLSearchParams(window.location.search).get("plan");
+    await planErledigt(store, planId ?? `${heute()}:serie:${set.id}`, Math.round(dauerMs / 60000), XP.serie);
     onFertig(lauf.id);
   }, [store, lauf, limit, set, onFertig]);
 

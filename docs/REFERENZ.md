@@ -200,13 +200,18 @@ Nicht verwendete Ergänzungen, weil Milan oder NCWiki den Untertest abdecken:
 
 | Bereich | Wo | Was |
 |---|---|---|
-| Heute | `/` | Plan des Tages («Heute 25 min: …»), Serie mit Schutzschild, Tagesziel, offene Abrufe, Ampel |
-| Lernpfad | `/pfad`, `/lektion/:methode/:stufe` | 10 Einheiten × 8 Stufen, Aufstieg bei Beherrschung (Standard 80 % + Schritte) |
+| Heute | `/` | Tagespfad wie bei Duolingo: Stationen des Tages zum Ablaufen, am Ende eine Truhe (+20 XP); Munggi mit Sprechblase, Serie, XP-Guthaben, Tagesziel. Der Pfad bleibt für den Tag fest (neu berechnet nach geänderten Einstellungen). |
+| Lernen | `/pfad`, `/lektion/:methode/:stufe` | 10 Einheiten × 8 Stufen, Aufstieg bei Beherrschung (Standard 80 % + Schritte) |
 | Plan | `/woche` | Countdown mit Phasen, Wochenansicht, .ics-Export, externe Termine |
 | Üben | `/ueben`, `/material`, `/simulation`, `/konz/druck`, `/karten` | freie Übung, Material-Sets mit Doppeldurchgang, Simulationen digital und auf Papier |
 | Fehlerheft | `/fehlerheft` | Ursache, Methodenschritt, Wiedervorlage 1/3/7/14/30/60 Tage, Fehler-Generalprobe |
 | Testtag | `/generalprobe`, `/fokus`, `/offiziell` | Anreise, Checkliste, Generalprobe zur echten Zeit, Atemübung, Fristen |
 | Auswertung | `/statistik` | Ampel an eigenen Zielen, Profil, Trends, häufigster Schritt-Fehler, Abzeichen – keine Zulassungsprognose |
+| Munggi | `/munggi` | Munggi-Zuhause: antippen für Tipps, Shop (Mützen, Brillen, Halstücher, Gegenstände, Hintergründe, Serien-Schutz) mit XP, Garderobe, Abzeichen |
 | Einstellungen | `/einstellungen` | Lernzeit, Matura-Modus, Ziele, Maskottchen, Design, Ton, Backup als JSON |
+
+**Navigation:** Heute · Lernen · Üben · Munggi · Mehr. Unter «Mehr» stehen Planen (Woche, Testtag, Offizielles), Auswerten (Statistik, Fehlerheft), Nachschlagen und Einstellungen.
+
+**Munggi:** bewegt den ganzen Körper (atmen, blinzeln, Ohren, Kopf, Arme, Schwanz, Füsse) per CSS-Animation; «Weniger Bewegung» im System schaltet das ab. XP-Guthaben = gesammelte XP − im Shop ausgegebene; die Statistik zählt weiter alle gesammelten XP.
 
 **Erinnerungen:** solange die App offen ist (Lernzeit, Serie, Schlaf in der letzten Woche); für Erinnerungen bei geschlossener App den Plan als .ics in den Kalender laden.

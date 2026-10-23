@@ -210,6 +210,7 @@ export default function Fehlerheft() {
         liste={liste}
         generalprobe={modus === "generalprobe"}
         onEnde={() => {
+          if (modus === "wiederholen") void planErledigt(store, `${heute()}:fehlerheft`, 5);
           setModus(null);
           if (params.get("generalprobe")) setParams({});
         }}
